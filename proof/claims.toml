@@ -1,0 +1,50 @@
+# Conservative claim registry for Arithmetic Bicycle Conjecture research.
+
+[meta]
+namespace = "ABC"
+status_values = ["open", "working", "computed", "proved", "retracted"]
+
+[[claim]]
+id = "ABC-MAIN"
+title = "Arithmetic Bicycle Conjecture"
+status = "open"
+statement = "For a torsion-free representable arithmetic matroid, the compatible modular bicycle tower is independent of the chosen integral realization and is represented by a canonical finite abelian group."
+authority = "principal_open_problem"
+notes = "No proof claimed."
+
+[[claim]]
+id = "ABC-GRAPH-MODULAR-BICYCLE"
+title = "Graph modular bicycle theorem"
+status = "working"
+statement = "For every connected graph G and n >= 2, K(G)[n] is naturally isomorphic to im(B^T mod n) intersect ker(B mod n)."
+authority = "thread_derivation_pending_repository_proof"
+notes = "Prime-field rank equality is not enough; the arbitrary-n module isomorphism is the acceptance target."
+
+[[claim]]
+id = "ABC-REGULAR-MODULAR-BICYCLE"
+title = "Regular-matroid modular bicycle theorem"
+status = "working"
+statement = "For a fixed full-row-rank TU representation A and n >= 2, the n-torsion of coker(AA^T) is naturally isomorphic to im(A^T mod n) intersect ker(A mod n)."
+authority = "thread_derivation_pending_repository_proof"
+
+[[claim]]
+id = "ABC-FIXED-REALIZATION-ORDER"
+title = "Fixed realization determinant order"
+status = "working"
+statement = "For a full-row-rank integral realization A, det(AA^T) equals the sum of squared maximal minors; in the TU case it counts bases."
+authority = "standard_cauchy_binet_pending_source_record"
+
+[[claim]]
+id = "ABC-REALIZATION-INVARIANCE"
+title = "Arithmetic realization invariance"
+status = "open"
+statement = "The compatible modular bicycle tower depends only on the arithmetic matroid rather than the chosen integral realization."
+authority = "principal_conjectural_bridge"
+
+[[claim]]
+id = "ABC-PROJECTIVE-SHADOW"
+title = "Projective/Grassmannian shadow"
+status = "working"
+statement = "Over finite fields, cut and cycle spaces define Grassmannian incidence data whose intersection is the modular bicycle space."
+authority = "structural_view_pending_writeup"
+notes = "Derived field-valued shadow only; not authority for integral torsion."

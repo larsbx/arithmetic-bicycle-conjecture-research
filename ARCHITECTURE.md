@@ -1,6 +1,6 @@
 # Architecture
 
-Status: bootstrap architecture for the Arithmetic Bicycle Conjecture research program.
+Status: graph theorem contribution within the candidate Arithmetic Bicycle Conjecture research program.
 
 The repository follows an authority-first research layout. Conjecture, proof, computation, exploratory experiments, and publication surfaces are deliberately separated.
 
@@ -30,6 +30,10 @@ Future canonical exact machinery for:
 4. arithmetic-matroid realization comparison.
 
 At bootstrap, no kernel has acceptance authority.
+The graph contribution adds candidate exact maps in `kernel/graph_bicycle.py`;
+Python acceptance authority remains false. The graph integral proof record
+in `proof/graph-modular-bicycle.md` is theorem authority. Its independent
+small-graph evidence lives in `oracles/graph_snf.py` and `conformance/`.
 
 ### Oracles plane: `oracles/`
 
@@ -63,7 +67,7 @@ Grassmannian / determinantal incidence shadow
 
 Projective geometry is explanatory and diagnostic. Integral claims remain governed by lattice/exact-sequence/SNF evidence.
 
-## Bootstrap non-goals
+## Scope boundaries
 
 - Do not claim ABC.
 - Do not mark the graph modular-bicycle theorem proved until the arbitrary-\(n\) module isomorphism is written and audited.

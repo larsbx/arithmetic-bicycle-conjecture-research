@@ -15,10 +15,19 @@ notes = "No proof claimed."
 [[claim]]
 id = "ABC-GRAPH-MODULAR-BICYCLE"
 title = "Graph modular bicycle theorem"
-status = "working"
-statement = "For every connected graph G and n >= 2, K(G)[n] is naturally isomorphic to im(B^T mod n) intersect ker(B mod n)."
-authority = "thread_derivation_pending_repository_proof"
-notes = "Prime-field rank equality is not enough; the arbitrary-n module isomorphism is the acceptance target."
+status = "proved"
+statement = "For every finite nonempty connected undirected multigraph G and integer n >= 2, K(G)[n] is naturally isomorphic to im(B^T mod n) intersect ker(B mod n), equivariantly under graph isomorphisms and compatibly with reduction and inflation across dividing moduli."
+authority = "repository_integral_proof_record"
+proof_record = "proof/graph-modular-bicycle.md"
+audit_record = "docs/audits/graph-modular-bicycle-2026-10-08.md"
+evidence = [
+  "oracles/graph_snf.py",
+  "conformance/fixtures/graph-modular-bicycle-v1.json",
+  "conformance/test_graph_modular_bicycle.py",
+  "conformance/replay_graph_modular_bicycle.py",
+  "conformance/receipts/graph-modular-bicycle-v1.json"
+]
+notes = "Arbitrary-n integral proof with both inverse directions and representative independence. Composite-modulus evidence uses independent all-minors Smith factors and critical quotient enumeration. This promotes the graph case only."
 
 [[claim]]
 id = "ABC-REGULAR-MODULAR-BICYCLE"

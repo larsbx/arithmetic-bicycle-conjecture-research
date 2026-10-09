@@ -29,15 +29,26 @@ Promotion:
   `proof/graph-modular-bicycle.md`, the dated proof audit, and source-pinned
   conformance receipts.
 
-Next blocking target: Phase 2. The graph theorem does not discharge the
-fixed-TU or representation-independence obligations below.
+The graph theorem and its independent audit remain separate from the
+fixed-TU and representation-independence obligations below.
 
 ## Phase 2 — fixed TU regular matroids
 
-Generalize Phase 1 with \(A\) in place of graph incidence \(B\).
+Completed in this contribution: replace graph connectedness with an
+integral right inverse of a full-row-rank TU matrix A. The proof covers
+every integer modulus, both representatives and inverse identities,
+specified coordinate equivariance, and compatible modulus maps.
+Independent evidence includes graphic and cographic fixtures, all-minor
+Smith factors, separate cycle completion and quotient enumeration, and
+non-TU controls that distinguish loss of splitting from loss of TU.
 
 Promotion:
-- `ABC-REGULAR-MODULAR-BICYCLE`: `working` -> `proved`.
+- `ABC-REGULAR-MODULAR-BICYCLE`: `working` -> `proved`, supported by
+  `proof/regular-modular-bicycle.md`, its dated proof audit, and the TU
+  source-pinned receipt.
+
+Next blocking target: Phase 3. Specified coordinate equivariance does not
+discharge the theorem relating arbitrary TU realizations of one matroid.
 
 ## Phase 3 — regular representation independence
 
@@ -46,6 +57,13 @@ Pin down the exact theorem relating TU representations of the same regular matro
 ## Phase 4 — arithmetic-matroid equality and fixtures
 
 Define fail-closed equality for representable arithmetic matroids using lattice-index multiplicities / module data.
+
+Retain realization invariance as the principal conjecture. The bootstrap's
+unconditional finite-group strengthening is false: A=[2] is torsion-free
+but has Bic_2=0 and Bic_4=Z/2. Its separate counterexample record retracts
+that strengthening. Any torsion-group extension needs additional
+hypotheses or a different representing object; Phase 4 must not assume
+it is equivalent to realization invariance.
 
 ## Phase 5 — bounded counterexample search
 

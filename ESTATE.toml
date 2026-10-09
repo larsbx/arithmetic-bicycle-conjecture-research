@@ -42,7 +42,7 @@ id = "proof"
 target = "proof"
 authority = "claim_state"
 required = true
-current = ["proof/claims.toml", "proof/graph-modular-bicycle.md"]
+current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md"]
 
 [[plane]]
 id = "kernel"
@@ -103,7 +103,7 @@ acceptance_authority = false
 mode = "boundary_first"
 mass_move = false
 next = [
-  "Maintain the proved arbitrary-n graph theorem and its independent conformance evidence.",
-  "Extend it to fixed TU regular-matroid representations.",
-  "Audit representation independence before arithmetic-matroid search."
+  "Maintain the proved graph and fixed-TU arbitrary-n theorems and independent conformance evidence.",
+  "Audit regular-matroid representation independence before arithmetic-matroid search.",
+  "Keep arithmetic realization invariance open and separate from the withdrawn universal torsion-group strengthening."
 ]

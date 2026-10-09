@@ -14,12 +14,21 @@ python conformance/replay_graph_modular_bicycle.py --check
 git diff --check
 ```
 
-The 17 conformance tests cover ten explicit multigraph fixtures at 53
+The original 17 conformance tests cover ten explicit multigraph fixtures at 53
 moduli, and all 44 connected labeled simple graphs with at most four
 vertices at moduli 2, 3, 4, and 6 (176 further graph/modulus cases).
 The fixtures are constructions listed by their complete edge lists, not
 an imported census. Loops have zero incidence columns and parallel edges
 are separate coordinates.
+
+The current suite has 21 tests. Four additional
+[independent review regressions](test_graph_modular_bicycle_audit.py) cover
+all mixed edge orientations and vertex permutations on a doubled triangle,
+single-vertex and loop-only graphs, large integral lift changes, and a
+noncyclic `Z/2 + Z/6` tower through modulus 72. They check 37 further proper
+tower pairs and 55 strict three-modulus chains. The original pinned receipt
+retains its 53-case and 70-pair scope. See the
+[October 9 independent audit](../docs/audits/graph-modular-bicycle-2026-10-09.md).
 
 Two independent routes must agree:
 

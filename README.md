@@ -84,3 +84,4 @@ Start with:
 3. [Roadmap](docs/research/roadmap.md)
 4. [Claim registry](proof/claims.toml)
 5. [Exact replay commands](conformance/README.md)
+6. [Independent graph audit](docs/audits/graph-modular-bicycle-2026-10-09.md)

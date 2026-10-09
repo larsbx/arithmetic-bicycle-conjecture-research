@@ -19,11 +19,12 @@ status = "proved"
 statement = "For every finite nonempty connected undirected multigraph G and integer n >= 2, K(G)[n] is naturally isomorphic to im(B^T mod n) intersect ker(B mod n), equivariantly under graph isomorphisms and compatibly with reduction and inflation across dividing moduli."
 authority = "repository_integral_proof_record"
 proof_record = "proof/graph-modular-bicycle.md"
-audit_record = "docs/audits/graph-modular-bicycle-2026-10-08.md"
+audit_record = "docs/audits/graph-modular-bicycle-2026-10-09.md"
 evidence = [
   "oracles/graph_snf.py",
   "conformance/fixtures/graph-modular-bicycle-v1.json",
   "conformance/test_graph_modular_bicycle.py",
+  "conformance/test_graph_modular_bicycle_audit.py",
   "conformance/replay_graph_modular_bicycle.py",
   "conformance/receipts/graph-modular-bicycle-v1.json"
 ]

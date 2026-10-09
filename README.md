@@ -56,7 +56,7 @@ Thread-derived arguments begin as `working` until they are reproduced by reposit
 ## Authority planes
 
 - `proof/` — theorem statements, proof records, claim states.
-- `kernel/` — future canonical exact algorithms.
+- `kernel/` — candidate exact graph maps; future canonical module algorithms.
 - `oracles/` — independent, non-authoritative cross-checks.
 - `experiments/` — exploratory searches only.
 - `conformance/` — replayable fixtures and receipts.
@@ -68,10 +68,20 @@ Projective / Grassmannian geometry is a **derived field-valued shadow** of the i
 
 ## Current status
 
-Bootstrap only. ABC is open. No graph, regular-matroid, or arithmetic-matroid theorem has yet been promoted to `proved` in this repository.
+The graph modular-bicycle theorem is `proved` for every integer modulus
+at least two. Its integral proof supplies representative independence,
+both inverse directions, graph naturality, and compatible reduction and
+inflation maps. Independent exact Smith-factor and critical-group checks
+support it with composite-modulus fixtures and source-pinned receipts.
+
+The regular-matroid extension remains `working`. ABC and arithmetic-matroid
+realization invariance remain `open`.
 
 Start with:
-1. `docs/research/status-2026-10-07.md`
-2. `docs/research/roadmap.md`
-3. `docs/audits/thread-audit-2026-10-07.md`
-4. `proof/claims.toml`
+
+1. [Graph proof](proof/graph-modular-bicycle.md)
+2. [Current status](docs/research/status-2026-10-08.md)
+3. [Roadmap](docs/research/roadmap.md)
+4. [Claim registry](proof/claims.toml)
+5. [Exact replay commands](conformance/README.md)
+6. [Independent graph audit](docs/audits/graph-modular-bicycle-2026-10-09.md)

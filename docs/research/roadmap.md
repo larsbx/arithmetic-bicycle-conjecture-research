@@ -5,7 +5,7 @@
 - [x] Declare ABC precisely.
 - [x] Add authority planes and conservative claim registry.
 - [x] Preserve thread state as non-authoritative audit provenance.
-- [ ] Add CI after the first executable conformance fixture exists.
+- [x] Add CI after the first executable conformance fixture exists.
 
 ## Phase 1 — graph modular bicycle theorem
 
@@ -15,15 +15,22 @@ K(G)[n]\cong \operatorname{Bic}_n(G)
 \]
 for every connected graph and \(n\ge2\).
 
-Deliverables:
-- exact statement with natural maps;
-- proof record;
-- examples for prime, prime-power, and composite moduli;
-- SNF-based oracle checks;
-- negative tests for incorrect representative/lift constructions.
+Completed in the 2026-10-08 graph contribution:
+
+- [x] Exact statement with graph naturality, reduction, and inflation maps.
+- [x] Integral proof record, including representative independence and both inverse identities.
+- [x] Examples for prime, prime-power, and composite moduli.
+- [x] Independent exact SNF and critical-group oracle checks.
+- [x] Negative tests for incorrect representative/lift constructions.
 
 Promotion:
-- `ABC-GRAPH-MODULAR-BICYCLE`: `working` -> `proved`.
+
+- `ABC-GRAPH-MODULAR-BICYCLE`: `working` -> `proved`, supported by
+  `proof/graph-modular-bicycle.md`, the dated proof audit, and source-pinned
+  conformance receipts.
+
+Next blocking target: Phase 2. The graph theorem does not discharge the
+fixed-TU or representation-independence obligations below.
 
 ## Phase 2 — fixed TU regular matroids
 

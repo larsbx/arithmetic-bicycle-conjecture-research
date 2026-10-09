@@ -42,7 +42,7 @@ id = "proof"
 target = "proof"
 authority = "claim_state"
 required = true
-current = ["proof/claims.toml"]
+current = ["proof/claims.toml", "proof/graph-modular-bicycle.md"]
 
 [[plane]]
 id = "kernel"
@@ -103,7 +103,7 @@ acceptance_authority = false
 mode = "boundary_first"
 mass_move = false
 next = [
-  "Prove the arbitrary-n graph modular-bicycle theorem.",
+  "Maintain the proved arbitrary-n graph theorem and its independent conformance evidence.",
   "Extend it to fixed TU regular-matroid representations.",
   "Audit representation independence before arithmetic-matroid search."
 ]

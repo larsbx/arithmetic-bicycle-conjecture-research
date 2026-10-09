@@ -21,5 +21,7 @@ jobs:
         run: python -m unittest discover -s conformance -p 'test_*.py' -v
       - name: Source-pinned receipt replay
         run: python conformance/replay_graph_modular_bicycle.py --check
+      - name: Fixed-TU source-pinned receipt replay
+        run: python conformance/replay_regular_modular_bicycle.py --check
       - name: Patch whitespace
         run: git show --format= --check HEAD

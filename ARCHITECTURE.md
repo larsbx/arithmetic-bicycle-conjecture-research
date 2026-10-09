@@ -1,6 +1,6 @@
 # Architecture
 
-Status: graph theorem contribution within the candidate Arithmetic Bicycle Conjecture research program.
+Status: graph and fixed-TU theorem contributions within the candidate Arithmetic Bicycle Conjecture research program.
 
 The repository follows an authority-first research layout. Conjecture, proof, computation, exploratory experiments, and publication surfaces are deliberately separated.
 
@@ -30,10 +30,15 @@ Future canonical exact machinery for:
 4. arithmetic-matroid realization comparison.
 
 At bootstrap, no kernel has acceptance authority.
-The graph contribution adds candidate exact maps in `kernel/graph_bicycle.py`;
-Python acceptance authority remains false. The graph integral proof record
-in `proof/graph-modular-bicycle.md` is theorem authority. Its independent
-small-graph evidence lives in `oracles/graph_snf.py` and `conformance/`.
+Candidate exact maps live in `kernel/graph_bicycle.py` and
+`kernel/regular_bicycle.py`; Python acceptance authority remains false.
+The separate graph and fixed-TU integral proof records are theorem
+authority. Their independent small-fixture evidence lives in `oracles/`
+and `conformance/`.
+
+The universal finite-group torsion-model strengthening is retracted by
+`proof/arithmetic-torsion-model-obstruction.md`. It is recorded separately
+from the open arithmetic realization-invariance conjecture.
 
 ### Oracles plane: `oracles/`
 
@@ -71,5 +76,6 @@ Projective geometry is explanatory and diagnostic. Integral claims remain govern
 
 - Do not claim ABC.
 - Do not mark the graph modular-bicycle theorem proved until the arbitrary-\(n\) module isomorphism is written and audited.
+- Keep the proved fixed-TU theorem separate from regular-matroid representation independence.
 - Do not infer arithmetic-matroid realization invariance from regular/TU cases.
 - Do not treat projective geometry as a substitute for integral multiplicity or torsion data.

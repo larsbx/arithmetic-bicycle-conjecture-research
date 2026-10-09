@@ -75,7 +75,7 @@ and do not establish any arithmetic-matroid realization-invariance claim.
 
 ## Fixed-TU modular-bicycle evidence v1
 
-The new 16 tests take the combined suite to 37. Seven explicit TU matrices
+The original 16 fixed-TU tests take the combined suite to 37. Seven explicit TU matrices
 cover 36 modulus cases and 44 proper tower pairs in the new receipt.
 They include rank zero with loop columns, identity coloops, parallel
 elements, reduced graphic incidence matrices, and the cographic K3,3
@@ -123,3 +123,14 @@ certification checks all square minors; potential enumeration costs n^r;
 cycle enumeration costs n^(e-r). These are small-fixture algorithms with
 no silent truncation. The integral proof supplies theorem authority;
 Python and both oracles remain non-authoritative candidate/evidence code.
+
+Four [independent acceptance-review tests](test_regular_modular_bicycle_audit.py)
+take the combined suite to 41. They cover 48 signed column changes combined
+with a row change that loses TU (288 coordinate/modulus cases), the
+noncyclic K3,3 quotient at large composite moduli, 51 additional proper
+tower pairs and 105 strict chains, and literal scalar-two edge membership
+through modulus 128. The non-TU coordinate cases use literal enumeration
+and Cramer equations while the TU candidate correctly rejects their
+matrices. Both original source-pinned receipts retain their bytes and
+scope; the added tests are tracked separately in the reviewed Git tree.
+See the [acceptance audit](../docs/audits/regular-modular-bicycle-independent-2026-10-09.md).

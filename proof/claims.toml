@@ -32,17 +32,18 @@ notes = "Arbitrary-n integral proof with both inverse directions and representat
 
 [[claim]]
 id = "ABC-REGULAR-MODULAR-BICYCLE"
-title = "Regular-matroid modular bicycle theorem"
+title = "Fixed-TU modular bicycle theorem"
 status = "proved"
 statement = "For a fixed full-row-rank TU representation A and every integer n >= 2, the n-torsion of coker(AA^T) is naturally isomorphic to im(A^T mod n) intersect ker(A mod n), compatibly with reduction and inflation across dividing moduli and equivariantly under specified unimodular row changes and signed column permutations."
 authority = "repository_integral_proof_record"
 proof_record = "proof/regular-modular-bicycle.md"
-audit_record = "docs/audits/regular-modular-bicycle-2026-10-09.md"
+audit_record = "docs/audits/regular-modular-bicycle-independent-2026-10-09.md"
 evidence = [
   "oracles/regular_snf.py",
   "oracles/graph_snf.py",
   "conformance/fixtures/regular-modular-bicycle-v1.json",
   "conformance/test_regular_modular_bicycle.py",
+  "conformance/test_regular_modular_bicycle_audit.py",
   "conformance/replay_regular_modular_bicycle.py",
   "conformance/receipts/regular-modular-bicycle-v1.json"
 ]
@@ -77,10 +78,11 @@ status = "retracted"
 statement = "For every torsion-free representable arithmetic matroid, there exists a canonical finite abelian group H with H[n] isomorphic to every modular bicycle module of a realization, for all n >= 2."
 authority = "repository_counterexample_proof_record"
 counterexample_record = "proof/arithmetic-torsion-model-obstruction.md"
-audit_record = "docs/audits/regular-modular-bicycle-2026-10-09.md"
+audit_record = "docs/audits/regular-modular-bicycle-independent-2026-10-09.md"
 evidence = [
   "conformance/fixtures/regular-modular-bicycle-v1.json",
   "conformance/test_regular_modular_bicycle.py",
+  "conformance/test_regular_modular_bicycle_audit.py",
   "conformance/replay_regular_modular_bicycle.py",
   "conformance/receipts/regular-modular-bicycle-v1.json"
 ]

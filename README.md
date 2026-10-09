@@ -92,4 +92,5 @@ Start with:
 5. [Claim registry](proof/claims.toml)
 6. [Exact replay commands](conformance/README.md)
 7. [Independent graph audit](docs/audits/graph-modular-bicycle-2026-10-09.md)
-8. [Fixed-TU proof audit](docs/audits/regular-modular-bicycle-2026-10-09.md)
+8. [Fixed-TU contribution audit](docs/audits/regular-modular-bicycle-2026-10-09.md)
+9. [Independent fixed-TU acceptance audit](docs/audits/regular-modular-bicycle-independent-2026-10-09.md)

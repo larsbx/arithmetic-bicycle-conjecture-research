@@ -54,6 +54,12 @@ discharge the theorem relating arbitrary TU realizations of one matroid.
 
 Pin down the exact theorem relating TU representations of the same regular matroid and prove the modular tower is representation-independent.
 
+The October 9 acceptance review located Backman–Baker–Yuen, Section 2.1,
+Lemma 2.1.1, as the coordinate-equivalence reference. Next audit its labeled
+hypotheses and write the repository proof record applying the fixed-TU
+coordinate maps to the full tower. This phase is not promoted by the
+fixed-representation theorem.
+
 ## Phase 4 — arithmetic-matroid equality and fixtures
 
 Define fail-closed equality for representable arithmetic matroids using lattice-index multiplicities / module data.

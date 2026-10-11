@@ -28,13 +28,10 @@ This supplies context for calling the Gram cokernel a regular-matroid
 group. The local modular proof establishes its explicit torsion maps and
 modulus compatibility without importing representation uniqueness.
 
-The October 9 acceptance review also located Lemma 2.1.1 in Section 2.1:
-it states that full-row-rank TU representations of a regular matroid are
-related by an integral unimodular row change, column permutation, and
-column sign changes. Phase 3 must still audit the labeling and hypotheses
-and provide a repository proof record applying the coordinate maps to
-the whole modular tower. This source identification does not promote
-representation independence in the fixed-TU contribution.
+The October 9 acceptance review's representation-equivalence reference
+now has a [label and hypothesis audit](regular-representation-equivalence.md)
+and a [separate tower proof](../proof/regular-representation-independence.md).
+The original fixed-TU contribution remains a distinct accepted result.
 
 ## Torsion-free and surjective arithmetic matroids
 

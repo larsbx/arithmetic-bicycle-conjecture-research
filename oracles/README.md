@@ -13,3 +13,9 @@ the candidate, completes cycles with Cramer's rule, and tests their cut
 condition. Quotient classes are enumerated from standard generators
 independently of the theorem map. Literal potential enumeration handles
 labeled non-TU controls. This module also imports no kernel code.
+
+`regular_equivalence.py` checks the rational rank of every column subset
+and enumerates all column signs to find an integral equivalence using
+Bareiss/Cramer calculations and a different unit basis. It imports no
+kernel code and does not reuse the candidate support-graph sign solver.
+Its ordinary-matroid rank signature is not an arithmetic-matroid encoding.

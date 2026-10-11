@@ -36,19 +36,14 @@ model is proved for graph and fixed full-row-rank TU representations.
 
 The program is deliberately staged:
 
-```text
-G0  graphs: K(G)[n] ≅ Bic_n(G)
- ↓
-R0  fixed TU representation of a regular matroid
- ↓
-R1  regular-matroid representation independence
- ↓
-A0  arithmetic-matroid realization equivalence
- ↓
-A1  bounded counterexample search
- ↓
-ABC realization-invariance theorem or minimal counterexample/refinement
-```
+| Stage | Obligation | State |
+| --- | --- | --- |
+| G0 | Graph modular-bicycle isomorphism for arbitrary moduli | Proved |
+| R0 | Fixed full-row-rank TU representation | Proved |
+| R1 | Regular TU representation independence of the full tower | Proved |
+| A0 | Exact arithmetic-matroid equality and realization fixtures | Next |
+| A1 | Bounded realization counterexample search | Pending A0 |
+| ABC | Arithmetic realization-invariance theorem or counterexample/refinement | Open |
 
 Thread-derived arguments begin as `working` until they are reproduced by repository proof records or executable evidence.
 
@@ -79,7 +74,13 @@ composite rings. Independent Smith factors, cycle completion, and quotient
 enumeration support it, including a cographic K3,3 fixture and labeled
 non-TU controls.
 
-Regular-matroid representation independence is the next blocking target.
+The regular TU representation-independence theorem is now `proved`.
+A specified matroid label isomorphism gives an integral row equivalence
+and signed column map that transports the entire tower. The proof covers
+the tower's isomorphism class; comparison maps depend on the chosen
+witness. Independent all-subset rank and signed-search checks support it.
+
+Exact arithmetic-matroid equality and fixtures are the next blocking target.
 ABC and arithmetic-matroid realization invariance remain `open`. The
 unconditional finite-group strengthening is `retracted`.
 
@@ -87,10 +88,12 @@ Start with:
 
 1. [Graph proof](proof/graph-modular-bicycle.md)
 2. [Fixed-TU proof](proof/regular-modular-bicycle.md)
-3. [Current status](docs/research/status-2026-10-09.md)
-4. [Roadmap](docs/research/roadmap.md)
-5. [Claim registry](proof/claims.toml)
-6. [Exact replay commands](conformance/README.md)
-7. [Independent graph audit](docs/audits/graph-modular-bicycle-2026-10-09.md)
-8. [Fixed-TU contribution audit](docs/audits/regular-modular-bicycle-2026-10-09.md)
-9. [Independent fixed-TU acceptance audit](docs/audits/regular-modular-bicycle-independent-2026-10-09.md)
+3. [Regular representation-independence proof](proof/regular-representation-independence.md)
+4. [Current status](docs/research/status-2026-10-11.md)
+5. [Roadmap](docs/research/roadmap.md)
+6. [Claim registry](proof/claims.toml)
+7. [Exact replay commands](conformance/README.md)
+8. [Independent graph audit](docs/audits/graph-modular-bicycle-2026-10-09.md)
+9. [Fixed-TU contribution audit](docs/audits/regular-modular-bicycle-2026-10-09.md)
+10. [Independent fixed-TU acceptance audit](docs/audits/regular-modular-bicycle-independent-2026-10-09.md)
+11. [Regular representation proof audit](docs/audits/regular-representation-independence-2026-10-11.md)

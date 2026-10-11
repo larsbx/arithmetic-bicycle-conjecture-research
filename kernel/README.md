@@ -17,6 +17,12 @@ It handles rank zero, loops, and arbitrary composite moduli. The separate
 integral proof in `proof/regular-modular-bicycle.md` supplies authority.
 TU recognition and enumeration are intended for small fixtures.
 
-Canonical general module algorithms, scalable SNF, general regular-matroid
-representation independence, and arithmetic realization comparison
-remain future work.
+`regular_equivalence.py` finds and verifies an integral unimodular row
+change and signed column map for a prescribed label bijection between
+certified TU matrices. Its witnesses transport bicycles and Gram divisor
+classes, compose, and invert. It verifies the entire integer matrix
+equation before returning a witness. Its deterministic sign choice does
+not assert mathematical canonicity.
+
+Canonical general module algorithms, scalable SNF, arithmetic-matroid
+equality, and arithmetic realization comparison remain future work.

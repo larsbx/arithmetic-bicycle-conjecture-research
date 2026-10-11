@@ -47,18 +47,28 @@ Promotion:
   `proof/regular-modular-bicycle.md`, its dated proof audit, and the TU
   source-pinned receipt.
 
-Next blocking target: Phase 3. Specified coordinate equivariance does not
-discharge the theorem relating arbitrary TU realizations of one matroid.
+Specified coordinate equivariance in Phase 2 remains distinct from the
+theorem relating arbitrary TU realizations of one matroid in Phase 3.
 
 ## Phase 3 — regular representation independence
 
-Pin down the exact theorem relating TU representations of the same regular matroid and prove the modular tower is representation-independent.
+Completed in the October 11 contribution:
 
-The October 9 acceptance review located Backman–Baker–Yuen, Section 2.1,
-Lemma 2.1.1, as the coordinate-equivalence reference. Next audit its labeled
-hypotheses and write the repository proof record applying the fixed-TU
-coordinate maps to the full tower. This phase is not promoted by the
-fixed-representation theorem.
+- [x] Audit the full-row-rank TU hypotheses and label conventions of the equivalence source.
+- [x] Derive the prescribed labeled equivalence from unit-basis normal forms and integral support-cycle signs.
+- [x] Apply one integral witness to every modulus and both tower maps.
+- [x] Check Gram-cokernel transport, both inverse squares, witness composition, and nonunique comparison maps.
+- [x] Verify explicit witnesses against a separate signed-search oracle and all-subset rational rank data.
+
+`ABC-REGULAR-REPRESENTATION-INVARIANCE` is recorded as `proved` with its
+own integral proof, dated audit, and source-pinned witness evidence.
+The source audit identifies Backman–Baker–Yuen, Section 2.1, Lemma 2.1.1;
+the local proof gives the labeled statement explicitly. Independence is
+of the tower's isomorphism class under TU representations; a unique
+comparison map from an unoriented matroid is not asserted.
+
+Next blocking target: Phase 4. The ordinary-matroid comparison above
+does not implement arithmetic-matroid equality or prove ABC.
 
 ## Phase 4 — arithmetic-matroid equality and fixtures
 

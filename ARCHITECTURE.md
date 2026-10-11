@@ -1,6 +1,6 @@
 # Architecture
 
-Status: graph and fixed-TU theorem contributions within the candidate Arithmetic Bicycle Conjecture research program.
+Status: graph, fixed-TU, and regular TU representation-independence theorem contributions within the candidate Arithmetic Bicycle Conjecture research program.
 
 The repository follows an authority-first research layout. Conjecture, proof, computation, exploratory experiments, and publication surfaces are deliberately separated.
 
@@ -35,6 +35,11 @@ Candidate exact maps live in `kernel/graph_bicycle.py` and
 The separate graph and fixed-TU integral proof records are theorem
 authority. Their independent small-fixture evidence lives in `oracles/`
 and `conformance/`.
+
+`kernel/regular_equivalence.py` adds verified witnesses for a prescribed
+TU matroid label comparison. The separate integral proof transports the
+whole modular tower and records independence of its isomorphism class.
+Candidate witness choice does not define a unique canonical comparison.
 
 The universal finite-group torsion-model strengthening is retracted by
 `proof/arithmetic-torsion-model-obstruction.md`. It is recorded separately
@@ -77,5 +82,6 @@ Projective geometry is explanatory and diagnostic. Integral claims remain govern
 - Do not claim ABC.
 - Do not mark the graph modular-bicycle theorem proved until the arbitrary-\(n\) module isomorphism is written and audited.
 - Keep the proved fixed-TU theorem separate from regular-matroid representation independence.
+- Keep the regular TU representation theorem separate from arbitrary integer representations and arithmetic-matroid equality.
 - Do not infer arithmetic-matroid realization invariance from regular/TU cases.
 - Do not treat projective geometry as a substitute for integral multiplicity or torsion data.

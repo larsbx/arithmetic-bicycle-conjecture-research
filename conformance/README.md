@@ -12,6 +12,7 @@ python conformance/check_claims.py
 python -m unittest discover -s conformance -p 'test_*.py' -v
 python conformance/replay_graph_modular_bicycle.py --check
 python conformance/replay_regular_modular_bicycle.py --check
+python conformance/replay_regular_representation.py --check
 git diff --check
 ```
 
@@ -134,3 +135,45 @@ and Cramer equations while the TU candidate correctly rejects their
 matrices. Both original source-pinned receipts retain their bytes and
 scope; the added tests are tracked separately in the reviewed Git tree.
 See the [acceptance audit](../docs/audits/regular-modular-bicycle-independent-2026-10-09.md).
+
+## Regular representation-independence evidence v1
+
+Eleven new tests take the combined suite to 52. The new receipt verifies
+nine explicit TU matrix pairs at 46 moduli and 57 proper tower pairs.
+Every pair has a prescribed column-label permutation. The candidate
+solves sign ratios in unit-basis normal forms, then checks a unit integer
+determinant and the complete matrix equation. A separate oracle imports
+no kernel code; it checks every column subset's rational rank and searches
+all signs using a different unit basis and Bareiss/Cramer arithmetic.
+
+Fixtures cover rank zero, empty ground sets, loops, coloops, disconnected
+components, a chordless support six-cycle, nonorthogonal basis changes,
+and graphic/cographic examples. Independent Smith factors and quotient
+enumeration check the Gram transport. Tests verify both inverse squares,
+divisor representatives, both tower maps and all fixture chains, witness
+composition, and very large composite moduli without potential enumeration.
+
+The complete ternary 2-by-3 census has 456 full-row-rank TU matrices in
+seven labeled matroid buckets. Both routes verify all 456 comparisons
+with a bucket representative and 1,824 tower cases. All 42 ordered
+cross-bucket comparisons are rejected. Equal Gram/Smith data for distinct
+labeled matroids do not pass the comparison gate.
+
+Negative tests reject invalid witnesses and domains. They also show that
+embedded edge sets and comparison maps need not be equal, and that non-TU
+representations of the same ordinary matroid are outside this theorem.
+The result concerns the tower's isomorphism class under TU representations;
+arithmetic realization invariance remains open.
+
+The new receipt pins its proof, source audit, candidate, oracle, fixtures,
+tests, replay, and inherited exact primitives. Both older receipts and
+their inputs remain unchanged. Rebuild intentional changes with:
+
+```sh
+python conformance/replay_regular_representation.py --write
+```
+
+All ranks and witnesses use exact integer arithmetic. All-subset rank
+comparison, all-minor TU certification, and the sign oracle are intended
+for small fixtures. No search is silently truncated. Deterministic witness
+selection is a computational choice, not a unique matroid comparison map.

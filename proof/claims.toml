@@ -87,3 +87,21 @@ evidence = [
   "conformance/receipts/regular-modular-bicycle-v1.json"
 ]
 notes = "The bootstrap folded this false strengthening into ABC-MAIN. A=[2] in Z has m(empty)=1 and m(E)=2, with Bic_2=0 and Bic_4=Z/2; H[2]=0 forces H[4]=0 for every abelian group. Retraction does not decide realization invariance."
+
+[[claim]]
+id = "ABC-REGULAR-REPRESENTATION-INVARIANCE"
+title = "Regular TU representation-independence theorem"
+status = "proved"
+statement = "For full-row-rank TU integer representations of a regular matroid and a specified matroid label isomorphism, an integral unimodular row change and signed column permutation induce isomorphisms of the entire modular bicycle tower, compatible with both modulus maps and the Gram-cokernel torsion identifications. The tower's isomorphism class depends only on the regular matroid."
+authority = "repository_integral_proof_record"
+proof_record = "proof/regular-representation-independence.md"
+audit_record = "docs/audits/regular-representation-independence-2026-10-11.md"
+evidence = [
+  "oracles/regular_equivalence.py",
+  "conformance/fixtures/regular-representation-v1.json",
+  "conformance/test_regular_representation.py",
+  "conformance/replay_regular_representation.py",
+  "conformance/receipts/regular-representation-v1.json",
+  "sources/regular-representation-equivalence.md"
+]
+notes = "Unit-basis normal forms and integral cycle-sign cancellation establish the prescribed labeled equivalence. One witness transports all moduli. Comparison maps depend on the chosen witness; no unique canonical comparison or arithmetic realization-invariance result is asserted."

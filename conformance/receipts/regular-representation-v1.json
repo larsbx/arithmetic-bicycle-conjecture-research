@@ -1,0 +1,1159 @@
+{
+  "arithmetic_realization_invariance": "open",
+  "case_count": 46,
+  "cases": [
+    {
+      "bicycles": 1,
+      "fixture": "empty",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 2,
+      "source_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d",
+      "target_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "empty",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 4,
+      "source_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d",
+      "target_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "empty",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 6,
+      "source_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d",
+      "target_edge_set_sha256": "93a632246f28a39eedc6577fda8be826f662ca408592e96b1b2b26b4256eea3d"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "rank-zero-loops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 2,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "rank-zero-loops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 4,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "rank-zero-loops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 6,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "identity-coloops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 2,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "identity-coloops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 3,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "identity-coloops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 4,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "identity-coloops",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 6,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 2,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 2,
+      "inverse_square_checks": 2,
+      "modulus": 2,
+      "source_edge_set_sha256": "82a808594b49a3977217047fd8496cccb739baa3d6bd99996f12cf686b3ed33b",
+      "target_edge_set_sha256": "6eae932ef4b9e82a4c4985ced64b384373cf49098ac14126cf5162f29f0eb8ce"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 3,
+      "source_edge_set_sha256": "babb7ab4320e7d71ea13960c562c4b6ea4a0c6c47cfbf4b036f0dbd9568ed31c",
+      "target_edge_set_sha256": "babb7ab4320e7d71ea13960c562c4b6ea4a0c6c47cfbf4b036f0dbd9568ed31c"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 4,
+      "source_edge_set_sha256": "c1e63e09be546f0b75ec54edd6e6dc23cd5cf14675495617da2270349a43e802",
+      "target_edge_set_sha256": "2234a9ee7bf5ec8e7de4a7411feb91d004a12ac99f3f88bb3fa9d51041c1eb5d"
+    },
+    {
+      "bicycles": 2,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 2,
+      "inverse_square_checks": 2,
+      "modulus": 6,
+      "source_edge_set_sha256": "fbcc274b209d05fba3faf8e0c23de0f196cffd005e68f76625432648fbccb458",
+      "target_edge_set_sha256": "e77da2be4c67840aa216a3ddaeb5e28dabca59903bb9f584a986987ba544e78a"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 8,
+      "source_edge_set_sha256": "6902cba7c21dacd661396fa283917860be21001a1c6d9f80cb1450d38cf852ee",
+      "target_edge_set_sha256": "4ac21e53138848197815709c83b59c19930f6eeceefed161e6080db49aca6e1b"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "parallel-four-with-loop",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 12,
+      "source_edge_set_sha256": "5f4351136baf208b92eec09af14f5fef73078fa2a76aa63a0ce57c7cac806dc6",
+      "target_edge_set_sha256": "e0d80fba5b588fa1313b900c0ac56b89162d64982ce9897076aac1f88681ed28"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 2,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 3,
+      "source_edge_set_sha256": "9c870824d1e351056774658c863b2254ae880706745cdcba78f21cc186413e27",
+      "target_edge_set_sha256": "753807c8d656cab4ad8dd3ab068d93435d5c67fd81e79a0ff5e4d45ce4ef743a"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 4,
+      "source_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+      "target_edge_set_sha256": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 6,
+      "source_edge_set_sha256": "a6855a46214e94959ec158a636c1ac3f3d03b0f4a114de475bf0b0af03753013",
+      "target_edge_set_sha256": "9da4b0b695e15f0a5c02b55ac048eabd9d9e98bc7ed02ad9f71b081ea1e807b9"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 9,
+      "source_edge_set_sha256": "bbd9eeda75aedce31d811b5180cd58d37c294e02bc10be13f22ec0693c15de4a",
+      "target_edge_set_sha256": "0f48431df96d0765cb35bb8059ef6519c7610a777d8012437d60e0e6fbd82905"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "triangle-row-and-label-change",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 12,
+      "source_edge_set_sha256": "506697b0fc090c50af8a7b86681bc20ce4cd38636706b45694fff4914f7abaf9",
+      "target_edge_set_sha256": "0c830b63c4364b0e9be9187a0eeab5ed425a1fa8ec3d412ab95a93f460018554"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 2,
+      "source_edge_set_sha256": "6e7b1198e7c4f712351459c25e5e00a9543b369b5dd0fee93cd471ec02fac44e",
+      "target_edge_set_sha256": "6e7b1198e7c4f712351459c25e5e00a9543b369b5dd0fee93cd471ec02fac44e"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 3,
+      "source_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0",
+      "target_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0"
+    },
+    {
+      "bicycles": 16,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 16,
+      "inverse_square_checks": 16,
+      "modulus": 4,
+      "source_edge_set_sha256": "471367cf4f96cdbecf03bcf32718e742c18f1e1dffec1980e594c4bc196085c6",
+      "target_edge_set_sha256": "9c2d36250c6c3d990720630242516561cb0e53966ca1d0cc6b35e85b5e0372fd"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 6,
+      "source_edge_set_sha256": "5ca2e233e04f75d5b39ed0d483647ec87cd0c3580a1700b01233100916330c56",
+      "target_edge_set_sha256": "5ca2e233e04f75d5b39ed0d483647ec87cd0c3580a1700b01233100916330c56"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 9,
+      "source_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0",
+      "target_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0"
+    },
+    {
+      "bicycles": 16,
+      "fixture": "graphic-complete-four-alternate-basis",
+      "forward_square_checks": 16,
+      "inverse_square_checks": 16,
+      "modulus": 12,
+      "source_edge_set_sha256": "640293f861aed5026e9cb67764bdc152de087bc74611ee9684e1bc2c4b1f4d37",
+      "target_edge_set_sha256": "15edcb2c6ec05c8733d185838864832fd6545255ee7f564be71334a4bd047404"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 2,
+      "source_edge_set_sha256": "db3bae5e07aef10e06ce386538b4d0fe6b84150329ffcb45da8a477665c430f1",
+      "target_edge_set_sha256": "db3bae5e07aef10e06ce386538b4d0fe6b84150329ffcb45da8a477665c430f1"
+    },
+    {
+      "bicycles": 27,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 27,
+      "inverse_square_checks": 27,
+      "modulus": 3,
+      "source_edge_set_sha256": "499fe6e7b6cd3f55e7485c0533a6358ef5e912c8c07f280be6b564186962a76c",
+      "target_edge_set_sha256": "8b72c46ce2889021296ca5a10b00b83dfe8ee05115a627c0e53b8b473fb6969a"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 4,
+      "source_edge_set_sha256": "db3bae5e07aef10e06ce386538b4d0fe6b84150329ffcb45da8a477665c430f1",
+      "target_edge_set_sha256": "db3bae5e07aef10e06ce386538b4d0fe6b84150329ffcb45da8a477665c430f1"
+    },
+    {
+      "bicycles": 27,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 27,
+      "inverse_square_checks": 27,
+      "modulus": 6,
+      "source_edge_set_sha256": "d286956825a6cf232a89597a59b7c3befc167624612d962668eff3987528bdf7",
+      "target_edge_set_sha256": "9dc81c0e6a08a88392c0ed600963f78501d6736b037d4b227247e0b5bcebd802"
+    },
+    {
+      "bicycles": 81,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 81,
+      "inverse_square_checks": 81,
+      "modulus": 9,
+      "source_edge_set_sha256": "f5e5f132ed5acdd0c590c5e4030d2961a52e6d9f40b48ec4d9d5f3a4182d02b0",
+      "target_edge_set_sha256": "4894e9d0dc3a181f7eec27fed3b5562fcdf279a49905a95a458eeda152f12903"
+    },
+    {
+      "bicycles": 27,
+      "fixture": "cographic-k33-alternate-basis",
+      "forward_square_checks": 27,
+      "inverse_square_checks": 27,
+      "modulus": 12,
+      "source_edge_set_sha256": "fa6eadd64bfd1b5a9b51e03edbbcb683ed8f462558adf5b25f0f4782aa15b7dc",
+      "target_edge_set_sha256": "a13ab9bdde69ca24e62daa6f04a350ce991220c836723d72562e5b543e3d7957"
+    },
+    {
+      "bicycles": 2,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 2,
+      "inverse_square_checks": 2,
+      "modulus": 2,
+      "source_edge_set_sha256": "8e2b0f0b9b7aac3fc6e8e1390148a4f393523b64d49c563320e1ecb1a9e8cef4",
+      "target_edge_set_sha256": "4d6bbf309f87e9b679b20ed7922ad5f035791b060c512a797798829c7b31932b"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 3,
+      "source_edge_set_sha256": "05df7c9edd7b35a087c0d203d69d420e87de9b977756641f23de79eaed927b5a",
+      "target_edge_set_sha256": "f2e72cd9334674285fd9365a87833772cf926aa40923d1e3d44f213017d1fd18"
+    },
+    {
+      "bicycles": 2,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 2,
+      "inverse_square_checks": 2,
+      "modulus": 4,
+      "source_edge_set_sha256": "1d9e06f3384640e9f1e07bb5e4e3b70755053075fd85732e1a285e91e68db264",
+      "target_edge_set_sha256": "ffed8d2bbcf38adfc1cdf66b43a0ae099fb06938f3b3e7ce3c848e7c517df28b"
+    },
+    {
+      "bicycles": 6,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 6,
+      "inverse_square_checks": 6,
+      "modulus": 6,
+      "source_edge_set_sha256": "0e6b9c2903d3269e1c6d5680f8ce568ea28907f37d8545f7243383c4f7527d89",
+      "target_edge_set_sha256": "fc693658a07d094a42ea07894b38ab31852e74752309a3a1dd23774ae217b17d"
+    },
+    {
+      "bicycles": 3,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 3,
+      "inverse_square_checks": 3,
+      "modulus": 9,
+      "source_edge_set_sha256": "ea2c3c27ff76a60cca7f98628f646cd65244315d5691cab5028f1aed77344d55",
+      "target_edge_set_sha256": "99e6426cc735067aae77b67bb7f395f7e16cfc04a0832362b5913189b7b5149a"
+    },
+    {
+      "bicycles": 6,
+      "fixture": "disconnected-loop-coloop",
+      "forward_square_checks": 6,
+      "inverse_square_checks": 6,
+      "modulus": 12,
+      "source_edge_set_sha256": "eabfd8e858ce70537f63db94233e3ff9c2085e729e5633c81c90707f20f3ae1f",
+      "target_edge_set_sha256": "7ebc7bf9f29033ed5b2dad2b07b1e5bc1d63681608996fef0a0fbb7edb30885e"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 2,
+      "source_edge_set_sha256": "c053c41acc6cf894b549139c7c1e108d26f190d44f9ea1d59dda5f35a440fb85",
+      "target_edge_set_sha256": "c053c41acc6cf894b549139c7c1e108d26f190d44f9ea1d59dda5f35a440fb85"
+    },
+    {
+      "bicycles": 1,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 1,
+      "inverse_square_checks": 1,
+      "modulus": 3,
+      "source_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0",
+      "target_edge_set_sha256": "a49eafe8d1b9d0716c0353f42eb8748fb00c49ff648d06e71d3bfe494e1b59c0"
+    },
+    {
+      "bicycles": 16,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 16,
+      "inverse_square_checks": 16,
+      "modulus": 4,
+      "source_edge_set_sha256": "8111703271af9cac165cf2ea618ed795c21c0491af6967c05af8b5ff8633224b",
+      "target_edge_set_sha256": "981ea4baa05648df37a10d0fc745f6b12a23da43ff70c9b68d5b9ffd9cc1f719"
+    },
+    {
+      "bicycles": 4,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 4,
+      "inverse_square_checks": 4,
+      "modulus": 6,
+      "source_edge_set_sha256": "8a0db0c396fb3313494da0f091790ca8ec86d5a0cf290e31d1372e54f96899f5",
+      "target_edge_set_sha256": "8a0db0c396fb3313494da0f091790ca8ec86d5a0cf290e31d1372e54f96899f5"
+    },
+    {
+      "bicycles": 16,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 16,
+      "inverse_square_checks": 16,
+      "modulus": 8,
+      "source_edge_set_sha256": "50bb18cde3f7bce698cfe401890e52e8ce91fcb68979bac7683b2b84088c477b",
+      "target_edge_set_sha256": "3716a0774bf05cd81408b3fbb243734ef60585dda649d6c8336f6c7780983b6e"
+    },
+    {
+      "bicycles": 16,
+      "fixture": "chordless-six-support",
+      "forward_square_checks": 16,
+      "inverse_square_checks": 16,
+      "modulus": 12,
+      "source_edge_set_sha256": "389fa93460ec33213590318e27fc49b4b0f8fde885251edcc6c4df3720a5e901",
+      "target_edge_set_sha256": "5650db3fa5067fc8f0c7a13704c2fa2e5e84b08acaf28d6af362dcb1f34aecba"
+    }
+  ],
+  "claim": "ABC-REGULAR-REPRESENTATION-INVARIANCE",
+  "comparison_maps": "depend on the chosen verified witness; no unique canonical map asserted",
+  "pair_count": 9,
+  "pairs": [
+    {
+      "fixture": "empty",
+      "gram_smith": [],
+      "matroid_rank_signature_sha256": "d758f9aad1cc8112cd45089a5d02c62d5080922560596632231c1c58bf8ef7a6",
+      "permutation": [],
+      "quotient_order": 1,
+      "row_change": [],
+      "signs": []
+    },
+    {
+      "fixture": "rank-zero-loops",
+      "gram_smith": [],
+      "matroid_rank_signature_sha256": "bc8d1b7c4230b75979bba8028ec6ddbb4b0334a4d330061d5a369ea02333e318",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "quotient_order": 1,
+      "row_change": [],
+      "signs": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "fixture": "identity-coloops",
+      "gram_smith": [
+        1,
+        1,
+        1
+      ],
+      "matroid_rank_signature_sha256": "ac0892820395134b0a3829aba16dc2f658d7a25dbfedd8fcbd06f286b580afe6",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "quotient_order": 1,
+      "row_change": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "gram_smith": [
+        4
+      ],
+      "matroid_rank_signature_sha256": "be94c9d95cc763764f5e81c29b0e164c5f0e675bf6dcef09730549fb9d68b8b6",
+      "permutation": [
+        2,
+        0,
+        3,
+        4,
+        1
+      ],
+      "quotient_order": 4,
+      "row_change": [
+        [
+          1
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "gram_smith": [
+        1,
+        3
+      ],
+      "matroid_rank_signature_sha256": "f538029f1eccfa5002c5ecb3b612f5cefc5d745e1f4d25c9fa69c18432b17ed7",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "quotient_order": 3,
+      "row_change": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "signs": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "gram_smith": [
+        1,
+        4,
+        4
+      ],
+      "matroid_rank_signature_sha256": "b60a8029f400f5497c825e1deafe274c37b971bc7d64d386ad0080de41e0686f",
+      "permutation": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "quotient_order": 16,
+      "row_change": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "gram_smith": [
+        1,
+        3,
+        3,
+        9
+      ],
+      "matroid_rank_signature_sha256": "f34d3069c1fb61fd5c544d8e06ce06e7034f46bdde0e1d344e9d253ad299b2ba",
+      "permutation": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "quotient_order": 81,
+      "row_change": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          1,
+          1,
+          -1
+        ]
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "gram_smith": [
+        1,
+        1,
+        6
+      ],
+      "matroid_rank_signature_sha256": "fd81dcb28449ab194161c6be657156ea27c909d22a6d40370db4601930cde88f",
+      "permutation": [
+        6,
+        2,
+        4,
+        0,
+        5,
+        3,
+        1
+      ],
+      "quotient_order": 6,
+      "row_change": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "fixture": "chordless-six-support",
+      "gram_smith": [
+        1,
+        4,
+        4
+      ],
+      "matroid_rank_signature_sha256": "6976f504b1c2e5ddff75548d9a92b12f0dc9c98a2778912e3f5fd79f3e9fc4a3",
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quotient_order": 16,
+      "row_change": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ]
+    }
+  ],
+  "schema": 1,
+  "scope": "finite exact witness evidence for the separate integral tower proof",
+  "sources_sha256": {
+    "conformance/fixtures/regular-representation-v1.json": "c6476c8e9407dba9678498b9d4bbe0319b8ab48e5f186762e148c44af8079603",
+    "conformance/replay_regular_representation.py": "f26935a14b562473796299380fd5b87934143c1ce2c4ce389dca49b6871a97bf",
+    "conformance/test_regular_representation.py": "248311c4ba4165c1d93c12cf64ce7e7f05fe0ec187531638168cfc4e7d601170",
+    "kernel/graph_bicycle.py": "fe87f4f705b23f1969d6c179a7bc6f1596240142ecd4a3abc4c68752a864d40c",
+    "kernel/regular_bicycle.py": "f703b9646a33788ffa3e9c057b95fde9c2f9a8b157df73ae75d3bffb95887001",
+    "kernel/regular_equivalence.py": "82da79ca1e242f75c3914a1a4b71259acd10d86dcc7bf56381c4c171a147f616",
+    "oracles/graph_snf.py": "89cd703517fb0b8e6568c04f98f203b04a37e6d00f53cc089c29ce352646e1bc",
+    "oracles/regular_equivalence.py": "48730d6febf4907d6cbbc118e397e69a0caea5783e4bd6e18a82558d4f4f1085",
+    "oracles/regular_snf.py": "5ae21105946ae2a8ee8746e6b032981693094e3c35f895ff9d87a8e3aa3e5979",
+    "proof/regular-representation-independence.md": "6c26c92b63d6c6282dd57467f3f88bdffb005a4a014204c9c0175de52d66f8a8",
+    "sources/regular-representation-equivalence.md": "872d3a2dd4a9496b84066cc318565c4371321d27a9750c3d8eb52568db47df7b"
+  },
+  "ternary_census": {
+    "all_matrices": 729,
+    "cross_bucket_rejections": 42,
+    "full_rank_tu_matrices": 456,
+    "labeled_matroid_buckets": 7,
+    "modulus_cases": 1824,
+    "witness_records_sha256": "64f819721ff2d9a4aaacc7982e9f2e57bf295f1627eaf093edcaec9a357b8fa2"
+  },
+  "tower_checks": [
+    {
+      "fixture": "empty",
+      "inflation_checks": 1,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "empty",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "rank-zero-loops",
+      "inflation_checks": 1,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "rank-zero-loops",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "identity-coloops",
+      "inflation_checks": 1,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "identity-coloops",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "identity-coloops",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 2,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 2,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 2
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 2,
+      "m": 8,
+      "n": 2,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 2,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 2
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 4,
+      "m": 8,
+      "n": 4,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 4,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "parallel-four-with-loop",
+      "inflation_checks": 2,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 1,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 3,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 3,
+      "m": 9,
+      "n": 3,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 3,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "triangle-row-and-label-change",
+      "inflation_checks": 3,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 4,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 4,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 4,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 1,
+      "m": 9,
+      "n": 3,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 16,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "graphic-complete-four-alternate-basis",
+      "inflation_checks": 4,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 1,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 1
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 27,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 27,
+      "m": 9,
+      "n": 3,
+      "reduction_checks": 81
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 27,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "cographic-k33-alternate-basis",
+      "inflation_checks": 27,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 27
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 2,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 2
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 2,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 2,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 3,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 3,
+      "m": 9,
+      "n": 3,
+      "reduction_checks": 3
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 3,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 2,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "disconnected-loop-coloop",
+      "inflation_checks": 6,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 6
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 4,
+      "m": 4,
+      "n": 2,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 4,
+      "m": 6,
+      "n": 2,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 4,
+      "m": 8,
+      "n": 2,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 4,
+      "m": 12,
+      "n": 2,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 1,
+      "m": 6,
+      "n": 3,
+      "reduction_checks": 4
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 1,
+      "m": 12,
+      "n": 3,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 16,
+      "m": 8,
+      "n": 4,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 16,
+      "m": 12,
+      "n": 4,
+      "reduction_checks": 16
+    },
+    {
+      "fixture": "chordless-six-support",
+      "inflation_checks": 4,
+      "m": 12,
+      "n": 6,
+      "reduction_checks": 16
+    }
+  ],
+  "tower_pair_count": 57
+}

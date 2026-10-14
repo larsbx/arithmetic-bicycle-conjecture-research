@@ -1,6 +1,6 @@
 # Architecture
 
-Status: graph, fixed-TU, and regular TU representation-independence theorem contributions within the candidate Arithmetic Bicycle Conjecture research program.
+Status: proved graph/TU theory, exact arithmetic data, and a refuted principal conjecture within the candidate research program.
 
 The repository follows an authority-first research layout. Conjecture, proof, computation, exploratory experiments, and publication surfaces are deliberately separated.
 
@@ -8,7 +8,7 @@ The repository follows an authority-first research layout. Conjecture, proof, co
 
 Primary domain: integral cut/cycle lattices, modular bicycle modules, critical groups, regular matroids, and representable arithmetic matroids.
 
-Principal conjecture: realization invariance of the compatible modular bicycle tower.
+Original principal conjecture: realization invariance of the compatible modular bicycle tower, now refuted by an explicit essential torsion-free arithmetic pair. Corrected hypotheses are the next research target.
 
 ## Authority surfaces
 
@@ -43,7 +43,11 @@ Candidate witness choice does not define a unique canonical comparison.
 
 The universal finite-group torsion-model strengthening is retracted by
 `proof/arithmetic-torsion-model-obstruction.md`. It is recorded separately
-from the open arithmetic realization-invariance conjecture.
+from the original arithmetic realization-invariance statement, now
+refuted separately by `proof/arithmetic-realization-counterexample.md`.
+The exact arithmetic signature proof governs the new all-subset
+comparison gate; equality of arithmetic data does not imply bicycle
+invariance.
 
 ### Oracles plane: `oracles/`
 
@@ -79,7 +83,7 @@ Projective geometry is explanatory and diagnostic. Integral claims remain govern
 
 ## Scope boundaries
 
-- Do not claim ABC.
+- Do not reassert the withdrawn general ABC; its explicit refutation has its own proof record.
 - Do not mark the graph modular-bicycle theorem proved until the arbitrary-\(n\) module isomorphism is written and audited.
 - Keep the proved fixed-TU theorem separate from regular-matroid representation independence.
 - Keep the regular TU representation theorem separate from arbitrary integer representations and arithmetic-matroid equality.

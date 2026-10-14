@@ -13,6 +13,7 @@ python -m unittest discover -s conformance -p 'test_*.py' -v
 python conformance/replay_graph_modular_bicycle.py --check
 python conformance/replay_regular_modular_bicycle.py --check
 python conformance/replay_regular_representation.py --check
+python conformance/replay_arithmetic_matroid.py --check
 git diff --check
 ```
 
@@ -177,3 +178,70 @@ All ranks and witnesses use exact integer arithmetic. All-subset rank
 comparison, all-minor TU certification, and the sign oracle are intended
 for small fixtures. No search is silently truncated. Deterministic witness
 selection is a computational choice, not a unique matroid comparison map.
+
+## Arithmetic equality and principal counterexample evidence v1
+
+Thirteen new tests take the combined suite to 65. Fourteen essential
+integer realizations supply 91 complete subset records, six labeled
+comparisons, and 20 bicycle cases in the new receipt.
+
+| Candidate route | Independent route |
+| --- | --- |
+| Euclidean Smith reduction with both transforms | Gcds of all rectangular minors using Bareiss determinants |
+| Verified Smith rank and torsion-order products | Independently computed rank/index pairs for every subset |
+| All-potential bicycle enumeration with duplicate cuts removed | All-edge enumeration with modular cut membership tested by lattice indices |
+| Complete arithmetic encodings and exact subset comparison | Independent complete rank/multiplicity signatures |
+
+Certificates check dimensions, unit determinants, the full transformed
+matrix equation, and a dividing positive diagonal followed by zeros.
+The complete Smith regression covers all 15,625 integer 2-by-3 matrices
+with entries in {-2,-1,0,1,2}. Empty, rectangular, singular, planted,
+and large-integer cases are included. The original seven TU fixtures
+have unit multiplicities at all 648 subsets.
+
+The principal counterexample matrices `((1,1),(0,5))` and
+`((1,2),(0,5))` have identical subset ranks 0,1,1,2 and multiplicities
+1,1,1,5. Yet their bicycle orders are one and five at moduli 5 and 10.
+The receipt contains their full modular edge sets and order profiles,
+checked by both independent routes and inherited literal cut enumeration.
+The [elementary counterexample proof](../proof/arithmetic-realization-counterexample.md)
+supplies refutation authority independently of bounded computation.
+
+Negative controls reject invalid certificates, domains, masks, and label
+permutations. They detect different lower-subset multiplicities even
+when rank profiles, singleton data, and the ground-set index agree;
+identical full-set Smith factors do not certify arithmetic equality.
+Saturation is not an allowed shortcut for changing the declared ambient
+lattice. Complete data equality still does not certify realization or
+bicycle equivalence, as the counterexample demonstrates.
+
+The modular cut oracle compares indices of `[A^T | n I]` and its
+augmentation by an edge vector. Equal indices mean that vector is in
+the same integer lattice. This criterion works over every composite
+modulus and assumes no Gram-group torsion formula for nonsurjective
+realizations.
+
+The new receipt pins the arithmetic proofs, source audit, code, fixtures,
+tests, replay, and inherited exact primitives. All three older receipts
+and their mathematical inputs are unchanged. Intentional source changes
+must be investigated before regenerating:
+
+```sh
+python conformance/replay_arithmetic_matroid.py --write
+```
+
+Canonical multiplicities are positive decimal strings, including indices
+exceeding 2^80. Equality compares complete data, not hashes. The interface
+is essential and uses declared free ambient lattices; it does not admit
+arbitrary serialized tables as representability certificates. All finite
+enumerations are exhaustive within their stated fixture scopes, with no
+silent truncation. This packet is not a census of all realizations.
+
+Current principal claim states are retracted; earlier open-status notes
+in pinned proofs and dated audits describe the pre-counterexample state.
+See the [October 14 audit](../docs/audits/arithmetic-matroid-2026-10-14.md).
+
+The regular-representation v1 receipt's `arithmetic_realization_invariance:
+open` annotation records its October 11 source bundle. Replaying that
+bundle preserves its evidence and bytes; current claim status is retracted
+in the registry and supported by the new counterexample packet.

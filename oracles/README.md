@@ -19,3 +19,10 @@ and enumerates all column signs to find an integral equivalence using
 Bareiss/Cramer calculations and a different unit basis. It imports no
 kernel code and does not reuse the candidate support-graph sign solver.
 Its ordinary-matroid rank signature is not an arithmetic-matroid encoding.
+
+`arithmetic_matroid.py` independently computes rectangular Smith factors
+and all-subset multiplicities by Bareiss minor gcds. For modular bicycles,
+it enumerates edges and tests cut membership by comparing the full-lattice
+indices of `[A^T | n I]` and its augmentation by the edge vector. This
+works over composite rings and imports no kernel code or candidate Smith
+reduction. The inherited literal potential routine supplies a third check.

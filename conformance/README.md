@@ -335,3 +335,38 @@ The new receipt retains nonsurjective equal-data negative controls,
 unequal-lower-subset rejection, and the no-unit-basis C49 positive.
 Regenerate with `--write` only after investigating intentional source
 changes. All older source-pinned receipts remain separately replayed.
+
+## Realization-dependence and code-hull starting packet
+
+```sh
+python conformance/check_research_program.py
+python experiments/realization_dependence.py --check
+```
+
+The [program queue](../docs/research/program.toml) and
+[brief](../docs/research/connections-and-open-questions.md) register six
+research tracks separately from the theorem registry. The checker verifies
+baseline claim states, source references, a dependency DAG, seed evidence
+locators, non-authoritative status, and local navigation links.
+
+The new packet uses six named realizations, with every modulus and expected
+order listed in its [fixture](fixtures/realization-dependence-v1.json).
+Literal row-code generation and dot products against every codeword
+compute the hull without a Gram formula or a cycle-kernel shortcut.
+The resulting edge sets must agree with the existing potential candidate
+and independent lattice-index edge oracle. Complete arithmetic signatures
+and all subset Smith factors are also independently compared.
+
+The [receipt](receipts/realization-dependence-v1.json) retains full hull
+vectors, annihilator profiles, reduction and scaled-inflation images, and
+Chinese-remainder comparisons when coprime factors and their product
+are all listed. Negative controls retain the index-five discrepancy at
+5 and 10, the inconclusive equal orders at 25, identical subset quotient
+groups, the scalar-two torsion-model obstruction, and a failed unscaled
+inflation at 13 to 26. Positive controls include rank zero and surjections
+without a unit basis.
+
+This is non-authoritative finite evidence, with no claim promotions.
+All six inherited receipts and their pinned source files remain unchanged.
+No inference of current literature open status, general classification,
+or efficient enumeration follows from replaying the seed packet.

@@ -1,0 +1,1905 @@
+{
+  "authority": "non_authoritative_experiment",
+  "claim_promotions": [],
+  "controls": {
+    "all_subset_quotient_groups_agree": true,
+    "complete_arithmetic_data_agree": true,
+    "counterexample_orders_at_25": [
+      5,
+      5
+    ],
+    "counterexample_orders_at_5_and_10": [
+      1,
+      5
+    ],
+    "scalar_two_orders_at_2_and_4": [
+      1,
+      2
+    ],
+    "unscaled_inflation_rejected": {
+      "large": 26,
+      "small": 13,
+      "vector": [
+        1,
+        8
+      ]
+    }
+  },
+  "questions": [
+    "ABC-HULL-01",
+    "ABC-RD-01",
+    "ABC-MODULE-01"
+  ],
+  "records": [
+    {
+      "ambient_index": "5",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 4,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1
+          },
+          "code_order": 9,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 3
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "code_order": 16,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 4
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "5": 1
+          },
+          "code_order": 5,
+          "dual_order": 5,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 5
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "6": 1
+          },
+          "code_order": 36,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 6
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1,
+            "8": 1
+          },
+          "code_order": 64,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 8
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1,
+            "9": 1
+          },
+          "code_order": 81,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 9
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "10": 1,
+            "2": 1,
+            "5": 1
+          },
+          "code_order": 20,
+          "dual_order": 5,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 10
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "25": 5,
+            "5": 5
+          },
+          "code_order": 125,
+          "dual_order": 5,
+          "hull_order": 5,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              20
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              15,
+              10
+            ],
+            [
+              20,
+              5
+            ]
+          ],
+          "modulus": 25
+        }
+      ],
+      "columns": 2,
+      "crt": [
+        {
+          "coprime_factors": [
+            2,
+            3
+          ],
+          "hull_order": 1,
+          "modulus": 6
+        },
+        {
+          "coprime_factors": [
+            2,
+            5
+          ],
+          "hull_order": 1,
+          "modulus": 10
+        }
+      ],
+      "id": "index5-a1",
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "subset_smith_factors": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 10,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 9,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 4
+        },
+        {
+          "large": 10,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 5
+        },
+        {
+          "large": 25,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 5
+        }
+      ]
+    },
+    {
+      "ambient_index": "5",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 4,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1
+          },
+          "code_order": 9,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 3
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "code_order": 16,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 4
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "5": 5
+          },
+          "code_order": 5,
+          "dual_order": 5,
+          "hull_order": 5,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "modulus": 5
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "6": 1
+          },
+          "code_order": 36,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 6
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1,
+            "8": 1
+          },
+          "code_order": 64,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 8
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1,
+            "9": 1
+          },
+          "code_order": 81,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 9
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "10": 5,
+            "2": 1,
+            "5": 5
+          },
+          "code_order": 20,
+          "dual_order": 5,
+          "hull_order": 5,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          "modulus": 10
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "25": 5,
+            "5": 5
+          },
+          "code_order": 125,
+          "dual_order": 5,
+          "hull_order": 5,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              10,
+              20
+            ],
+            [
+              15,
+              5
+            ],
+            [
+              20,
+              15
+            ]
+          ],
+          "modulus": 25
+        }
+      ],
+      "columns": 2,
+      "crt": [
+        {
+          "coprime_factors": [
+            2,
+            3
+          ],
+          "hull_order": 1,
+          "modulus": 6
+        },
+        {
+          "coprime_factors": [
+            2,
+            5
+          ],
+          "hull_order": 5,
+          "modulus": 10
+        }
+      ],
+      "id": "index5-a2",
+      "matrix": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "subset_smith_factors": [
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 10,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 9,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 4
+        },
+        {
+          "large": 10,
+          "reduction_image": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          "small": 5
+        },
+        {
+          "large": 25,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              10,
+              20
+            ],
+            [
+              15,
+              5
+            ],
+            [
+              20,
+              15
+            ]
+          ],
+          "small": 5
+        }
+      ]
+    },
+    {
+      "ambient_index": "2",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 1,
+          "dual_order": 2,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1
+          },
+          "code_order": 3,
+          "dual_order": 1,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0
+            ]
+          ],
+          "modulus": 3
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 2,
+            "4": 2
+          },
+          "code_order": 2,
+          "dual_order": 2,
+          "hull_order": 2,
+          "hull_vectors": [
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "modulus": 4
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 2,
+            "4": 2,
+            "8": 2
+          },
+          "code_order": 4,
+          "dual_order": 2,
+          "hull_order": 2,
+          "hull_vectors": [
+            [
+              0
+            ],
+            [
+              4
+            ]
+          ],
+          "modulus": 8
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "12": 2,
+            "2": 2,
+            "3": 1,
+            "4": 2,
+            "6": 2
+          },
+          "code_order": 6,
+          "dual_order": 2,
+          "hull_order": 2,
+          "hull_vectors": [
+            [
+              0
+            ],
+            [
+              6
+            ]
+          ],
+          "modulus": 12
+        }
+      ],
+      "columns": 1,
+      "crt": [
+        {
+          "coprime_factors": [
+            3,
+            4
+          ],
+          "hull_order": 2,
+          "modulus": 12
+        }
+      ],
+      "id": "scalar2",
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "subset_smith_factors": [
+        [],
+        [
+          2
+        ]
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 12,
+          "reduction_image": [
+            [
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 12,
+          "reduction_image": [
+            [
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 8,
+          "reduction_image": [
+            [
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ],
+            [
+              4
+            ]
+          ],
+          "small": 4
+        },
+        {
+          "large": 12,
+          "reduction_image": [
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0
+            ],
+            [
+              6
+            ]
+          ],
+          "small": 4
+        }
+      ]
+    },
+    {
+      "ambient_index": "1",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 2,
+          "dual_order": 2,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1
+          },
+          "code_order": 3,
+          "dual_order": 3,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 3
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "code_order": 4,
+          "dual_order": 4,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 4
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "6": 1
+          },
+          "code_order": 6,
+          "dual_order": 6,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 6
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "13": 13
+          },
+          "code_order": 13,
+          "dual_order": 13,
+          "hull_order": 13,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "modulus": 13
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "13": 13,
+            "2": 1,
+            "26": 13
+          },
+          "code_order": 26,
+          "dual_order": 26,
+          "hull_order": 13,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              16
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              6,
+              22
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              12,
+              18
+            ],
+            [
+              14,
+              8
+            ],
+            [
+              16,
+              24
+            ],
+            [
+              18,
+              14
+            ],
+            [
+              20,
+              4
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              24,
+              10
+            ]
+          ],
+          "modulus": 26
+        }
+      ],
+      "columns": 2,
+      "crt": [
+        {
+          "coprime_factors": [
+            2,
+            3
+          ],
+          "hull_order": 1,
+          "modulus": 6
+        },
+        {
+          "coprime_factors": [
+            2,
+            13
+          ],
+          "hull_order": 13,
+          "modulus": 26
+        }
+      ],
+      "id": "surjective-c13",
+      "matrix": [
+        [
+          2,
+          3
+        ]
+      ],
+      "subset_smith_factors": [
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 26,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        },
+        {
+          "large": 26,
+          "reduction_image": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              5
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              16
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              6,
+              22
+            ],
+            [
+              8,
+              12
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              12,
+              18
+            ],
+            [
+              14,
+              8
+            ],
+            [
+              16,
+              24
+            ],
+            [
+              18,
+              14
+            ],
+            [
+              20,
+              4
+            ],
+            [
+              22,
+              20
+            ],
+            [
+              24,
+              10
+            ]
+          ],
+          "small": 13
+        }
+      ]
+    },
+    {
+      "ambient_index": "1",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 4,
+          "dual_order": 2,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "3": 1
+          },
+          "code_order": 9,
+          "dual_order": 3,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "modulus": 3
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "code_order": 16,
+          "dual_order": 4,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "modulus": 4
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "6": 1
+          },
+          "code_order": 36,
+          "dual_order": 6,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "modulus": 6
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "7": 7
+          },
+          "code_order": 49,
+          "dual_order": 7,
+          "hull_order": 7,
+          "hull_vectors": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              2,
+              6,
+              3
+            ],
+            [
+              3,
+              2,
+              1
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              5,
+              1,
+              4
+            ],
+            [
+              6,
+              4,
+              2
+            ]
+          ],
+          "modulus": 7
+        }
+      ],
+      "columns": 3,
+      "crt": [
+        {
+          "coprime_factors": [
+            2,
+            3
+          ],
+          "hull_order": 1,
+          "modulus": 6
+        }
+      ],
+      "id": "surjective-c49",
+      "matrix": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ]
+      ],
+      "subset_smith_factors": [
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        },
+        {
+          "large": 6,
+          "reduction_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "small": 3
+        }
+      ]
+    },
+    {
+      "ambient_index": "1",
+      "arithmetic_signature": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cases": [
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1
+          },
+          "code_order": 1,
+          "dual_order": 4,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 2
+        },
+        {
+          "annihilator_profile": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "code_order": 1,
+          "dual_order": 16,
+          "hull_order": 1,
+          "hull_vectors": [
+            [
+              0,
+              0
+            ]
+          ],
+          "modulus": 4
+        }
+      ],
+      "columns": 2,
+      "crt": [],
+      "id": "rankzero",
+      "matrix": [],
+      "subset_smith_factors": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "tower_maps": [
+        {
+          "large": 4,
+          "reduction_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scaled_inflation_image": [
+            [
+              0,
+              0
+            ]
+          ],
+          "small": 2
+        }
+      ]
+    }
+  ],
+  "schema": 1,
+  "scope": "Six explicit realizations; no parameter census or general invariance claim.",
+  "sources_sha256": {
+    "conformance/fixtures/realization-dependence-v1.json": "8f5714743541e0d0e998644a7965e4fb2212b27324d18234f0f96b7ed8b7d355",
+    "conformance/test_realization_dependence.py": "6ce93ee28a8d782c3863a1c79685553c170694e67b6957cf869f5898a3638578",
+    "experiments/realization_dependence.py": "bfc42aa3aa002f20caa32f9f641bc6cc536c9e32fa81553fda4fcf09d51c1af1",
+    "kernel/arithmetic_matroid.py": "78d4ade69f1d0b56909dc3edbbe2efccf5f4ac833839c3ce09a987a907520d3d",
+    "kernel/graph_bicycle.py": "fe87f4f705b23f1969d6c179a7bc6f1596240142ecd4a3abc4c68752a864d40c",
+    "kernel/regular_bicycle.py": "f703b9646a33788ffa3e9c057b95fde9c2f9a8b157df73ae75d3bffb95887001",
+    "oracles/arithmetic_matroid.py": "d923f50328fa5d949827ac71cf5cebbedf21ade544fd695ac07f4310c6328cc4",
+    "oracles/graph_snf.py": "89cd703517fb0b8e6568c04f98f203b04a37e6d00f53cc089c29ce352646e1bc",
+    "oracles/regular_snf.py": "5ae21105946ae2a8ee8746e6b032981693094e3c35f895ff9d87a8e3aa3e5979"
+  },
+  "summary": {
+    "crt_cases": 8,
+    "modulus_cases": 36,
+    "proper_tower_pairs": 33,
+    "realizations": 6
+  }
+}

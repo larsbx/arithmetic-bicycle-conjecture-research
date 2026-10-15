@@ -14,6 +14,7 @@ python conformance/replay_graph_modular_bicycle.py --check
 python conformance/replay_regular_modular_bicycle.py --check
 python conformance/replay_regular_representation.py --check
 python conformance/replay_arithmetic_matroid.py --check
+python conformance/replay_surjective_representation.py --check
 git diff --check
 ```
 
@@ -245,3 +246,92 @@ The regular-representation v1 receipt's `arithmetic_realization_invariance:
 open` annotation records its October 11 source bundle. Replaying that
 bundle preserves its evidence and bytes; current claim status is retracted
 in the registry and supported by the new counterexample packet.
+
+## Surjective arithmetic realization-invariance evidence v1
+
+Fifteen new tests take the combined suite to 80. The separately scoped
+claim is ABC-SURJECTIVE-REALIZATION-INVARIANCE, for essential free-lattice
+representations with m(E)=1. All retracted unrestricted claims remain
+retracted.
+
+Ten positive pairs supply 38 modulus cases and 33 proper tower pairs
+in the new receipt. Tests also verify all six strict three-modulus
+chains in those fixtures. Three source fixtures have no unit maximal
+minor: (2,3), the rank-two matrix with minors 6,2,-3, and a disconnected
+extension with a coloop and loop. Their Smith-derived splittings are
+verified by the complete integer right-inverse equation.
+
+| Candidate route | Independent route |
+| --- | --- |
+| Smith transformations certify an integral surjection | Gcds of Bareiss maximal minors |
+| Rational basis and support-graph signs | A different rational basis, Cramer inverse, and exhaustive column-sign search |
+| Normalized-potential bicycle enumeration | Edge enumeration with lattice-index cut membership |
+| Gram maps and rational class coordinates | All-minor Smith factors and quotient enumeration from generators |
+
+Literal cuts provide a third finite check. The fixtures cover C13 at
+moduli 13,26,52,169, C49 at 7,14,49, noncyclic C3+C3, zero rank,
+loops, a support six-cycle, and row changes that lose literal TU.
+The new maps also agree with all seven inherited TU fixtures.
+Independent algorithms do not imply separate-person acceptance review.
+
+The complete ternary 2-by-3 census contains 552 integral surjections
+in ten arithmetic buckets, including 96 non-TU matrices. Every matrix
+is compared with its bucket representative, with 2,208 transport cases
+at moduli 2,3,4,6. All 90 ordered comparisons between distinct bucket
+representatives are rejected by both witness routes.
+
+Tests verify both inverse identities, representative independence,
+linearity, both Gram squares, potential transport, both tower directions
+and their compositions, witness inversion/composition, and nonunique
+comparison maps. Large composite moduli are checked without enumerating
+potential spaces. At modulus 49 the rank-two fixture has elements of
+order 49, invisible at modulus 7. Reduction from 169 to 13 for (2,3)
+is zero even though the target has thirteen bicycles.
+
+Two negative arithmetic pairs include an equal-magnitude support
+six-cycle with conflicting signs: its two relevant determinant
+magnitudes are 25 and 23. Three nonsurjective rejection fixtures include
+both members of the principal counterexample. Their equal arithmetic
+data and differing bicycle orders remain independently tested.
+Invalid representatives, forged witnesses, nondividing modulus maps,
+and populated-cache bool/float aliases are rejected.
+
+The fifth receipt pins its proof, source audit, fixtures, tests, replay,
+candidate, independent oracle, and all inherited exact dependencies.
+All four earlier receipts and their source files retain their bytes.
+After investigating an intentional change, rebuild with:
+
+```sh
+python conformance/replay_surjective_representation.py --write
+```
+
+All enumeration is exhaustive within the stated finite scope, without
+silent truncation. These are small-fixture algorithms, not a scalable
+arithmetic classification. The integral proof is theorem authority;
+Python acceptance authority remains false.
+
+## Phase 6 direct boundaries and expanded rank-two census
+
+The direct [boundary proof](../proof/surjective-boundary-cases.md) and
+`test_phase6_boundaries.py` separately register square-surjection
+triviality and rank-one sign invariance. The latter includes loops and
+nonsurjections; singleton rank must distinguish loops from unit columns.
+
+```sh
+python experiments/surjective_rank_two.py --check
+```
+
+This source-pinned census exhausts 15,625 matrices of shape 2-by-3
+with entries -2..2 and 6,561 of shape 2-by-4 with entries -1..1.
+The 7,176 and 5,776 surjections form 94 and 71 arithmetic buckets.
+Every admitted matrix has complete-signature, independent sign-witness,
+and full Gram Smith checks. Direct potential/transport enumeration
+covers all admitted matrices at 2,3,4,6. Independent edge/lattice
+membership, literal cuts, and annihilator profiles cover one
+representative per bucket at 2,3,4,5,6,8,9,10. The receipt explicitly
+separates these scopes. No finite search is promoted to theorem status.
+
+The new receipt retains nonsurjective equal-data negative controls,
+unequal-lower-subset rejection, and the no-unit-basis C49 positive.
+Regenerate with `--write` only after investigating intentional source
+changes. All older source-pinned receipts remain separately replayed.

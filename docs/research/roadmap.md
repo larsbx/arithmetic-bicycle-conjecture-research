@@ -108,9 +108,39 @@ the order discrepancies at 5 and 10.
 
 ## Phase 6 — corrected statement and structural data
 
-Next blocking target: source and proof audit of a separately stated
-surjective essential arithmetic realization-invariance refinement.
+Completed in the October 15 contribution: a separately stated
+surjective essential arithmetic realization-invariance theorem.
 Surjectivity is m(E)=1, an additional hypothesis beyond m(empty)=1.
+
+- [x] Independently prove and register square-unimodular triviality and rank-one sign invariance.
+- [x] Exhaust the 2-by-3 entry box [-2,2] and 2-by-4 box [-1,1], with explicit finite scope and controls.
+- [x] Source audit of surjective representation uniqueness and a self-contained labeled proof.
+- [x] Rational support-cycle argument and explicit upgrade to integral equivalence using surjectivity.
+- [x] Smith-derived right inverse and arbitrary-modulus Gram isomorphism without a unit basis.
+- [x] Both representative changes, both inverse directions, both modulus maps, and witness transport.
+- [x] Independent all-minor, lattice-membership, quotient, and exhaustive signed-search evidence.
+- [x] Non-TU and no-unit-basis fixtures, composite exponents, and rejection of the nonsurjective counterexample.
+
+`ABC-SURJECTIVE-REALIZATION-INVARIANCE` is `proved` with its own
+[proof record](../../proof/surjective-realization-invariance.md), source
+audit, dated contribution audit, and fifth source-pinned receipt.
+It concerns the tower's isomorphism class; witness-dependent comparison
+maps are not unique.
+
+The [direct boundary proof](../../proof/surjective-boundary-cases.md)
+registers `ABC-SURJECTIVE-SQUARE-TRIVIALITY` and
+`ABC-RANK-ONE-REALIZATION-INVARIANCE` separately. The latter does not
+require surjectivity and includes zero columns via singleton rank data.
+The [expanded census](../../experiments/surjective_rank_two.py) is
+`ABC-PHASE6-RANK-TWO-CENSUS`, with status `computed`, not proof authority.
+Its complete boxes contain 7,176 and 5,776 surjections in 94 and 71
+arithmetic buckets, respectively. No counterexample was found.
+The general theorem, rather than extrapolation from those boxes,
+settles the surjective candidate in all ranks.
+
+Next target: state and prove a structural description for nonsurjective
+realizations that explicitly includes their additional lattice data.
+No unrestricted realization-invariance claim is reinstated.
 
 An intrinsic construction from ordinary arithmetic-matroid data cannot
 recover the original bicycle tower on the full withdrawn domain.

@@ -32,5 +32,18 @@ not apply the fixed-TU Gram map to nonsurjective realizations.
 
 Arithmetic data equality and realization equivalence are separate
 questions. The rank-two counterexample has equal signatures and different
-bicycle orders. Scalable module algorithms and separately stated
-refinements remain future work.
+bicycle orders. Scalable module algorithms remain future work.
+
+`surjective_bicycle.py` certifies m(E)=1 for an essential integer
+realization in its declared ambient lattice. Its integral right inverse
+comes from both Smith transformations, so a unit maximal minor is not
+required. Exact Gram maps, class coordinates, and both modulus maps work
+for every integer modulus at least two.
+
+`surjective_equivalence.py` compares complete labeled arithmetic data,
+normalizes a rational basis, solves support sign ratios, and certifies
+an integral unimodular row/sign equivalence. Witnesses act on edges,
+potentials, and divisors and support inversion and composition. They
+transport the whole tower; their deterministic selection does not make
+the comparison map canonical. The principal counterexample is outside
+the surjective domain, and the unrestricted claims remain retracted.

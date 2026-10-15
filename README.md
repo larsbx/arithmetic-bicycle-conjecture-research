@@ -42,7 +42,11 @@ multiplicities 1,1,1,5. Yet their bicycle orders are one and five at
 both moduli 5 and 10. See the
 [counterexample proof](proof/arithmetic-realization-counterexample.md).
 The finite-group model remains proved for graph and fixed full-row-rank
-TU representations.
+TU representations. The separately stated
+[surjective arithmetic theorem](proof/surjective-realization-invariance.md)
+now establishes it, and realization invariance of the compatible tower,
+for essential free-lattice realizations with **m(E)=1**. This additional
+hypothesis excludes the counterexample above.
 
 ## Baseline theorem ladder
 
@@ -55,7 +59,8 @@ The program is deliberately staged:
 | R1 | Regular TU representation independence of the full tower | Proved |
 | A0 | Exact essential arithmetic-matroid equality and fixtures | Proved and implemented |
 | A1 | Explicit arithmetic realization counterexample | Proved |
-| ABC | Original torsion-free realization-invariance statement | Refuted; refinement next |
+| S0 | Essential surjective arithmetic realization invariance | Proved under m(E)=1 |
+| ABC | Original torsion-free realization-invariance statement | Refuted |
 
 Thread-derived arguments begin as `working` until they are reproduced by repository proof records or executable evidence.
 
@@ -98,17 +103,24 @@ The original ABC and arithmetic realization-invariance statements are
 `retracted` by the new counterexample. The earlier unconditional
 finite-group strengthening remains a separate `retracted` claim.
 
-The next target is an explicitly stated refinement, beginning with
-surjective essential arithmetic representations. The declared
-torsion-free domain of the original conjecture is preserved in its
-withdrawn statement.
+The surjective refinement is `proved` with a separate identifier,
+`ABC-SURJECTIVE-REALIZATION-INVARIANCE`. Arithmetic data determine a
+rational row/sign equivalence; surjectivity makes it integral.
+A Smith-derived right inverse gives the arbitrary-modulus Gram
+isomorphism even when no maximal minor is a unit. One verified witness
+transports the entire tower and both modulus maps. The invariant is
+its isomorphism class; comparison maps can depend on the witness.
+
+The next target is a structural account of nonsurjective realizations
+that names the extra lattice data their towers require. The original
+torsion-free statement and its refutation remain preserved.
 
 Start with:
 
 1. [Graph proof](proof/graph-modular-bicycle.md)
 2. [Fixed-TU proof](proof/regular-modular-bicycle.md)
 3. [Regular representation-independence proof](proof/regular-representation-independence.md)
-4. [Current status](docs/research/status-2026-10-14.md)
+4. [Current status](docs/research/status-2026-10-15.md)
 5. [Roadmap](docs/research/roadmap.md)
 6. [Claim registry](proof/claims.toml)
 7. [Exact replay commands](conformance/README.md)
@@ -119,3 +131,5 @@ Start with:
 12. [Arithmetic equality proof](proof/arithmetic-matroid-signature.md)
 13. [Principal counterexample](proof/arithmetic-realization-counterexample.md)
 14. [Arithmetic proof audit](docs/audits/arithmetic-matroid-2026-10-14.md)
+15. [Surjective arithmetic proof](proof/surjective-realization-invariance.md)
+16. [Surjective proof audit](docs/audits/surjective-realization-invariance-2026-10-15.md)

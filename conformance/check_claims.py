@@ -32,11 +32,12 @@ def main():
         require(claim["id"] not in ids, f"duplicate claim: {claim['id']}")
         ids.add(claim["id"])
         require(claim["status"] in statuses, f"invalid state: {claim['id']}")
-        if claim["status"] == "proved":
-            record = local_file(claim.get("proof_record"))
-            require(claim["id"] in record.read_text(), "proof record does not identify its claim")
+        if claim["status"] == "proved" or (claim["status"] == "retracted" and claim.get("counterexample_record")):
+            locator = "proof_record" if claim["status"] == "proved" else "counterexample_record"
+            record = local_file(claim.get(locator))
+            require(claim["id"] in record.read_text(), "proof/counterexample record does not identify its claim")
             local_file(claim.get("audit_record"))
-            require(claim.get("evidence"), "proved claim has no independent evidence locators")
+            require(claim.get("evidence"), "proof/counterexample claim has no independent evidence locators")
             for path in claim["evidence"]:
                 local_file(path)
     require("ABC-GRAPH-MODULAR-BICYCLE" in ids, "missing graph claim")

@@ -7,10 +7,13 @@ status_values = ["open", "working", "computed", "proved", "retracted"]
 [[claim]]
 id = "ABC-MAIN"
 title = "Arithmetic Bicycle Conjecture"
-status = "open"
+status = "retracted"
 statement = "For a torsion-free representable arithmetic matroid, the compatible modular bicycle tower is independent of the chosen integral realization."
-authority = "principal_open_problem"
-notes = "No proof claimed. The bootstrap's asserted equivalent universal finite-group torsion model is withdrawn separately as ABC-UNIVERSAL-TORSION-MODEL; the A=[2] obstruction does not decide realization invariance."
+authority = "repository_counterexample_proof_record"
+counterexample_record = "proof/arithmetic-realization-counterexample.md"
+audit_record = "docs/audits/arithmetic-matroid-2026-10-14.md"
+evidence = ["oracles/arithmetic_matroid.py", "conformance/fixtures/arithmetic-matroid-v1.json", "conformance/test_arithmetic_matroid.py", "conformance/replay_arithmetic_matroid.py", "conformance/receipts/arithmetic-matroid-v1.json"]
+notes = "Refuted on 2026-10-14: A=((1,1),(0,5)) and A'=((1,2),(0,5)) have identical complete arithmetic data but bicycle orders one and five at moduli 5 and 10. Both are essential and torsion-free, with m(E)=5. The earlier universal torsion-model withdrawal is a separate negative result."
 
 [[claim]]
 id = "ABC-GRAPH-MODULAR-BICYCLE"
@@ -59,9 +62,13 @@ authority = "standard_cauchy_binet_pending_source_record"
 [[claim]]
 id = "ABC-REALIZATION-INVARIANCE"
 title = "Arithmetic realization invariance"
-status = "open"
+status = "retracted"
 statement = "The compatible modular bicycle tower depends only on the arithmetic matroid rather than the chosen integral realization."
-authority = "principal_conjectural_bridge"
+authority = "repository_counterexample_proof_record"
+counterexample_record = "proof/arithmetic-realization-counterexample.md"
+audit_record = "docs/audits/arithmetic-matroid-2026-10-14.md"
+evidence = ["oracles/arithmetic_matroid.py", "conformance/fixtures/arithmetic-matroid-v1.json", "conformance/test_arithmetic_matroid.py", "conformance/replay_arithmetic_matroid.py", "conformance/receipts/arithmetic-matroid-v1.json"]
+notes = "The two-realization order discrepancy refutes even the isomorphism-class assertion, independently of orientation, labeling, or compatibility choices. A corrected restricted-domain conjecture must receive a separate statement."
 
 [[claim]]
 id = "ABC-PROJECTIVE-SHADOW"
@@ -105,3 +112,25 @@ evidence = [
   "sources/regular-representation-equivalence.md"
 ]
 notes = "Unit-basis normal forms and integral cycle-sign cancellation establish the prescribed labeled equivalence. One witness transports all moduli. Comparison maps depend on the chosen witness; no unique canonical comparison or arithmetic realization-invariance result is asserted."
+
+[[claim]]
+id = "ABC-ARITHMETIC-SIGNATURE"
+title = "Exact essential arithmetic-matroid signature"
+status = "proved"
+statement = "For an essential integer realization in its declared free ambient lattice, the rank of every subset is its number of nonzero Smith factors and its arithmetic multiplicity is their product. Complete all-subset rank/multiplicity equality under a prescribed label bijection is exact equality of the represented arithmetic data."
+authority = "repository_integral_proof_record"
+proof_record = "proof/arithmetic-matroid-signature.md"
+audit_record = "docs/audits/arithmetic-matroid-2026-10-14.md"
+evidence = ["oracles/arithmetic_matroid.py", "conformance/fixtures/arithmetic-matroid-v1.json", "conformance/test_arithmetic_matroid.py", "conformance/replay_arithmetic_matroid.py", "conformance/receipts/arithmetic-matroid-v1.json", "sources/arithmetic-matroid-background.md"]
+notes = "Certificate-based Euclidean reduction is cross-checked against independent rectangular determinantal divisors. The executable domain is essential; equality does not certify realization equivalence or bicycle invariance."
+
+[[claim]]
+id = "ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE"
+title = "Rank-two arithmetic bicycle realization counterexample"
+status = "proved"
+statement = "The essential integer realizations A=((1,1),(0,5)) and A'=((1,2),(0,5)) in Z^2 have common labeled subset ranks (0,1,1,2) and multiplicities (1,1,1,5), but Bic_5 and Bic_10 have orders one for A and five for A'. Thus the compatible modular bicycle tower is not an invariant of the torsion-free arithmetic matroid."
+authority = "repository_counterexample_proof_record"
+proof_record = "proof/arithmetic-realization-counterexample.md"
+audit_record = "docs/audits/arithmetic-matroid-2026-10-14.md"
+evidence = ["oracles/arithmetic_matroid.py", "conformance/fixtures/arithmetic-matroid-v1.json", "conformance/test_arithmetic_matroid.py", "conformance/replay_arithmetic_matroid.py", "conformance/receipts/arithmetic-matroid-v1.json", "sources/arithmetic-matroid-background.md"]
+notes = "Direct cut/cycle congruences give the elementary proof, including mixed-composite modulus 10. Complete arithmetic data and modular lattice membership are independently checked. Graph and TU results remain valid; nonsurjective arithmetic realizations are inside the original conjecture's domain."

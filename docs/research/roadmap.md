@@ -67,32 +67,59 @@ the local proof gives the labeled statement explicitly. Independence is
 of the tower's isomorphism class under TU representations; a unique
 comparison map from an unoriented matroid is not asserted.
 
-Next blocking target: Phase 4. The ordinary-matroid comparison above
-does not implement arithmetic-matroid equality or prove ABC.
+The ordinary-matroid comparison above is separate from the exact
+arithmetic equality gate and counterexample in Phases 4–5.
 
 ## Phase 4 — arithmetic-matroid equality and fixtures
 
-Define fail-closed equality for representable arithmetic matroids using lattice-index multiplicities / module data.
+Completed in the October 14 contribution for essential integer
+realizations in their declared free ambient lattice:
 
-Retain realization invariance as the principal conjecture. The bootstrap's
-unconditional finite-group strengthening is false: A=[2] is torsion-free
-but has Bic_2=0 and Bic_4=Z/2. Its separate counterexample record retracts
-that strengthening. Any torsion-group extension needs additional
-hypotheses or a different representing object; Phase 4 must not assume
-it is equivalent to realization invariance.
+- [x] Verified rectangular Smith certificates with both unimodular transforms.
+- [x] Rank and saturation-index multiplicity for every labeled subset.
+- [x] Exact comparison under a prescribed label bijection and versioned complete encodings.
+- [x] Independent all-minors rank/index oracle and modular cut-membership criterion.
+- [x] Empty, dependent, nonprimitive, nonsurjective, large-integer, and invalid-domain controls.
 
-## Phase 5 — bounded counterexample search
+`ABC-ARITHMETIC-SIGNATURE` is `proved`. The executable interface does
+not silently alter the ambient lattice or conflate arithmetic equality
+with equivalence of realizations.
 
-Enumerate small non-TU integer matrices, bucket by arithmetic matroid, and compare bicycle modules for:
-- primes,
-- prime powers,
-- mixed composite moduli.
+## Phase 5 — explicit realization counterexample
 
-A mismatch is a valid ABC counterexample/refinement signal.
+Completed by a concrete witness, without asserting an exhaustive
+realization search:
 
-## Phase 6 — structural attack
+`A=((1,1),(0,5))` and `A'=((1,2),(0,5))` have the same complete
+arithmetic data, with ranks 0,1,1,2 and multiplicities 1,1,1,5.
+Their bicycle orders are one and five at both moduli 5 and 10.
+The [elementary proof](../../proof/arithmetic-realization-counterexample.md)
+and independent exact receipt establish the discrepancy.
 
-If bounded searches survive, seek an intrinsic construction of the bicycle tower from arithmetic-matroid data.
+`ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE` is `proved`.
+`ABC-MAIN` and `ABC-REALIZATION-INVARIANCE` are `retracted` on their
+original torsion-free domain. They are not silently replaced by a
+surjective-domain statement. The earlier universal torsion-group
+strengthening remains a separate retraction.
+
+The graph, fixed-TU, and regular TU theorems remain proved. Agreement
+of the counterexample's bicycle orders at modulus 25 does not undo
+the order discrepancies at 5 and 10.
+
+## Phase 6 — corrected statement and structural data
+
+Next blocking target: source and proof audit of a separately stated
+surjective essential arithmetic realization-invariance refinement.
+Surjectivity is m(E)=1, an additional hypothesis beyond m(empty)=1.
+
+An intrinsic construction from ordinary arithmetic-matroid data cannot
+recover the original bicycle tower on the full withdrawn domain.
+The explicit pair even has isomorphic quotient groups at every subset.
+Any alternative using finer realization data must name the added
+structure and prove its transport properties.
+
+Preserve the original statements and dated provenance; new restricted
+claims receive separate identifiers and proof records.
 
 ## Phase 7 — projective shadow
 

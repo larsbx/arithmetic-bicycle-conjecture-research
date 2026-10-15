@@ -42,7 +42,7 @@ id = "proof"
 target = "proof"
 authority = "claim_state"
 required = true
-current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md"]
+current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md", "proof/arithmetic-matroid-signature.md", "proof/arithmetic-realization-counterexample.md"]
 
 [[plane]]
 id = "kernel"
@@ -104,6 +104,6 @@ mode = "boundary_first"
 mass_move = false
 next = [
   "Maintain the proved graph, fixed-TU, and regular TU representation-independence theorems and independent evidence.",
-  "Establish exact arithmetic-matroid equality and fixtures before realization search.",
-  "Keep arithmetic realization invariance open and separate from the withdrawn universal torsion-group strengthening."
+  "Maintain exact arithmetic-matroid comparison and the explicit rank-two realization counterexample.",
+  "Audit a separately stated surjective-domain refinement; retain the general realization-invariance and universal torsion-model statements as retracted."
 ]

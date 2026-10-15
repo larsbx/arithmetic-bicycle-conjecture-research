@@ -24,5 +24,13 @@ classes, compose, and invert. It verifies the entire integer matrix
 equation before returning a witness. Its deterministic sign choice does
 not assert mathematical canonicity.
 
-Canonical general module algorithms, scalable SNF, arithmetic-matroid
-equality, and arithmetic realization comparison remain future work.
+`arithmetic_matroid.py` computes verified rectangular Smith certificates
+and complete rank/index signatures for essential integral realizations
+in a declared ambient lattice. It compares every labeled subset and
+enumerates literal bicycle modules with duplicate cuts removed. It does
+not apply the fixed-TU Gram map to nonsurjective realizations.
+
+Arithmetic data equality and realization equivalence are separate
+questions. The rank-two counterexample has equal signatures and different
+bicycle orders. Scalable module algorithms and separately stated
+refinements remain future work.

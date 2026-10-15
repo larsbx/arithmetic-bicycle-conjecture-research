@@ -1,8 +1,8 @@
 # Arithmetic Bicycle Conjecture Research Program
 
-Research workspace for the **Arithmetic Bicycle Conjecture (ABC)**: whether the full modular bicycle tower attached to an integral realization of a torsion-free representable arithmetic matroid is determined by the arithmetic matroid itself.
+Research workspace for integral modular bicycle theory, exact arithmetic-matroid data, and corrected realization-invariance questions. The original **Arithmetic Bicycle Conjecture (ABC)** is refuted by a [rank-two counterexample](proof/arithmetic-realization-counterexample.md).
 
-## Principal conjecture
+## Original conjecture — refuted
 
 Let \(\mathcal M=(M,m)\) be a torsion-free representable arithmetic matroid with integral realization
 \[
@@ -18,7 +18,7 @@ and
 \operatorname{Bic}_n(A):=C_n(A)\cap Z_n(A)\subseteq (\mathbb Z/n)^E.
 \]
 
-> **Arithmetic Bicycle Conjecture.** The compatible tower
+> **Withdrawn Arithmetic Bicycle Conjecture (refuted 2026-10-14).** The compatible tower
 > \[
 > \{\operatorname{Bic}_n(A)\}_{n\ge2}
 > \]
@@ -29,8 +29,20 @@ For the torsion-free arithmetic matroid realized by A=[2] in Z,
 Bic_2(A)=0 and Bic_4(A)=Z/2. Every abelian group with zero 2-torsion
 also has zero 4-torsion, so no single group represents that tower.
 See the [counterexample proof](proof/arithmetic-torsion-model-obstruction.md).
-Realization invariance remains a separate open conjecture. The finite-group
-model is proved for graph and fixed full-row-rank TU representations.
+The original realization-invariance statement is now also refuted.
+In the same ambient lattice, the two realizations
+
+$$
+A=\begin{pmatrix}1&1\\0&5\end{pmatrix},\qquad
+A'=\begin{pmatrix}1&2\\0&5\end{pmatrix}
+$$
+
+have identical complete arithmetic data: subset ranks 0,1,1,2 and
+multiplicities 1,1,1,5. Yet their bicycle orders are one and five at
+both moduli 5 and 10. See the
+[counterexample proof](proof/arithmetic-realization-counterexample.md).
+The finite-group model remains proved for graph and fixed full-row-rank
+TU representations.
 
 ## Baseline theorem ladder
 
@@ -41,9 +53,9 @@ The program is deliberately staged:
 | G0 | Graph modular-bicycle isomorphism for arbitrary moduli | Proved |
 | R0 | Fixed full-row-rank TU representation | Proved |
 | R1 | Regular TU representation independence of the full tower | Proved |
-| A0 | Exact arithmetic-matroid equality and realization fixtures | Next |
-| A1 | Bounded realization counterexample search | Pending A0 |
-| ABC | Arithmetic realization-invariance theorem or counterexample/refinement | Open |
+| A0 | Exact essential arithmetic-matroid equality and fixtures | Proved and implemented |
+| A1 | Explicit arithmetic realization counterexample | Proved |
+| ABC | Original torsion-free realization-invariance statement | Refuted; refinement next |
 
 Thread-derived arguments begin as `working` until they are reproduced by repository proof records or executable evidence.
 
@@ -80,16 +92,23 @@ and signed column map that transports the entire tower. The proof covers
 the tower's isomorphism class; comparison maps depend on the chosen
 witness. Independent all-subset rank and signed-search checks support it.
 
-Exact arithmetic-matroid equality and fixtures are the next blocking target.
-ABC and arithmetic-matroid realization invariance remain `open`. The
-unconditional finite-group strengthening is `retracted`.
+The exact essential arithmetic signature theorem is `proved`, with
+verified rectangular Smith certificates and a separate all-minors oracle.
+The original ABC and arithmetic realization-invariance statements are
+`retracted` by the new counterexample. The earlier unconditional
+finite-group strengthening remains a separate `retracted` claim.
+
+The next target is an explicitly stated refinement, beginning with
+surjective essential arithmetic representations. The declared
+torsion-free domain of the original conjecture is preserved in its
+withdrawn statement.
 
 Start with:
 
 1. [Graph proof](proof/graph-modular-bicycle.md)
 2. [Fixed-TU proof](proof/regular-modular-bicycle.md)
 3. [Regular representation-independence proof](proof/regular-representation-independence.md)
-4. [Current status](docs/research/status-2026-10-11.md)
+4. [Current status](docs/research/status-2026-10-14.md)
 5. [Roadmap](docs/research/roadmap.md)
 6. [Claim registry](proof/claims.toml)
 7. [Exact replay commands](conformance/README.md)
@@ -97,3 +116,6 @@ Start with:
 9. [Fixed-TU contribution audit](docs/audits/regular-modular-bicycle-2026-10-09.md)
 10. [Independent fixed-TU acceptance audit](docs/audits/regular-modular-bicycle-independent-2026-10-09.md)
 11. [Regular representation proof audit](docs/audits/regular-representation-independence-2026-10-11.md)
+12. [Arithmetic equality proof](proof/arithmetic-matroid-signature.md)
+13. [Principal counterexample](proof/arithmetic-realization-counterexample.md)
+14. [Arithmetic proof audit](docs/audits/arithmetic-matroid-2026-10-14.md)

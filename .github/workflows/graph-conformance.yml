@@ -25,5 +25,7 @@ jobs:
         run: python conformance/replay_regular_modular_bicycle.py --check
       - name: Regular representation source-pinned receipt replay
         run: python conformance/replay_regular_representation.py --check
+      - name: Arithmetic signatures and counterexample receipt replay
+        run: python conformance/replay_arithmetic_matroid.py --check
       - name: Patch whitespace
         run: git show --format= --check HEAD

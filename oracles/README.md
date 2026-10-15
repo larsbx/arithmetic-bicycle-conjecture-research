@@ -26,3 +26,11 @@ it enumerates edges and tests cut membership by comparing the full-lattice
 indices of `[A^T | n I]` and its augmentation by the edge vector. This
 works over composite rings and imports no kernel code or candidate Smith
 reduction. The inherited literal potential routine supplies a third check.
+
+`surjective_equivalence.py` checks surjectivity by independent rectangular
+determinantal divisors and compares complete arithmetic signatures.
+It searches all column signs using the last nonzero rational basis and
+Bareiss/Cramer inverse coordinates. It requires no unit basis and imports
+no kernel code or candidate support-sign solver. The arithmetic lattice
+oracle above checks its modular edge transports independently, including
+prime powers and mixed composite moduli.

@@ -108,9 +108,26 @@ the order discrepancies at 5 and 10.
 
 ## Phase 6 — corrected statement and structural data
 
-Next blocking target: source and proof audit of a separately stated
-surjective essential arithmetic realization-invariance refinement.
+Completed in the October 15 contribution: a separately stated
+surjective essential arithmetic realization-invariance theorem.
 Surjectivity is m(E)=1, an additional hypothesis beyond m(empty)=1.
+
+- [x] Source audit of surjective representation uniqueness and a self-contained labeled proof.
+- [x] Rational support-cycle argument and explicit upgrade to integral equivalence using surjectivity.
+- [x] Smith-derived right inverse and arbitrary-modulus Gram isomorphism without a unit basis.
+- [x] Both representative changes, both inverse directions, both modulus maps, and witness transport.
+- [x] Independent all-minor, lattice-membership, quotient, and exhaustive signed-search evidence.
+- [x] Non-TU and no-unit-basis fixtures, composite exponents, and rejection of the nonsurjective counterexample.
+
+`ABC-SURJECTIVE-REALIZATION-INVARIANCE` is `proved` with its own
+[proof record](../../proof/surjective-realization-invariance.md), source
+audit, dated contribution audit, and fifth source-pinned receipt.
+It concerns the tower's isomorphism class; witness-dependent comparison
+maps are not unique.
+
+Next target: state and prove a structural description for nonsurjective
+realizations that explicitly includes their additional lattice data.
+No unrestricted realization-invariance claim is reinstated.
 
 An intrinsic construction from ordinary arithmetic-matroid data cannot
 recover the original bicycle tower on the full withdrawn domain.

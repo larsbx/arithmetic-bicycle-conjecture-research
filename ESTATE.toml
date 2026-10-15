@@ -42,7 +42,7 @@ id = "proof"
 target = "proof"
 authority = "claim_state"
 required = true
-current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md", "proof/arithmetic-matroid-signature.md", "proof/arithmetic-realization-counterexample.md"]
+current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md", "proof/arithmetic-matroid-signature.md", "proof/arithmetic-realization-counterexample.md", "proof/surjective-realization-invariance.md"]
 
 [[plane]]
 id = "kernel"
@@ -105,5 +105,6 @@ mass_move = false
 next = [
   "Maintain the proved graph, fixed-TU, and regular TU representation-independence theorems and independent evidence.",
   "Maintain exact arithmetic-matroid comparison and the explicit rank-two realization counterexample.",
-  "Audit a separately stated surjective-domain refinement; retain the general realization-invariance and universal torsion-model statements as retracted."
+  "Maintain the separate essential surjective arithmetic theorem with m(E)=1 and its independent evidence.",
+  "Describe nonsurjective towers using explicit additional lattice data; retain the general realization-invariance and universal torsion-model statements as retracted."
 ]

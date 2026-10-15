@@ -134,3 +134,23 @@ proof_record = "proof/arithmetic-realization-counterexample.md"
 audit_record = "docs/audits/arithmetic-matroid-2026-10-14.md"
 evidence = ["oracles/arithmetic_matroid.py", "conformance/fixtures/arithmetic-matroid-v1.json", "conformance/test_arithmetic_matroid.py", "conformance/replay_arithmetic_matroid.py", "conformance/receipts/arithmetic-matroid-v1.json", "sources/arithmetic-matroid-background.md"]
 notes = "Direct cut/cycle congruences give the elementary proof, including mixed-composite modulus 10. Complete arithmetic data and modular lattice membership are independently checked. Graph and TU results remain valid; nonsurjective arithmetic realizations are inside the original conjecture's domain."
+
+[[claim]]
+id = "ABC-SURJECTIVE-REALIZATION-INVARIANCE"
+title = "Essential surjective arithmetic realization-invariance theorem"
+status = "proved"
+statement = "For essential realizations of a torsion-free representable arithmetic matroid with m(E)=1 in declared free ambient lattices, every prescribed arithmetic label isomorphism admits an integral unimodular row change and signed column equivalence. One witness induces isomorphisms of the entire modular bicycle tower and Gram cokernels, with Bic_n(A) isomorphic to coker(AA^T)[n] for every n >= 2, compatible with reduction and inflation. The tower isomorphism class is independent of realization; comparison maps need not be unique."
+authority = "repository_integral_proof_record"
+proof_record = "proof/surjective-realization-invariance.md"
+audit_record = "docs/audits/surjective-realization-invariance-2026-10-15.md"
+evidence = [
+  "oracles/surjective_equivalence.py",
+  "oracles/arithmetic_matroid.py",
+  "oracles/regular_snf.py",
+  "conformance/fixtures/surjective-representation-v1.json",
+  "conformance/test_surjective_representation.py",
+  "conformance/replay_surjective_representation.py",
+  "conformance/receipts/surjective-representation-v1.json",
+  "sources/surjective-representation-equivalence.md"
+]
+notes = "Surjectivity m(E)=1 is additional to torsion-free m(empty)=1. A Smith-derived splitting needs no unit maximal minor. Equal normalized minor magnitudes give rational support-sign equivalence; surjectivity makes it integral. The source audit identifies established representation uniqueness; the local record proves labeled transport over every modulus. ABC-MAIN, ABC-REALIZATION-INVARIANCE, and ABC-UNIVERSAL-TORSION-MODEL remain retracted."

@@ -1232,7 +1232,7 @@
     "oracles/graph_snf.py": "89cd703517fb0b8e6568c04f98f203b04a37e6d00f53cc089c29ce352646e1bc",
     "oracles/regular_snf.py": "5ae21105946ae2a8ee8746e6b032981693094e3c35f895ff9d87a8e3aa3e5979",
     "oracles/surjective_equivalence.py": "733e15786b6e4b799c2f05c3d6caf79b0adbc6228d1aa4d4fa5a5cd092b88cdc",
-    "proof/surjective-realization-invariance.md": "56753a8416c6af34a5c54b57080465fc2ef0a86026c26d3f9e5311ef30209fb0",
+    "proof/surjective-realization-invariance.md": "4be63f4b202247462b4524003449553578f1bdf532c834ac64720277b0e5fab2",
     "sources/surjective-representation-equivalence.md": "70208118480df3b01d2cac043369e97641b02bb6e4dac4a8f071416719a240bc"
   },
   "ternary_census": {

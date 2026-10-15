@@ -90,9 +90,10 @@ realization by its generated sublattice changes the arithmetic object.
 
 ## 2. Arbitrary-modulus isomorphism for a fixed surjection
 
-The matrix $Q=AA^\top$ is nonsingular: for real $v$,
-$v^\top Qv=\lVert A^\top v\rVert^2$, and full row rank makes
-$A^\top v=0$ imply $v=0$. Hence $K_A$ is finite.
+The matrix $Q=AA^\top$ is nonsingular by the integer Cauchy–Binet
+identity $\det(Q)=\sum_{|F|=r}\det(A_F)^2$. Full row rank gives
+a nonzero integer maximal minor, so this finite sum is positive.
+For rank zero the empty determinant is one. Hence $K_A$ is finite.
 
 For $b=A^\top y\bmod n$ in the bicycle module, choose an integral
 lift $y$. Its cycle condition says $Qy\in n\mathbb Z^r$, so $Qy/n$

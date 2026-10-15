@@ -309,3 +309,29 @@ All enumeration is exhaustive within the stated finite scope, without
 silent truncation. These are small-fixture algorithms, not a scalable
 arithmetic classification. The integral proof is theorem authority;
 Python acceptance authority remains false.
+
+## Phase 6 direct boundaries and expanded rank-two census
+
+The direct [boundary proof](../proof/surjective-boundary-cases.md) and
+`test_phase6_boundaries.py` separately register square-surjection
+triviality and rank-one sign invariance. The latter includes loops and
+nonsurjections; singleton rank must distinguish loops from unit columns.
+
+```sh
+python experiments/surjective_rank_two.py --check
+```
+
+This source-pinned census exhausts 15,625 matrices of shape 2-by-3
+with entries -2..2 and 6,561 of shape 2-by-4 with entries -1..1.
+The 7,176 and 5,776 surjections form 94 and 71 arithmetic buckets.
+Every admitted matrix has complete-signature, independent sign-witness,
+and full Gram Smith checks. Direct potential/transport enumeration
+covers all admitted matrices at 2,3,4,6. Independent edge/lattice
+membership, literal cuts, and annihilator profiles cover one
+representative per bucket at 2,3,4,5,6,8,9,10. The receipt explicitly
+separates these scopes. No finite search is promoted to theorem status.
+
+The new receipt retains nonsurjective equal-data negative controls,
+unequal-lower-subset rejection, and the no-unit-basis C49 positive.
+Regenerate with `--write` only after investigating intentional source
+changes. All older source-pinned receipts remain separately replayed.

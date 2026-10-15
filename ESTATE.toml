@@ -42,7 +42,7 @@ id = "proof"
 target = "proof"
 authority = "claim_state"
 required = true
-current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md", "proof/arithmetic-matroid-signature.md", "proof/arithmetic-realization-counterexample.md", "proof/surjective-realization-invariance.md"]
+current = ["proof/claims.toml", "proof/graph-modular-bicycle.md", "proof/regular-modular-bicycle.md", "proof/arithmetic-torsion-model-obstruction.md", "proof/regular-representation-independence.md", "proof/arithmetic-matroid-signature.md", "proof/arithmetic-realization-counterexample.md", "proof/surjective-realization-invariance.md", "proof/surjective-boundary-cases.md"]
 
 [[plane]]
 id = "kernel"

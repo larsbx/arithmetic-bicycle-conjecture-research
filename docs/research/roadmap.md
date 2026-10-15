@@ -151,6 +151,29 @@ structure and prove its transport properties.
 Preserve the original statements and dated provenance; new restricted
 claims receive separate identifiers and proof records.
 
+### Research scaffold after the surjective theorem
+
+The [connections brief](connections-and-open-questions.md) and
+[machine-readable queue](program.toml) make the next work concrete.
+Question IDs describe research work, not additional accepted proof claims.
+Dependencies can reference proved baselines or retracted statements that
+must remain negative controls; they do not assume a retracted statement.
+
+- [x] Preserve the sourced connections document with current claim boundaries.
+- [x] Register six tasks, dependencies, first actions, and acceptance/falsification criteria.
+- [x] Add a source-pinned starting experiment for code hulls and nonsurjective variation.
+- [ ] ABC-HULL-01: specify the code-hull identity, both modulus maps, and allowed coordinate equivalences.
+- [ ] ABC-RD-01: classify tower variation in the triangular family, then source-classified representations.
+- [ ] ABC-MODULE-01: state sufficient added lattice/map/pairing data and prove transport.
+- [ ] ABC-TORIC-01: audit the current status of published reconstruction questions before extracting topology fixtures.
+- [ ] ABC-JAC-01: audit restricted realization problems and specify exact pairing transport.
+- [ ] ABC-CELL-01: derive a torsion-corrected modular statement from cellular cut/flow exact sequences.
+
+Prioritize the first three tasks. The topology, graph-pairing, and cellular
+tracks are follow-ups and do not block that work. All future theorem
+promotions require their own proof records and exact evidence; the seed
+packet alone is not a census or a classification theorem.
+
 ## Phase 7 — projective shadow
 
 Formalize Grassmannian/determinantal interpretations only after the integral kernels are stable.

@@ -115,6 +115,27 @@ The next target is a structural account of nonsurjective realizations
 that names the extra lattice data their towers require. The original
 torsion-free statement and its refutation remain preserved.
 
+## Research program: realization dependence and code hulls
+
+The [connections and open questions brief](docs/research/connections-and-open-questions.md)
+places the work in arithmetic representation theory, finite-ring coding
+theory, toric arrangements, graph Jacobians, cellular topology, and
+matroids over rings. Its [machine-readable queue](docs/research/program.toml)
+names six scoped research tasks with dependencies, source locators,
+acceptance criteria, and negative controls. Published questions carry
+an explicit follow-up status-audit obligation.
+
+The immediate work is the code-hull tower interface and nonsurjective
+lattice data. The surjective theorem is a proved baseline. The
+[starting experiment](experiments/realization_dependence.py) replays six
+explicit realizations using literal code orthogonality and both existing
+bicycle routes; its finite evidence does not promote claims.
+
+```sh
+python conformance/check_research_program.py
+python experiments/realization_dependence.py --check
+```
+
 Start with:
 
 1. [Graph proof](proof/graph-modular-bicycle.md)

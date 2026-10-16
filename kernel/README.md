@@ -47,3 +47,12 @@ potentials, and divisors and support inversion and composition. They
 transport the whole tower; their deterministic selection does not make
 the comparison map canonical. The principal counterexample is outside
 the surjective domain, and the unrestricted claims remain retracted.
+
+`code_hull.py` implements `CodeHull` for arbitrary rectangular integer
+matrices over Z/n, including redundant rows. It enumerates the Gram and
+cut kernels, canonical quotient representatives, the hull isomorphism,
+and both quotient/edge tower maps. `HullIsometry` validates invertible row
+maps and orthogonal edge maps at a fixed modulus. Tower use requires
+compatible witnesses, as specified in `proof/code-hull-tower.md`.
+Enumeration is exhaustive and exponential, with no silent size cap;
+canonical representatives are encodings, not canonical coordinate witnesses.

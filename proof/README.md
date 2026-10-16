@@ -3,6 +3,7 @@
 Current statuses are governed by [claims.toml](claims.toml).
 
 - [Graph theorem](graph-modular-bicycle.md), [fixed-TU theorem](regular-modular-bicycle.md), and [regular TU representation independence](regular-representation-independence.md) remain proved.
+- [Code-hull tower interface](code-hull-tower.md) proves the hull/Gram-kernel quotient, both modulus maps, and orthogonal coordinate transport for arbitrary rectangular integer matrices.
 - [Exact arithmetic signature](arithmetic-matroid-signature.md) records the all-subset equality gate.
 - [Surjective arithmetic realization invariance](surjective-realization-invariance.md) proves the separate essential m(E)=1 theorem, including arbitrary-modulus Gram isomorphisms without a unit-basis assumption.
 - [Direct boundary cases](surjective-boundary-cases.md) separately prove square-surjection triviality and rank-one invariance, without using representation uniqueness.

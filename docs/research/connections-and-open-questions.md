@@ -1,6 +1,6 @@
 # Research connections and open questions
 
-Updated 2026-10-15 from the research-connections discussion. This is the
+Updated 2026-10-16 from the research-connections discussion. This is the
 project brief for the next stage of the existing repository, not a new
 realization-invariance conjecture. The machine-readable work queue is
 [program.toml](program.toml); source scope and locators are in the
@@ -79,12 +79,20 @@ Here $\mathbb Z/p^k$ is a ring, not the field with $p^k$ elements.
 [HULL] supplies the hull terminology and a finite-chain-ring research
 setting; its cyclic-code results are not imported for arbitrary row codes.
 
-First deliverable: specify this bridge, signed-coordinate equivariance,
-reduction and scaled inflation for the code-hull tower. The seed experiment
-checks literal dot products against every codeword, the existing potential
-implementation, and the independent edge/lattice oracle. An unrestricted
-general linear change of edge coordinates need not preserve the pairing;
-do not use it as an allowed code equivalence without transporting the form.
+Completed on 2026-10-16 by [ABC-CODE-HULL-TOWER](../../proof/code-hull-tower.md).
+The ring proof identifies the hull with $\ker(AA^T)/\ker(A^T)$, proves
+representative independence and compatibility with reduction and scaled
+inflation, and specifies fixed-ring orthogonal and coherent tower witnesses.
+A single integral edge map preserves the standard pairing at every modulus
+exactly when it is a signed permutation. Reduction need not be onto.
+
+The [new quotient packet](../../conformance/replay_code_hull.py) supplements
+the unchanged seed evidence with actual cosets, both transition squares,
+round trips, composition, and coordinate transport. Its finite receipt is
+non-authoritative. The original shear and unscaled-inflation failures are
+retained, including the failure of unscaled potentials in the Gram kernel.
+An arbitrary edge-basis change requires transporting the pairing, which
+changes the bicycle interface. Next active task: ABC-RD-01.
 
 ## ABC-RD-01: classify nonsurjective realization dependence
 

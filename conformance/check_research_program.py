@@ -62,7 +62,20 @@ def main():
     priorities = []
     for key, question in questions.items():
         require(key in brief, f"question has no human-readable brief: {key}")
-        require(question["status"] in ("active", "queued"), "unsupported question state")
+        require(question["status"] in ("active", "queued", "completed"), "unsupported question state")
+        if question["status"] == "completed":
+            claim = claims.get(question.get("completion_claim"), {})
+            require(claim.get("status") == "proved", "completed task needs a separate proved claim")
+            require(question.get("completion_record") == claim.get("proof_record"),
+                    "completed task proof locator differs from claim")
+            local_file(question["completion_record"])
+            evidence = local_file(question.get("completion_receipt"))
+            require(question["completion_receipt"] in claim.get("evidence", []),
+                    "completion receipt absent from claim evidence")
+            receipt = json.loads(evidence.read_text())
+            require(receipt["authority"] == "non_authoritative_experiment"
+                    and receipt["claim_promotions"] == [] and key in receipt["questions"],
+                    "completion evidence must remain non-authoritative and scoped")
         require(question["kind"] in ("repository_research_task", "repository_research_question",
                                      "published_question_status_audit",
                                      "published_problem_and_repository_extension"), "unsupported question kind")

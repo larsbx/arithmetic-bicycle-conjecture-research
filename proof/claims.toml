@@ -1,5 +1,8 @@
 # Conservative claim registry for Arithmetic Bicycle Conjecture research.
 
+# Research task ABC-HULL-01 is closed by the separate ABC-CODE-HULL-TOWER
+# proof record below, not by promoting the research queue or Python evidence.
+
 [meta]
 namespace = "ABC"
 status_values = ["open", "working", "computed", "proved", "retracted"]
@@ -186,3 +189,14 @@ authority = "replayable_finite_computation"
 audit_record = "docs/audits/phase6-boundaries-2026-10-15.md"
 evidence = ["experiments/surjective_rank_two.py", "conformance/receipts/phase6-rank-two-v1.json"]
 notes = "Finite scope only. Every admitted matrix receives complete signature, Smith and witness checks; edge/lattice enumeration covers one representative per arithmetic bucket, while potential/transport enumeration covers every matrix at moduli 2,3,4,6. The general result comes from ABC-SURJECTIVE-REALIZATION-INVARIANCE."
+
+[[claim]]
+id = "ABC-CODE-HULL-TOWER"
+title = "Euclidean code-hull quotient and modular tower interface"
+status = "proved"
+statement = "For every rectangular integer matrix A and every n >= 2, Hull(im A^T) = im A^T intersect ker A is naturally isomorphic to ker(AA^T)/ker(A^T) over Z/n. Reduction and scaled inflation descend to the quotient, commute with this isomorphism, compose across dividing moduli, and have both round trips equal to multiplication by the modulus ratio. Standard-pairing isometries are exactly S^T S=I at each modulus; coherent orthogonal edge and invertible row witnesses transport the tower, and a fixed integral edge isometry at every modulus is exactly a signed permutation."
+authority = "repository_ring_proof_record"
+proof_record = "proof/code-hull-tower.md"
+audit_record = "docs/audits/code-hull-tower-2026-10-16.md"
+evidence = ["kernel/code_hull.py", "conformance/fixtures/code-hull-tower-v1.json", "conformance/test_code_hull.py", "conformance/replay_code_hull.py", "conformance/receipts/code-hull-tower-v1.json", "experiments/realization_dependence.py", "oracles/arithmetic_matroid.py"]
+notes = "Elementary ring proof without essentiality, surjectivity, or field-rank assumptions. Quotient inflation is injective; reduction need not be onto. Proof record supplies authority; finite receipts and Python do not. No machine-checked formalization, novelty, or nonsurjective classification is claimed. ABC-MAIN, ABC-REALIZATION-INVARIANCE, and ABC-UNIVERSAL-TORSION-MODEL remain retracted."

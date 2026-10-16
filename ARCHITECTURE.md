@@ -99,3 +99,13 @@ Projective geometry is explanatory and diagnostic. Integral claims remain govern
 - Do not infer arithmetic-matroid realization invariance from regular/TU cases.
 - Keep the surjective arithmetic theorem's m(E)=1 hypothesis explicit; it does not restore either retracted unrestricted statement.
 - Do not treat projective geometry as a substitute for integral multiplicity or torsion data.
+
+## Code-hull tower interface
+
+`proof/code-hull-tower.md` proves the arbitrary-matrix ring interface,
+including the Gram-kernel quotient and both transition maps. The candidate
+`kernel/code_hull.py` implements exact small-fixture cosets and checked
+fixed-modulus coordinate witnesses. Its source-pinned packet is finite
+cross-check evidence, with no acceptance authority. This closes research
+task ABC-HULL-01 under a distinct theorem ID ABC-CODE-HULL-TOWER; it does
+not reinstate unrestricted arithmetic realization invariance.

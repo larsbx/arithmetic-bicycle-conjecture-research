@@ -370,3 +370,27 @@ This is non-authoritative finite evidence, with no claim promotions.
 All six inherited receipts and their pinned source files remain unchanged.
 No inference of current literature open status, general classification,
 or efficient enumeration follows from replaying the seed packet.
+
+## Code-hull quotient and tower packet
+
+```sh
+python conformance/replay_code_hull.py --check
+python -m unittest conformance.test_code_hull -v
+```
+
+The [fixture](fixtures/code-hull-tower-v1.json) reuses all six original
+realization-dependence cases and adds five nonessential or boundary
+matrices. The [receipt](receipts/code-hull-tower-v1.json) records quotient
+representatives with their hull images and both quotient transition tables.
+Every Gram-kernel representative is checked for coset and lift independence,
+commuting squares, round trips, and three-level composition. Literal code
+orthogonality and independent lattice-index enumeration check every hull;
+the older potential route also checks the six essential seed matrices.
+
+Coordinate controls cover integral signed witnesses, nonessential rows,
+fixed-ring isometries beyond signed permutations, and a row map invertible
+only at the tested modulus. Negative controls retain the original shear
+and unscaled-inflation failures, the need for the quotient denominator,
+and nonsurjectivity of reduction. All seven inherited receipts remain
+unchanged. The general theorem is in the [ring proof](../proof/code-hull-tower.md);
+this finite receipt has no claim-promotion authority.

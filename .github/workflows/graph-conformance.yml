@@ -35,5 +35,8 @@ jobs:
         run: python experiments/surjective_rank_two.py --check
       - name: Realization-dependence and code-hull starting receipt
         run: python experiments/realization_dependence.py --check
+      - name: Code-hull quotient and tower receipt
+        # The quotient packet supplements the seven historical receipts.
+        run: python conformance/replay_code_hull.py --check
       - name: Patch whitespace
         run: git show --format= --check HEAD

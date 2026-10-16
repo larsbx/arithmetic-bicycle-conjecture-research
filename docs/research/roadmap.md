@@ -162,14 +162,22 @@ must remain negative controls; they do not assume a retracted statement.
 - [x] Preserve the sourced connections document with current claim boundaries.
 - [x] Register six tasks, dependencies, first actions, and acceptance/falsification criteria.
 - [x] Add a source-pinned starting experiment for code hulls and nonsurjective variation.
-- [ ] ABC-HULL-01: specify the code-hull identity, both modulus maps, and allowed coordinate equivalences.
+- [x] ABC-HULL-01: prove the code-hull and Gram-kernel quotient identities, both modulus maps, and pairing-preserving coordinate transport.
 - [ ] ABC-RD-01: classify tower variation in the triangular family, then source-classified representations.
 - [ ] ABC-MODULE-01: state sufficient added lattice/map/pairing data and prove transport.
 - [ ] ABC-TORIC-01: audit the current status of published reconstruction questions before extracting topology fixtures.
 - [ ] ABC-JAC-01: audit restricted realization problems and specify exact pairing transport.
 - [ ] ABC-CELL-01: derive a torsion-corrected modular statement from cellular cut/flow exact sequences.
 
-Prioritize the first three tasks. The topology, graph-pairing, and cellular
+The [code-hull proof](../../proof/code-hull-tower.md) closes ABC-HULL-01
+as `ABC-CODE-HULL-TOWER`, with [quotient-sensitive evidence](../../conformance/receipts/code-hull-tower-v1.json)
+and an explicit distinction between fixed-ring orthogonal maps and integral
+signed permutations. Reduction need not be onto; scaled inflation is
+injective and both maps commute with the quotient presentation.
+
+ABC-RD-01 is now the active next task: analyze the triangular family
+before expanding to source-classified nonsurjective representations.
+Prioritize ABC-RD-01 and ABC-MODULE-01. The topology, graph-pairing, and cellular
 tracks are follow-ups and do not block that work. All future theorem
 promotions require their own proof records and exact evidence; the seed
 packet alone is not a census or a classification theorem.

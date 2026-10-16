@@ -125,8 +125,13 @@ names six scoped research tasks with dependencies, source locators,
 acceptance criteria, and negative controls. Published questions carry
 an explicit follow-up status-audit obligation.
 
-The immediate work is the code-hull tower interface and nonsurjective
-lattice data. The surjective theorem is a proved baseline. The
+The [code-hull tower interface](proof/code-hull-tower.md) is proved as
+`ABC-CODE-HULL-TOWER`, including the Gram-kernel quotient, both modulus
+maps, and pairing-preserving coordinate transport. Its
+[finite quotient packet](conformance/replay_code_hull.py) supplements the
+original seeds. The next active work is nonsurjective realization
+dependence and the extra lattice data it requires. The surjective theorem
+is a proved baseline. The
 [starting experiment](experiments/realization_dependence.py) replays six
 explicit realizations using literal code orthogonality and both existing
 bicycle routes; its finite evidence does not promote claims.

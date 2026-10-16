@@ -1,6 +1,6 @@
 schema = 1
 title = "Realization dependence and modular code hulls"
-updated = "2026-10-15"
+updated = "2026-10-16"
 authority = "exposition_and_experiment_planning"
 acceptance_authority = false
 brief = "docs/research/connections-and-open-questions.md"
@@ -9,7 +9,7 @@ sources = "sources/research-connections.toml"
 seed_experiment = "experiments/realization_dependence.py"
 seed_fixture = "conformance/fixtures/realization-dependence-v1.json"
 seed_receipt = "conformance/receipts/realization-dependence-v1.json"
-next_question = "ABC-HULL-01"
+next_question = "ABC-RD-01"
 
 [baseline_claims]
 ABC-MAIN = "retracted"
@@ -20,16 +20,20 @@ ABC-REGULAR-REPRESENTATION-INVARIANCE = "proved"
 ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE = "proved"
 ABC-SURJECTIVE-REALIZATION-INVARIANCE = "proved"
 ABC-RANK-ONE-REALIZATION-INVARIANCE = "proved"
+ABC-CODE-HULL-TOWER = "proved"
 
 [[question]]
 id = "ABC-HULL-01"
 title = "Specify the Euclidean code-hull tower interface"
 kind = "repository_research_task"
-status = "active"
+status = "completed"
+completion_claim = "ABC-CODE-HULL-TOWER"
+completion_record = "proof/code-hull-tower.md"
+completion_receipt = "conformance/receipts/code-hull-tower-v1.json"
 priority = 1
 sources = ["HULL"]
 dependencies = ["ABC-GRAPH-MODULAR-BICYCLE"]
-scope = "Arbitrary integer matrices over Z/n; standard coordinate pairing; signed coordinate witnesses."
+scope = "Arbitrary integer matrices over Z/n; Gram-kernel quotient; both tower maps; fixed-ring orthogonal witnesses and compatible families; integral signed coordinate witnesses."
 first_action = "Write the integral/ring proof of the hull identity and its two modulus maps as an explicit interface."
 acceptance = ["Cover composite moduli without field-rank arguments.", "Specify reduction, scaled inflation, and coordinate equivariance.", "Compare literal code orthogonality with both existing bicycle routes."]
 falsification = ["Reject unrestricted edge-basis changes unless the pairing is transported.", "Retain a nonzero control where unscaled inflation fails."]
@@ -38,7 +42,7 @@ falsification = ["Reject unrestricted edge-basis changes unless the pairing is t
 id = "ABC-RD-01"
 title = "Classify tower variation among nonsurjective realizations"
 kind = "repository_research_question"
-status = "queued"
+status = "active"
 priority = 2
 sources = ["LENZ", "PP"]
 dependencies = ["ABC-HULL-01", "ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE", "ABC-SURJECTIVE-REALIZATION-INVARIANCE"]

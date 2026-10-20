@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "scope": "All six realization-dependence seeds plus five explicit nonessential or boundary matrices; exhaustive at listed moduli only.",
+  "seed_fixture": "conformance/fixtures/realization-dependence-v1.json",
+  "extra_cases": [
+    {"id": "redundant", "matrix": [[2, 2], [4, 4]], "columns": 2, "moduli": [2, 4, 6, 8]},
+    {"id": "zero-row", "matrix": [[0, 0]], "columns": 2, "moduli": [2, 4]},
+    {"id": "no-columns", "matrix": [[], []], "columns": 0, "moduli": [2, 4]},
+    {"id": "empty", "matrix": [], "columns": 0, "moduli": [2, 4]},
+    {"id": "non-surjective-reduction", "matrix": [[1, 1]], "columns": 2, "moduli": [2, 4, 8]}
+  ]
+}

@@ -47,42 +47,140 @@ Promotion:
   `proof/regular-modular-bicycle.md`, its dated proof audit, and the TU
   source-pinned receipt.
 
-Next blocking target: Phase 3. Specified coordinate equivariance does not
-discharge the theorem relating arbitrary TU realizations of one matroid.
+Specified coordinate equivariance in Phase 2 remains distinct from the
+theorem relating arbitrary TU realizations of one matroid in Phase 3.
 
 ## Phase 3 — regular representation independence
 
-Pin down the exact theorem relating TU representations of the same regular matroid and prove the modular tower is representation-independent.
+Completed in the October 11 contribution:
 
-The October 9 acceptance review located Backman–Baker–Yuen, Section 2.1,
-Lemma 2.1.1, as the coordinate-equivalence reference. Next audit its labeled
-hypotheses and write the repository proof record applying the fixed-TU
-coordinate maps to the full tower. This phase is not promoted by the
-fixed-representation theorem.
+- [x] Audit the full-row-rank TU hypotheses and label conventions of the equivalence source.
+- [x] Derive the prescribed labeled equivalence from unit-basis normal forms and integral support-cycle signs.
+- [x] Apply one integral witness to every modulus and both tower maps.
+- [x] Check Gram-cokernel transport, both inverse squares, witness composition, and nonunique comparison maps.
+- [x] Verify explicit witnesses against a separate signed-search oracle and all-subset rational rank data.
+
+`ABC-REGULAR-REPRESENTATION-INVARIANCE` is recorded as `proved` with its
+own integral proof, dated audit, and source-pinned witness evidence.
+The source audit identifies Backman–Baker–Yuen, Section 2.1, Lemma 2.1.1;
+the local proof gives the labeled statement explicitly. Independence is
+of the tower's isomorphism class under TU representations; a unique
+comparison map from an unoriented matroid is not asserted.
+
+The ordinary-matroid comparison above is separate from the exact
+arithmetic equality gate and counterexample in Phases 4–5.
 
 ## Phase 4 — arithmetic-matroid equality and fixtures
 
-Define fail-closed equality for representable arithmetic matroids using lattice-index multiplicities / module data.
+Completed in the October 14 contribution for essential integer
+realizations in their declared free ambient lattice:
 
-Retain realization invariance as the principal conjecture. The bootstrap's
-unconditional finite-group strengthening is false: A=[2] is torsion-free
-but has Bic_2=0 and Bic_4=Z/2. Its separate counterexample record retracts
-that strengthening. Any torsion-group extension needs additional
-hypotheses or a different representing object; Phase 4 must not assume
-it is equivalent to realization invariance.
+- [x] Verified rectangular Smith certificates with both unimodular transforms.
+- [x] Rank and saturation-index multiplicity for every labeled subset.
+- [x] Exact comparison under a prescribed label bijection and versioned complete encodings.
+- [x] Independent all-minors rank/index oracle and modular cut-membership criterion.
+- [x] Empty, dependent, nonprimitive, nonsurjective, large-integer, and invalid-domain controls.
 
-## Phase 5 — bounded counterexample search
+`ABC-ARITHMETIC-SIGNATURE` is `proved`. The executable interface does
+not silently alter the ambient lattice or conflate arithmetic equality
+with equivalence of realizations.
 
-Enumerate small non-TU integer matrices, bucket by arithmetic matroid, and compare bicycle modules for:
-- primes,
-- prime powers,
-- mixed composite moduli.
+## Phase 5 — explicit realization counterexample
 
-A mismatch is a valid ABC counterexample/refinement signal.
+Completed by a concrete witness, without asserting an exhaustive
+realization search:
 
-## Phase 6 — structural attack
+`A=((1,1),(0,5))` and `A'=((1,2),(0,5))` have the same complete
+arithmetic data, with ranks 0,1,1,2 and multiplicities 1,1,1,5.
+Their bicycle orders are one and five at both moduli 5 and 10.
+The [elementary proof](../../proof/arithmetic-realization-counterexample.md)
+and independent exact receipt establish the discrepancy.
 
-If bounded searches survive, seek an intrinsic construction of the bicycle tower from arithmetic-matroid data.
+`ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE` is `proved`.
+`ABC-MAIN` and `ABC-REALIZATION-INVARIANCE` are `retracted` on their
+original torsion-free domain. They are not silently replaced by a
+surjective-domain statement. The earlier universal torsion-group
+strengthening remains a separate retraction.
+
+The graph, fixed-TU, and regular TU theorems remain proved. Agreement
+of the counterexample's bicycle orders at modulus 25 does not undo
+the order discrepancies at 5 and 10.
+
+## Phase 6 — corrected statement and structural data
+
+Completed in the October 15 contribution: a separately stated
+surjective essential arithmetic realization-invariance theorem.
+Surjectivity is m(E)=1, an additional hypothesis beyond m(empty)=1.
+
+- [x] Independently prove and register square-unimodular triviality and rank-one sign invariance.
+- [x] Exhaust the 2-by-3 entry box [-2,2] and 2-by-4 box [-1,1], with explicit finite scope and controls.
+- [x] Source audit of surjective representation uniqueness and a self-contained labeled proof.
+- [x] Rational support-cycle argument and explicit upgrade to integral equivalence using surjectivity.
+- [x] Smith-derived right inverse and arbitrary-modulus Gram isomorphism without a unit basis.
+- [x] Both representative changes, both inverse directions, both modulus maps, and witness transport.
+- [x] Independent all-minor, lattice-membership, quotient, and exhaustive signed-search evidence.
+- [x] Non-TU and no-unit-basis fixtures, composite exponents, and rejection of the nonsurjective counterexample.
+
+`ABC-SURJECTIVE-REALIZATION-INVARIANCE` is `proved` with its own
+[proof record](../../proof/surjective-realization-invariance.md), source
+audit, dated contribution audit, and fifth source-pinned receipt.
+It concerns the tower's isomorphism class; witness-dependent comparison
+maps are not unique.
+
+The [direct boundary proof](../../proof/surjective-boundary-cases.md)
+registers `ABC-SURJECTIVE-SQUARE-TRIVIALITY` and
+`ABC-RANK-ONE-REALIZATION-INVARIANCE` separately. The latter does not
+require surjectivity and includes zero columns via singleton rank data.
+The [expanded census](../../experiments/surjective_rank_two.py) is
+`ABC-PHASE6-RANK-TWO-CENSUS`, with status `computed`, not proof authority.
+Its complete boxes contain 7,176 and 5,776 surjections in 94 and 71
+arithmetic buckets, respectively. No counterexample was found.
+The general theorem, rather than extrapolation from those boxes,
+settles the surjective candidate in all ranks.
+
+Next target: state and prove a structural description for nonsurjective
+realizations that explicitly includes their additional lattice data.
+No unrestricted realization-invariance claim is reinstated.
+
+An intrinsic construction from ordinary arithmetic-matroid data cannot
+recover the original bicycle tower on the full withdrawn domain.
+The explicit pair even has isomorphic quotient groups at every subset.
+Any alternative using finer realization data must name the added
+structure and prove its transport properties.
+
+Preserve the original statements and dated provenance; new restricted
+claims receive separate identifiers and proof records.
+
+### Research scaffold after the surjective theorem
+
+The [connections brief](connections-and-open-questions.md) and
+[machine-readable queue](program.toml) make the next work concrete.
+Question IDs describe research work, not additional accepted proof claims.
+Dependencies can reference proved baselines or retracted statements that
+must remain negative controls; they do not assume a retracted statement.
+
+- [x] Preserve the sourced connections document with current claim boundaries.
+- [x] Register six tasks, dependencies, first actions, and acceptance/falsification criteria.
+- [x] Add a source-pinned starting experiment for code hulls and nonsurjective variation.
+- [x] ABC-HULL-01: prove the code-hull and Gram-kernel quotient identities, both modulus maps, and pairing-preserving coordinate transport.
+- [ ] ABC-RD-01: classify tower variation in the triangular family, then source-classified representations.
+- [ ] ABC-MODULE-01: state sufficient added lattice/map/pairing data and prove transport.
+- [ ] ABC-TORIC-01: audit the current status of published reconstruction questions before extracting topology fixtures.
+- [ ] ABC-JAC-01: audit restricted realization problems and specify exact pairing transport.
+- [ ] ABC-CELL-01: derive a torsion-corrected modular statement from cellular cut/flow exact sequences.
+
+The [code-hull proof](../../proof/code-hull-tower.md) closes ABC-HULL-01
+as `ABC-CODE-HULL-TOWER`, with [quotient-sensitive evidence](../../conformance/receipts/code-hull-tower-v1.json)
+and an explicit distinction between fixed-ring orthogonal maps and integral
+signed permutations. Reduction need not be onto; scaled inflation is
+injective and both maps commute with the quotient presentation.
+
+ABC-RD-01 is now the active next task: analyze the triangular family
+before expanding to source-classified nonsurjective representations.
+Prioritize ABC-RD-01 and ABC-MODULE-01. The topology, graph-pairing, and cellular
+tracks are follow-ups and do not block that work. All future theorem
+promotions require their own proof records and exact evidence; the seed
+packet alone is not a census or a classification theorem.
 
 ## Phase 7 — projective shadow
 

@@ -1,0 +1,104 @@
+schema = 1
+title = "Realization dependence and modular code hulls"
+updated = "2026-10-16"
+authority = "exposition_and_experiment_planning"
+acceptance_authority = false
+brief = "docs/research/connections-and-open-questions.md"
+roadmap = "docs/research/roadmap.md"
+sources = "sources/research-connections.toml"
+seed_experiment = "experiments/realization_dependence.py"
+seed_fixture = "conformance/fixtures/realization-dependence-v1.json"
+seed_receipt = "conformance/receipts/realization-dependence-v1.json"
+next_question = "ABC-RD-01"
+
+[baseline_claims]
+ABC-MAIN = "retracted"
+ABC-REALIZATION-INVARIANCE = "retracted"
+ABC-UNIVERSAL-TORSION-MODEL = "retracted"
+ABC-GRAPH-MODULAR-BICYCLE = "proved"
+ABC-REGULAR-REPRESENTATION-INVARIANCE = "proved"
+ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE = "proved"
+ABC-SURJECTIVE-REALIZATION-INVARIANCE = "proved"
+ABC-RANK-ONE-REALIZATION-INVARIANCE = "proved"
+ABC-CODE-HULL-TOWER = "proved"
+
+[[question]]
+id = "ABC-HULL-01"
+title = "Specify the Euclidean code-hull tower interface"
+kind = "repository_research_task"
+status = "completed"
+completion_claim = "ABC-CODE-HULL-TOWER"
+completion_record = "proof/code-hull-tower.md"
+completion_receipt = "conformance/receipts/code-hull-tower-v1.json"
+priority = 1
+sources = ["HULL"]
+dependencies = ["ABC-GRAPH-MODULAR-BICYCLE"]
+scope = "Arbitrary integer matrices over Z/n; Gram-kernel quotient; both tower maps; fixed-ring orthogonal witnesses and compatible families; integral signed coordinate witnesses."
+first_action = "Write the integral/ring proof of the hull identity and its two modulus maps as an explicit interface."
+acceptance = ["Cover composite moduli without field-rank arguments.", "Specify reduction, scaled inflation, and coordinate equivariance.", "Compare literal code orthogonality with both existing bicycle routes."]
+falsification = ["Reject unrestricted edge-basis changes unless the pairing is transported.", "Retain a nonzero control where unscaled inflation fails."]
+
+[[question]]
+id = "ABC-RD-01"
+title = "Classify tower variation among nonsurjective realizations"
+kind = "repository_research_question"
+status = "active"
+priority = 2
+sources = ["LENZ", "PP"]
+dependencies = ["ABC-HULL-01", "ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE", "ABC-SURJECTIVE-REALIZATION-INVARIANCE"]
+scope = "Essential free-lattice realizations with identical complete labeled arithmetic data; ambient lattice held explicit."
+first_action = "Analyze the triangular family before expanding to source-classified inequivalent realizations."
+acceptance = ["State any finite enumeration bounds and equivalence conventions.", "Compare module profiles and both tower maps at prime, prime-power, and mixed composite moduli.", "State every additional hypothesis of a positive result."]
+falsification = ["The index-five pair must retain orders one and five at moduli five and ten.", "An order match at modulus twenty-five cannot erase the earlier mismatch."]
+
+[[question]]
+id = "ABC-MODULE-01"
+title = "Find sufficient explicit lattice, map, or pairing data"
+kind = "repository_research_question"
+status = "queued"
+priority = 3
+sources = ["RING", "PP"]
+dependencies = ["ABC-RD-01"]
+scope = "Enriched realization data; distinguish sufficiency, minimality, and invariance."
+first_action = "Define the proposed embedded lattice or compatible-map object and its allowed isomorphisms."
+acceptance = ["Name the added structure rather than silently changing arithmetic-matroid equality.", "Prove transport over all moduli and both transition maps.", "Separate a sufficient presentation from a minimal invariant."]
+falsification = ["Abstract quotient groups of every column subset agree for the index-five pair.", "Full-set Smith data or Gram determinant alone cannot certify invariance."]
+
+[[question]]
+id = "ABC-TORIC-01"
+title = "Audit published toric reconstruction questions"
+kind = "published_question_status_audit"
+status = "queued"
+priority = 4
+sources = ["PP", "PAG"]
+dependencies = ["ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE"]
+scope = "Arithmetic independence poset and integral-cohomology reconstruction questions; current open status unverified."
+first_action = "Check subsequent primary literature and pin matrices and equivalence notions before selecting a live question."
+acceptance = ["Record a dated primary-source status audit.", "Distinguish posets, rational cohomology, and integral cohomology.", "Extract exact realizations before linking a tower statistic to topology."]
+falsification = ["Known failed reconstruction directions cannot be presented as open conjectures."]
+
+[[question]]
+id = "ABC-JAC-01"
+title = "Add pairing-aware graph Jacobian questions"
+kind = "published_problem_and_repository_extension"
+status = "queued"
+priority = 5
+sources = ["JAC"]
+dependencies = ["ABC-GRAPH-MODULAR-BICYCLE"]
+scope = "Graph Jacobians with specified pairings; distinguish simple graphs and general multigraphs."
+first_action = "Audit later realization results, then specify exact monodromy-pairing transport on graph fixtures."
+acceptance = ["State the graph class and the pairing isomorphism notion.", "Check pairing transport under explicit witnesses.", "Do not infer pairing recovery from the abstract torsion groups."]
+falsification = ["Keep equal-group/different-pairing controls in a future pairing packet."]
+
+[[question]]
+id = "ABC-CELL-01"
+title = "Formulate a torsion-corrected cellular bicycle statement"
+kind = "repository_research_question"
+status = "queued"
+priority = 6
+sources = ["CELL"]
+dependencies = ["ABC-HULL-01", "ABC-UNIVERSAL-TORSION-MODEL"]
+scope = "Integer chain complexes with explicitly checked adjacent boundary maps and torsion homology."
+first_action = "Transcribe the established cut/flow exact sequences and their hypotheses before proposing a modular version."
+acceptance = ["Check the chain condition and distinguish cycles from boundaries.", "Name torsion correction terms and prove the proposed maps exact.", "Use both torsion-free and torsion-homology examples."]
+falsification = ["The scalar-two obstruction must block an unrestricted one-group torsion formula."]

@@ -1,0 +1,66 @@
+schema = 1
+checked_on = "2026-10-15"
+scope = "Primary-source connections, not an exhaustive current-status or novelty survey."
+
+[[source]]
+id = "LENZ"
+title = "Representations of weakly multiplicative arithmetic matroids are unique"
+url = "https://arxiv.org/abs/1704.08607"
+read_url = "https://arxiv.org/html/1704.08607v3"
+locator = "Theorem 1 and Example 3"
+supports = "Weakly multiplicative representation uniqueness and the same-arithmetic-data triangular family."
+boundary = "Does not state the repository's bicycle calculation or unrestricted tower invariance."
+
+[[source]]
+id = "PP"
+title = "Representations of torsion-free arithmetic matroids"
+url = "https://arxiv.org/abs/1908.04137"
+read_url = "https://ar5iv.labs.arxiv.org/html/1908.04137"
+locator = "Introduction; Sections 2, 5, 6, and 8; see existing local surjective source audit."
+supports = "Surjective uniqueness, general representation enumeration, signed Hermite forms, and a published arithmetic-independence-poset question."
+boundary = "A question stated in this paper is not certified to remain open today."
+
+[[source]]
+id = "HULL"
+title = "Galois hulls of cyclic serial codes over a finite chain ring"
+url = "https://arxiv.org/abs/2102.06995"
+read_url = "https://arxiv.org/html/2102.06995"
+locator = "Abstract and introduction: Euclidean hull definition and chain-ring setting."
+supports = "The code-hull terminology and research on hull parameters over finite chain rings."
+boundary = "Cyclic serial code formulas are not general arbitrary-matrix formulas."
+
+[[source]]
+id = "PAG"
+title = "Two Examples of Toric Arrangements"
+url = "https://arxiv.org/abs/1804.05767"
+read_url = "https://ar5iv.labs.arxiv.org/html/1804.05767"
+locator = "Introduction and Sections 2–3."
+supports = "Negative reconstruction results and the published cohomology-to-arrangement question."
+boundary = "Do not reverse a negative reconstruction direction or claim current open status without a follow-up audit."
+
+[[source]]
+id = "JAC"
+title = "Realization of groups with pairing as Jacobians of finite graphs"
+url = "https://arxiv.org/abs/1410.5144"
+read_url = "https://arxiv.org/abs/1410.5144"
+locator = "Abstract: partial pairing-realization results and simple-graph obstructions."
+supports = "Graph Jacobian realization with specified pairings is a distinct research problem."
+boundary = "Later progress must be audited before calling a specific case currently unresolved."
+
+[[source]]
+id = "CELL"
+title = "Cuts and Flows of Cell Complexes"
+url = "https://arxiv.org/abs/1206.6157"
+read_url = "https://ar5iv.labs.arxiv.org/html/1206.6157"
+locator = "Abstract and introduction: discriminant groups and torsion-(co)homology corrections."
+supports = "Established higher-dimensional cut/flow and critical-group relationships."
+boundary = "No arbitrary-modulus cellular bicycle theorem is imported here."
+
+[[source]]
+id = "RING"
+title = "Matroids over a ring"
+url = "https://arxiv.org/abs/1209.6571"
+read_url = "https://arxiv.org/abs/1209.6571"
+locator = "Introduction and Definition 2.1; integer and valuation-ring specializations."
+supports = "A module-valued framework extending arithmetic and valuated matroid data."
+boundary = "Abstract subset modules alone do not recover the bicycle tower of the local counterexample."

@@ -1,0 +1,1966 @@
+{
+  "bicycle_case_count": 20,
+  "bicycle_cases": [
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 2,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 2,
+      "orders": {
+        "1": 1
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 3,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 3,
+      "orders": {
+        "1": 1
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 4,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 4,
+      "orders": {
+        "1": 1
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 5,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "e26c9e0bf2d294ee9c8e88bd545997ba00e651735eb52191c24fbf9cbb392320",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "modulus": 5,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 6,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 6,
+      "orders": {
+        "1": 1
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 10,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "bf0bfd3b4ffe327d5f9540264b57608c4301eba8d92ec4a41f81b19bd09eb3d4",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "modulus": 10,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 15,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "7e96fe08f7fecd20ede7c2d20f673b59f6bc704a264b455fa5fd4cc03a6097ce",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          12,
+          9
+        ]
+      ],
+      "modulus": 15,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 1,
+      "edge_set_sha256": "b1de05ec9c1db98fd53994d90d9e7c1671348bc8fa3d53879f7c2b4f3eaec2c0",
+      "edges": [
+        [
+          0,
+          0
+        ]
+      ],
+      "modulus": 20,
+      "orders": {
+        "1": 1
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "ef5a862eaa1286a23e0317aa4d06b4a52af7f8abc0d5de1945e1b2171df29391",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          16,
+          12
+        ]
+      ],
+      "modulus": 20,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "482e13bd12e1fc9e805182cac399dbdbe571087b1bcd2eea30c5770070fe778c",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          20,
+          5
+        ]
+      ],
+      "modulus": 25,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "d20ca474a0135fa2803fe1d7dcf46abdf58b75817ba4eeeaf89261ad5b71fdf8",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          20,
+          15
+        ]
+      ],
+      "modulus": 25,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "db75edd1cfc8212110a376a01427f60e3f265f60bb2e9c73c876a192e3694ffc",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          40
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          30,
+          20
+        ],
+        [
+          40,
+          10
+        ]
+      ],
+      "modulus": 50,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "source"
+    },
+    {
+      "bicycles": 5,
+      "edge_set_sha256": "11cda5d00d8388747cd6dabaf777cb3b6bea9fce1a364e01d5e538fba92bc7be",
+      "edges": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          30,
+          10
+        ],
+        [
+          40,
+          30
+        ]
+      ],
+      "modulus": 50,
+      "orders": {
+        "1": 1,
+        "5": 4
+      },
+      "side": "target"
+    }
+  ],
+  "claims": [
+    "ABC-ARITHMETIC-SIGNATURE",
+    "ABC-ARITHMETIC-REALIZATION-COUNTEREXAMPLE"
+  ],
+  "common_arithmetic_encoding_sha256": "470d53ee20bb1da1aed37dd1126d03fb1b20d77bd79bcd94fe6378884e867e4b",
+  "comparison_count": 6,
+  "comparisons": [
+    {
+      "equal": true,
+      "permutation": [
+        0,
+        1
+      ],
+      "result": true,
+      "source": "counterexample-a",
+      "target": "counterexample-b"
+    },
+    {
+      "equal": true,
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "result": true,
+      "source": "parallel-nonprimitive-loop",
+      "target": "parallel-relabel"
+    },
+    {
+      "equal": false,
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "result": false,
+      "source": "parallel-nonprimitive-loop",
+      "target": "parallel-relabel"
+    },
+    {
+      "equal": false,
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "result": false,
+      "source": "dependent-a",
+      "target": "dependent-b"
+    },
+    {
+      "equal": false,
+      "permutation": [
+        0,
+        1
+      ],
+      "result": false,
+      "source": "primitive-non-tu",
+      "target": "parallel-tu"
+    },
+    {
+      "equal": false,
+      "permutation": [
+        0,
+        1
+      ],
+      "result": false,
+      "source": "same-full-smith-a",
+      "target": "same-full-smith-b"
+    }
+  ],
+  "counterexample_moduli": [
+    5,
+    10
+  ],
+  "fixture_count": 14,
+  "fixtures": [
+    {
+      "arithmetic_data": {
+        "ambient_rank": 0,
+        "ground_set_size": 0,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          }
+        ]
+      },
+      "encoding_sha256": "64f24e0eb083a99f458386f71287e603683dcd5acd66b65bf940c6bbb77dc445",
+      "fixture": "empty",
+      "subsets": [
+        {
+          "certificate_sha256": "99524d453f4e8b45da76907d7564c2a3f48a15650ce1db02180155298d6763e5",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 0,
+        "ground_set_size": 3,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 2,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 3,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 4,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 5,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 6,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 7,
+            "multiplicity": "1",
+            "rank": 0
+          }
+        ]
+      },
+      "encoding_sha256": "81a68be6de8139bb0b2e72606fa2e6d9152bab02ecb9f01c5433db28c0a24829",
+      "fixture": "rank-zero-loops",
+      "subsets": [
+        {
+          "certificate_sha256": "99524d453f4e8b45da76907d7564c2a3f48a15650ce1db02180155298d6763e5",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "81eef50c381cd10ae424ed18c9808ff20c2f82a524fee86d53e877335b7fd637",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "81eef50c381cd10ae424ed18c9808ff20c2f82a524fee86d53e877335b7fd637",
+          "mask": 2,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "4398e8443473c8adee398079174724a0d83a1ce437cbb9f65df003a984a79003",
+          "mask": 3,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "81eef50c381cd10ae424ed18c9808ff20c2f82a524fee86d53e877335b7fd637",
+          "mask": 4,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "4398e8443473c8adee398079174724a0d83a1ce437cbb9f65df003a984a79003",
+          "mask": 5,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "4398e8443473c8adee398079174724a0d83a1ce437cbb9f65df003a984a79003",
+          "mask": 6,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "1a211ef17d211a82a14bf1f7cd7446baf5cd0209c74f655c0d47fb9c8fb7117f",
+          "mask": 7,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 1,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "2",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "27fb4113b64494198bd467f660ef389c85568f09d56c3ac971c1855188af239e",
+      "fixture": "scalar-two",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b07bdefb789dc6aa43cfe734d0cf768da642f4529cdf22716bd5aa4b90f5ac57",
+          "mask": 1,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 3,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "4",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 4,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 5,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 6,
+            "multiplicity": "4",
+            "rank": 1
+          },
+          {
+            "mask": 7,
+            "multiplicity": "2",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "af13de2349e9eadf2c21f864cf94dd335598a86cb954b064a291b3501759c45d",
+      "fixture": "parallel-nonprimitive-loop",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b07bdefb789dc6aa43cfe734d0cf768da642f4529cdf22716bd5aa4b90f5ac57",
+          "mask": 1,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "bb79c92f72a0e5f741e42d3feba24273e6c9d2aed02a07dc35582bc236c83070",
+          "mask": 2,
+          "multiplicity": "4",
+          "rank": 1,
+          "smith_factors": [
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "c9169d6ae5d52a65b83f31f25192b191e01d18bc0590657012d2a4d663415b3b",
+          "mask": 3,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "3f2257b5a7057ed79ab32e4e6b103a70067f35bc066ffcb0b0076c05d6e7f39e",
+          "mask": 4,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "a9c08594795bf6d8f3f2854101d776b957a58760959debbbd4337898f67855bf",
+          "mask": 5,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "057bc29c867a88295a7a1766121e961e0b4533e12729622911a9fc7dbbb63982",
+          "mask": 6,
+          "multiplicity": "4",
+          "rank": 1,
+          "smith_factors": [
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "3b97894a5f2834ba354de694cf5b8eb31c9376d5bc254f9141057c00833343ad",
+          "mask": 7,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 3,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 2,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 4,
+            "multiplicity": "4",
+            "rank": 1
+          },
+          {
+            "mask": 5,
+            "multiplicity": "4",
+            "rank": 1
+          },
+          {
+            "mask": 6,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 7,
+            "multiplicity": "2",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "74d021b8ca55a798f1af358a26399add22d95af0c7e552818c4bdf2704243369",
+      "fixture": "parallel-relabel",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "3f2257b5a7057ed79ab32e4e6b103a70067f35bc066ffcb0b0076c05d6e7f39e",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b07bdefb789dc6aa43cfe734d0cf768da642f4529cdf22716bd5aa4b90f5ac57",
+          "mask": 2,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "8c95555e732ee3d2bd9dcc40d8a9f31fe36993857a6938aa299bb90d3cd4d2c9",
+          "mask": 3,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "afb08ae367f9fa18fd0c20b3690e98743d64c0c9251a444cd63c57b694ea5eb0",
+          "mask": 4,
+          "multiplicity": "4",
+          "rank": 1,
+          "smith_factors": [
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "0d173a3a2610fab4e4b1a426b328e5881d51fb126db5d4ec78565ea323bab0e8",
+          "mask": 5,
+          "multiplicity": "4",
+          "rank": 1,
+          "smith_factors": [
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "8adbba83a50ba10d567a323d7bd6939f52473cb88f99058cea506162a6a3a600",
+          "mask": 6,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "f2c913dcc1eb2ca60c7549dfc795a1485c2c17ebe342ef2cc3874091b98c66a6",
+          "mask": 7,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 4,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 4,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 5,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 6,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 7,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 8,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 9,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 10,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 11,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 12,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 13,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 14,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 15,
+            "multiplicity": "2",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "0c7fa51e45c023935147bd3ea70e65c286d8d52e3b4112eb1c7f7f6405d320e8",
+      "fixture": "dependent-a",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b7f0465b1fdb47ebe9419fd8b127df8b0b945ddc3ad69c5ceeec84d0cf5a9f78",
+          "mask": 1,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "da6cd094f6e4063dc74cb32a795f09b170843b072fb62b92249fc95e119d7e24",
+          "mask": 2,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "9a3ee96ba9d640b194ab93d4a2d9c0301f600c1e92870b07397fac7cfec3321d",
+          "mask": 3,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "1be147728fdd8648bfefbc815b272ca74cebc90bea772d58ab4cca460d85bfa3",
+          "mask": 4,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "c7f1b889487fd2e9ae134809c73cdb871bd867267699dd18c942984d971ce052",
+          "mask": 5,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "1fe54a053bae357c1e359c675518578f2ab18c9fb4d114766f74109f1edf6689",
+          "mask": 6,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "7eaf42f749a5d2016e67ff6533732b95d702ad2fb5723bc1c33cabd2ffefb32c",
+          "mask": 7,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "0c1bab11a3abd108e75fe6f8291204dbbd0ec272489e59667599d851763397ed",
+          "mask": 8,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "2aa20f85b460f26bb16be7feddac703fb596268185858d0f998f184af431fa72",
+          "mask": 9,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "82901b3007487b295c1a83778fa3be09a7dc0be14678635b9a1e0ea29c1823c7",
+          "mask": 10,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "8ba2f622c906070cb702d8a17fb5ce10cebe649fe5b344b86927200463f7f485",
+          "mask": 11,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "6128fc6d1786d51395643dc07ae6155412c6e40b8f4d0c7a3c77ce554f733678",
+          "mask": 12,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "fc9942399fe7f1b3bb29cc532b1267fe027e82f82a0ca38ac6c4d921dff53800",
+          "mask": 13,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "0d957890fcfe358c190ca92a065128c60e621dbdb29b5e94f12ebf43f0db7555",
+          "mask": 14,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "153565503ceabe19aff1b2dff12908c855a7424251f5368fa50c1334e3a4e636",
+          "mask": 15,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 4,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 4,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 5,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 6,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 7,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 8,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 9,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 10,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 11,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 12,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 13,
+            "multiplicity": "4",
+            "rank": 2
+          },
+          {
+            "mask": 14,
+            "multiplicity": "2",
+            "rank": 2
+          },
+          {
+            "mask": 15,
+            "multiplicity": "2",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "c1a9e676093993de660f9795d1344b680c0cdd531c077a58c48a662263cdca58",
+      "fixture": "dependent-b",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b7f0465b1fdb47ebe9419fd8b127df8b0b945ddc3ad69c5ceeec84d0cf5a9f78",
+          "mask": 1,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "da6cd094f6e4063dc74cb32a795f09b170843b072fb62b92249fc95e119d7e24",
+          "mask": 2,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "9a3ee96ba9d640b194ab93d4a2d9c0301f600c1e92870b07397fac7cfec3321d",
+          "mask": 3,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "4ab8acee5d8c3e384b6cc21b9ebe649e386ac68ccb898168da2f9a8108790f8e",
+          "mask": 4,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "2dd9eda0c6895dff0cc629b73d5ef39fa789a37ebf1122fd607cfbf762d79f88",
+          "mask": 5,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "2d8abdd1e1e6acd42fdaf0e4f72b19af2f19d57ac8f9dd6af6da32cdccbb1b3d",
+          "mask": 6,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "18dbac53997e51f7585b45ba201eee6ad318434c696c4e89a289e4ae5d27a471",
+          "mask": 7,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "0c1bab11a3abd108e75fe6f8291204dbbd0ec272489e59667599d851763397ed",
+          "mask": 8,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "2aa20f85b460f26bb16be7feddac703fb596268185858d0f998f184af431fa72",
+          "mask": 9,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "82901b3007487b295c1a83778fa3be09a7dc0be14678635b9a1e0ea29c1823c7",
+          "mask": 10,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "8ba2f622c906070cb702d8a17fb5ce10cebe649fe5b344b86927200463f7f485",
+          "mask": 11,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "e0b94b1608bf1532959cdab1a67d4814fc7a6c21b3db5a1f918f700d892657d1",
+          "mask": 12,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "763ebeca7852b208aba1ed59fab3e88d73cee326c54a7f36da1f44b8fa78b944",
+          "mask": 13,
+          "multiplicity": "4",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "certificate_sha256": "c4709496f80c1cbf60d3b67027fa7efc6b7724d5f851c824c726d48681c31789",
+          "mask": 14,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "c29b5fb35b197cd0c773965a339a0ff0bbb68e5080f63ec7546614bb2cb04f7e",
+          "mask": 15,
+          "multiplicity": "2",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "5",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "470d53ee20bb1da1aed37dd1126d03fb1b20d77bd79bcd94fe6378884e867e4b",
+      "fixture": "counterexample-a",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "f41cc2e039d144b7d39a01c3eaa8b5e897701c63e55cd745d850e1eee413aa3f",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "c504ba29a2f6d6cc7870ad1dd8de37a9865cc7fb58e6a6bcaa51b6a3a820d894",
+          "mask": 2,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "ea97f48abad655f747a144a800b0f668c6e79752f7f3d73656befe7feb0d6137",
+          "mask": 3,
+          "multiplicity": "5",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "5",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "470d53ee20bb1da1aed37dd1126d03fb1b20d77bd79bcd94fe6378884e867e4b",
+      "fixture": "counterexample-b",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "f41cc2e039d144b7d39a01c3eaa8b5e897701c63e55cd745d850e1eee413aa3f",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "68bf01888729a046e726abefbeb837fd14c00bc8422e46089b32eaace75270ed",
+          "mask": 2,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "c3d53d302ba944bfe8830ac8a52079199a65bfb89249d09b5fda4ffd59c4b288",
+          "mask": 3,
+          "multiplicity": "5",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "1",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "b7eb355330330d2b5328b16c04b67a4c1c1c5b34a5fc33027814368f66ee4377",
+      "fixture": "primitive-non-tu",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "f79bdd6b4d804dbb9e7b81efb74d42de2966dd826d97cafa682a7d84c6450dc7",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "b07bdefb789dc6aa43cfe734d0cf768da642f4529cdf22716bd5aa4b90f5ac57",
+          "mask": 2,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "50ffc8ba675570734b8b26ad3c708ff56d3683091448b804ce1abf1cfa17289e",
+          "mask": 3,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "1",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "5cf54d8ad2c4bce221d1881ab5dc22851f493931f37ba40f1e1f2a8ea88775e6",
+      "fixture": "parallel-tu",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "f79bdd6b4d804dbb9e7b81efb74d42de2966dd826d97cafa682a7d84c6450dc7",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "f79bdd6b4d804dbb9e7b81efb74d42de2966dd826d97cafa682a7d84c6450dc7",
+          "mask": 2,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "3027cd8a1f8242b479035a75e220a5a1e25093e360f6449fa0dfbb7e309dddd3",
+          "mask": 3,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "2",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "3",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "6",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "ed32ef89a4ba901144e78c14c929a61de8637daa302208eb29c5d50ed2a4e869",
+      "fixture": "same-full-smith-a",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "b7f0465b1fdb47ebe9419fd8b127df8b0b945ddc3ad69c5ceeec84d0cf5a9f78",
+          "mask": 1,
+          "multiplicity": "2",
+          "rank": 1,
+          "smith_factors": [
+            "2"
+          ]
+        },
+        {
+          "certificate_sha256": "63a50b28c086efa699854cf87294789802e56df2cee7a4e64029743cbb948678",
+          "mask": 2,
+          "multiplicity": "3",
+          "rank": 1,
+          "smith_factors": [
+            "3"
+          ]
+        },
+        {
+          "certificate_sha256": "f221068634f41b433ba4ff929b8547bd1724f873139536e82c316f3c63dd76a4",
+          "mask": 3,
+          "multiplicity": "6",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 2,
+        "ground_set_size": 2,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "6",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "6",
+            "rank": 2
+          }
+        ]
+      },
+      "encoding_sha256": "eacd855cca582cccd35cf8fa334309f8a8dd08ea1ad3810aacce9d0489663c6b",
+      "fixture": "same-full-smith-b",
+      "subsets": [
+        {
+          "certificate_sha256": "6722496db1c4154b90070df05afe7a7bd6f780924a1bec4fcaf38d824394f60e",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "f41cc2e039d144b7d39a01c3eaa8b5e897701c63e55cd745d850e1eee413aa3f",
+          "mask": 1,
+          "multiplicity": "1",
+          "rank": 1,
+          "smith_factors": [
+            "1"
+          ]
+        },
+        {
+          "certificate_sha256": "d7e6769ba746b6333d26bd3a8f227ff8fee57344af992704f23f9f6243b9af11",
+          "mask": 2,
+          "multiplicity": "6",
+          "rank": 1,
+          "smith_factors": [
+            "6"
+          ]
+        },
+        {
+          "certificate_sha256": "44a777da5a9f5be0ad3775517d083ca4668c641774064cb86911825aba1b2dbe",
+          "mask": 3,
+          "multiplicity": "6",
+          "rank": 2,
+          "smith_factors": [
+            "1",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "arithmetic_data": {
+        "ambient_rank": 1,
+        "ground_set_size": 3,
+        "schema": "abc-arithmetic-matroid-v1",
+        "subsets": [
+          {
+            "mask": 0,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 1,
+            "multiplicity": "1208925819614629174706176",
+            "rank": 1
+          },
+          {
+            "mask": 2,
+            "multiplicity": "3626777458843887524118528",
+            "rank": 1
+          },
+          {
+            "mask": 3,
+            "multiplicity": "1208925819614629174706176",
+            "rank": 1
+          },
+          {
+            "mask": 4,
+            "multiplicity": "1",
+            "rank": 0
+          },
+          {
+            "mask": 5,
+            "multiplicity": "1208925819614629174706176",
+            "rank": 1
+          },
+          {
+            "mask": 6,
+            "multiplicity": "3626777458843887524118528",
+            "rank": 1
+          },
+          {
+            "mask": 7,
+            "multiplicity": "1208925819614629174706176",
+            "rank": 1
+          }
+        ]
+      },
+      "encoding_sha256": "1df505fde16335184650435012e5ee0051c56e23fdebd05de2bce691736a133c",
+      "fixture": "large-integer-index",
+      "subsets": [
+        {
+          "certificate_sha256": "99689adc5e4e89420e6f471141e154f803cf5c77633ba74cf36486b914827fe3",
+          "mask": 0,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "5c291b12d648c247c59ef6edc0f29baa7a6de10e9c4029e92ad2be5a56da5b30",
+          "mask": 1,
+          "multiplicity": "1208925819614629174706176",
+          "rank": 1,
+          "smith_factors": [
+            "1208925819614629174706176"
+          ]
+        },
+        {
+          "certificate_sha256": "3cc31ae0f00d33c9745f9d54c435699e643251be0a9d9250397cb0cc4ba73c9d",
+          "mask": 2,
+          "multiplicity": "3626777458843887524118528",
+          "rank": 1,
+          "smith_factors": [
+            "3626777458843887524118528"
+          ]
+        },
+        {
+          "certificate_sha256": "a4e960705ecb647d51305e950e971a2fac659763d1beabdda8332c69cda0a359",
+          "mask": 3,
+          "multiplicity": "1208925819614629174706176",
+          "rank": 1,
+          "smith_factors": [
+            "1208925819614629174706176"
+          ]
+        },
+        {
+          "certificate_sha256": "3f2257b5a7057ed79ab32e4e6b103a70067f35bc066ffcb0b0076c05d6e7f39e",
+          "mask": 4,
+          "multiplicity": "1",
+          "rank": 0,
+          "smith_factors": []
+        },
+        {
+          "certificate_sha256": "e43f63060172712401e23a7bea8d1695282cb69f9c2a08280a427346af9d5446",
+          "mask": 5,
+          "multiplicity": "1208925819614629174706176",
+          "rank": 1,
+          "smith_factors": [
+            "1208925819614629174706176"
+          ]
+        },
+        {
+          "certificate_sha256": "2760a883cc8771d36c9cccca3b06a12bb4a1bd2b09b734ba1aef4d1146ff2210",
+          "mask": 6,
+          "multiplicity": "3626777458843887524118528",
+          "rank": 1,
+          "smith_factors": [
+            "3626777458843887524118528"
+          ]
+        },
+        {
+          "certificate_sha256": "a1f152227f91a3a07aebbecc48bf9c6c701bbcdeb65b502f42f26dec1e0554f7",
+          "mask": 7,
+          "multiplicity": "1208925819614629174706176",
+          "rank": 1,
+          "smith_factors": [
+            "1208925819614629174706176"
+          ]
+        }
+      ]
+    }
+  ],
+  "refuted_claims": [
+    "ABC-MAIN",
+    "ABC-REALIZATION-INVARIANCE"
+  ],
+  "schema": 1,
+  "scope": "exact essential arithmetic data and explicit refutation, not an exhaustive realization census",
+  "sources_sha256": {
+    "conformance/fixtures/arithmetic-matroid-v1.json": "706b9798ef5eae2c88b075dad78b76f32f27358d2a00910c6eb319c3a44a658c",
+    "conformance/fixtures/regular-modular-bicycle-v1.json": "04abf4748ae731e0a531fa1a002cd8964a8a026ed7044b0777bc1dabbcabd69e",
+    "conformance/replay_arithmetic_matroid.py": "078b8eff5f32d3e34e94fd7fc120327dfaa52d97829e6bbf7379d54fb95f17be",
+    "conformance/test_arithmetic_matroid.py": "167eacf7df5bbb51f7d9e8233f4c4d868f98c6c305c32247c0397b1dc28bb19e",
+    "kernel/arithmetic_matroid.py": "78d4ade69f1d0b56909dc3edbbe2efccf5f4ac833839c3ce09a987a907520d3d",
+    "kernel/graph_bicycle.py": "fe87f4f705b23f1969d6c179a7bc6f1596240142ecd4a3abc4c68752a864d40c",
+    "kernel/regular_bicycle.py": "f703b9646a33788ffa3e9c057b95fde9c2f9a8b157df73ae75d3bffb95887001",
+    "oracles/arithmetic_matroid.py": "d923f50328fa5d949827ac71cf5cebbedf21ade544fd695ac07f4310c6328cc4",
+    "oracles/graph_snf.py": "89cd703517fb0b8e6568c04f98f203b04a37e6d00f53cc089c29ce352646e1bc",
+    "oracles/regular_snf.py": "5ae21105946ae2a8ee8746e6b032981693094e3c35f895ff9d87a8e3aa3e5979",
+    "proof/arithmetic-matroid-signature.md": "0450065d95c224313356a069fa4da5decc33104866e040c9602166d5e9fab3d5",
+    "proof/arithmetic-realization-counterexample.md": "5f7cbf6b8f46551a7117bf136d5e091ef097221b6afe8bb0e1d3a8eeeb943288",
+    "sources/arithmetic-matroid-background.md": "300391d6029d01e19659ced7c63a4cfe64594e4f76350f44be9b0a716999f51b"
+  },
+  "subset_count": 91
+}

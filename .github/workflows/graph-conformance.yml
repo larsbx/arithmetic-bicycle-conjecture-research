@@ -17,11 +17,26 @@ jobs:
           python-version: '3.11'
       - name: Registry and authority locators
         run: python conformance/check_claims.py
+      - name: Research program references and status boundaries
+        run: python conformance/check_research_program.py
       - name: Independent exact conformance
         run: python -m unittest discover -s conformance -p 'test_*.py' -v
       - name: Source-pinned receipt replay
         run: python conformance/replay_graph_modular_bicycle.py --check
       - name: Fixed-TU source-pinned receipt replay
         run: python conformance/replay_regular_modular_bicycle.py --check
+      - name: Regular representation source-pinned receipt replay
+        run: python conformance/replay_regular_representation.py --check
+      - name: Arithmetic signatures and counterexample receipt replay
+        run: python conformance/replay_arithmetic_matroid.py --check
+      - name: Surjective arithmetic representation receipt replay
+        run: python conformance/replay_surjective_representation.py --check
+      - name: Expanded Phase 6 rank-two census receipt
+        run: python experiments/surjective_rank_two.py --check
+      - name: Realization-dependence and code-hull starting receipt
+        run: python experiments/realization_dependence.py --check
+      - name: Code-hull quotient and tower receipt
+        # The quotient packet supplements the seven historical receipts.
+        run: python conformance/replay_code_hull.py --check
       - name: Patch whitespace
         run: git show --format= --check HEAD

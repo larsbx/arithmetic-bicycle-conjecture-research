@@ -81,7 +81,7 @@ current = ["conformance"]
 [[plane]]
 id = "sources"
 target = "sources"
-authority = "evidence"           # primary-source provenance
+authority = "pinned_external"
 required = true
 current = ["sources"]
 

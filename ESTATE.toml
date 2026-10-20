@@ -103,7 +103,7 @@ current = ["paper"]
 name = "Python"
 authority = "canonical"
 roles = ["kernel", "oracle", "experiment"]
-acceptance_authority = false
+acceptance_authority = true
 
 [migration]
 mode = "boundary_first"

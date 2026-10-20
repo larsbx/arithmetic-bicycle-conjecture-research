@@ -29,11 +29,16 @@ Future canonical exact machinery for:
 3. regular-matroid TU fixtures;
 4. arithmetic-matroid realization comparison.
 
-At bootstrap, no kernel has acceptance authority.
-Candidate exact maps live in `kernel/graph_bicycle.py` and
-`kernel/regular_bicycle.py`; Python acceptance authority remains false.
-The separate graph and fixed-TU integral proof records are theorem
-authority. Their independent small-fixture evidence lives in `oracles/`
+Python is the canonical language and holds acceptance authority over one
+boundary: **exact certificate acceptance**. The kernel is the single
+implementation that accepts or rejects a finite computational certificate:
+verified Smith certificates (`kernel/arithmetic_matroid.py`), TU-minor
+verification (`kernel/regular_bicycle.py`), surjectivity in the declared
+lattice (`kernel/surjective_bicycle.py`), integral equivalence witnesses
+(`kernel/regular_equivalence.py`, `kernel/surjective_equivalence.py`) and
+code-hull cosets (`kernel/code_hull.py`). Kernel acceptance supports the
+`computed` status only. It never yields `proved`: the separate graph and
+fixed-TU integral proof records remain theorem authority. Their independent small-fixture evidence lives in `oracles/`
 and `conformance/`.
 
 `kernel/regular_equivalence.py` adds verified witnesses for a prescribed
@@ -105,7 +110,8 @@ Projective geometry is explanatory and diagnostic. Integral claims remain govern
 `proof/code-hull-tower.md` proves the arbitrary-matrix ring interface,
 including the Gram-kernel quotient and both transition maps. The candidate
 `kernel/code_hull.py` implements exact small-fixture cosets and checked
-fixed-modulus coordinate witnesses. Its source-pinned packet is finite
-cross-check evidence, with no acceptance authority. This closes research
+fixed-modulus coordinate witnesses under the kernel's certificate
+boundary. Its source-pinned packet is finite cross-check evidence for
+`computed` status, not theorem authority. This closes research
 task ABC-HULL-01 under a distinct theorem ID ABC-CODE-HULL-TOWER; it does
 not reinstate unrestricted arithmetic realization invariance.

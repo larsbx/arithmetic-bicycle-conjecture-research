@@ -308,7 +308,7 @@ python conformance/replay_surjective_representation.py --write
 All enumeration is exhaustive within the stated finite scope, without
 silent truncation. These are small-fixture algorithms, not a scalable
 arithmetic classification. The integral proof is theorem authority;
-Python acceptance authority remains false.
+the Python kernel accepts certificates for `computed` status only.
 
 ## Phase 6 direct boundaries and expanded rank-two census
 

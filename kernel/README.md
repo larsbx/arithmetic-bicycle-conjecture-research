@@ -6,9 +6,10 @@ enumeration, and critical-group coordinates using integer arithmetic and
 multigraphs; its modulus inputs are arbitrary integers at least two.
 
 The integral theorem in `proof/graph-modular-bicycle.md` supplies proof
-authority. Python remains a candidate language without acceptance authority
-under `ESTATE.toml`; executable results are checked against the independent
-oracle and source-pinned conformance receipts.
+authority. Under `ESTATE.toml` the Python kernel is the acceptance authority
+for exact certificates (supporting `computed`, never `proved`); executable
+results are checked against the independent oracle and source-pinned
+conformance receipts.
 
 `regular_bicycle.py` implements candidate maps for a fixed full-row-rank
 TU matrix. It verifies every square minor, constructs an integral right

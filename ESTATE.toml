@@ -12,7 +12,8 @@ inv = ["INV-ABC"]
 default_branch = "main"
 
 [origin]
-decided_by = "stated"         # adopted by the owner: larsbx/estate-governance DR-0001
+decided_by = "stated"
+decision = "DR-0001"          # larsbx/estate-governance docs/decisions
 # Origin: 2026-10-07 ChatGPT working thread, Arithmetic Bicycle Conjecture bootstrap.
 chats = []
 artifacts = []

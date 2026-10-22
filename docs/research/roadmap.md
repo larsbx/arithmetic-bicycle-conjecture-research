@@ -175,6 +175,8 @@ and an explicit distinction between fixed-ring orthogonal maps and integral
 signed permutations. Reduction need not be onto; scaled inflation is
 injective and both maps commute with the quotient presentation.
 
+A further [exact all-modulus three-edge presentation](../../proof/three-edge-full-tower-presentation.md) gives (s,u)-coordinate congruences, coherent maps, and a Smith-based order formula for each family member. An explicit modulus-nine control is noncyclic: (Z/3)^2. Its [versioned receipt](../../conformance/receipts/three-edge-structure-v1.json) records 256 bounded comparisons and is CI-replayed. This is not a classification of parameter choices with isomorphic complete towers; ABC-RD-01 remains active.
+
 Phase 6 follow-up (October 22): a separate
 [source-pinned v2 evidence packet](../../conformance/receipts/phase6-realization-dependence-v2.json)
 records the triangular computations and a nonparallel 2-by-3

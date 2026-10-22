@@ -46,3 +46,9 @@ claim that Lean verified any general nonsurjective theorem.
 
 The original claims `ABC-MAIN`, `ABC-REALIZATION-INVARIANCE`,
 `ABC-UNIVERSAL-TORSION-MODEL` remain retracted.
+
+`ABC/SurjectiveThreeEdge.lean` adds ring-level Gram determinant,
+split-transpose injectivity and cycle normalization identities. These
+new lemmas are uncompiled locally. The restricted cyclic theorem's
+finite-field dimension, Smith and tower arguments are written in
+`proof/surjective-three-edge-cyclic.md`, not fully formalized in Lean.

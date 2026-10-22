@@ -1,0 +1,26 @@
+{
+  "authority": "non_authoritative_experiment",
+  "box_entries": [
+    -2,
+    2
+  ],
+  "claim_promotions": [],
+  "extra_no_unit_minor_realizations": 2,
+  "lean_status": "unverified_partial_formalization",
+  "source_sha256": {
+    "conformance/replay_surjective_three_edge.py": "6276b391636ab369246b8b5bcffd6504766337a9bcdcbc6b4ea8b84ed4cef215",
+    "conformance/test_surjective_three_edge.py": "e5acaa2e63b2303f3f56d50ba7503b046b76a4cd1243635a023cfb332d6cb227",
+    "kernel/arithmetic_matroid.py": "78d4ade69f1d0b56909dc3edbbe2efccf5f4ac833839c3ce09a987a907520d3d",
+    "kernel/graph_bicycle.py": "fe87f4f705b23f1969d6c179a7bc6f1596240142ecd4a3abc4c68752a864d40c",
+    "kernel/regular_bicycle.py": "f703b9646a33788ffa3e9c057b95fde9c2f9a8b157df73ae75d3bffb95887001",
+    "kernel/surjective_bicycle.py": "ad149fde0b0022a6bb3c97ac41163e6e4ce0ab143e36a2cccaafc59f9259ea32",
+    "lean/ABC/SurjectiveThreeEdge.lean": "3e143f1122cbe99f2e26a29f9a231b1fd07a6cdaa45afe4e06cf2715ba28c13e",
+    "oracles/arithmetic_matroid.py": "d923f50328fa5d949827ac71cf5cebbedf21ade544fd695ac07f4310c6328cc4",
+    "oracles/graph_snf.py": "89cd703517fb0b8e6568c04f98f203b04a37e6d00f53cc089c29ce352646e1bc",
+    "oracles/regular_snf.py": "5ae21105946ae2a8ee8746e6b032981693094e3c35f895ff9d87a8e3aa3e5979",
+    "proof/surjective-three-edge-cyclic.md": "cd3244aab3bdb997c8803768225477d6a37bfa805eb4da23cba352a2f3a78d22"
+  },
+  "surjective_matrices": 7176,
+  "ternary_signature_representatives": 10,
+  "tests_run": 4
+}

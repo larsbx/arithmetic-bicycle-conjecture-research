@@ -1,0 +1,451 @@
+{
+  "authority": "non_authoritative_experiment",
+  "claim_promotions": [],
+  "nonparallel_bounded_census": [
+    {
+      "admissible": [
+        1,
+        2,
+        3
+      ],
+      "b": 5,
+      "distinct_orders": [
+        1
+      ],
+      "order_at_b": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "admissible": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "b": 7,
+      "distinct_orders": [
+        1,
+        7
+      ],
+      "order_at_b": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "admissible": [
+        1,
+        4,
+        7
+      ],
+      "b": 9,
+      "distinct_orders": [
+        3
+      ],
+      "order_at_b": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          7,
+          3
+        ]
+      ]
+    },
+    {
+      "admissible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "b": 11,
+      "distinct_orders": [
+        1
+      ],
+      "order_at_b": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ]
+    },
+    {
+      "admissible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "b": 13,
+      "distinct_orders": [
+        1,
+        13
+      ],
+      "order_at_b": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    "ABC-RD-01",
+    "ABC-MODULE-01"
+  ],
+  "schema": 2,
+  "scope": "triangular bounded checks plus 2x3 nonparallel b=7 controls, b=3..13 sweep",
+  "source_git_blob_sha1": {
+    "conformance/replay_phase6_research.py": "1f0cb9847ed24357ac39bbbf24c55ececa32e36c",
+    "conformance/test_phase6_research.py": "8d9094ee52e50304f309e79d3ff627f2d85d0663",
+    "experiments/three_edge_family.py": "e6d92825bfa9497a77d7bbddf6251cf018ac8f5c",
+    "experiments/triangular_family.py": "2f57441824c965afe87df1b5b23cf6d6eb48d4dc",
+    "lean/ABC.lean": "155983e7c5e9866110a8ca47ea0083bd16975bc6",
+    "lean/ABC/ThreeEdge.lean": "87af1839e406a6ad6f389273ab011098c4d5985b",
+    "lean/ABC/Triangular.lean": "6b1a83bae537cef095945ab556737c87ba4752ce",
+    "lean/lakefile.toml": "acf6053fceea60971d1b9bfd4ab316f82d8cd581",
+    "lean/lean-toolchain": "a6aff065db2882c535684f8c5bcd4f16e9a23915",
+    "proof/nonparallel-three-edge.md": "4dde3fadafa30f1dd64494383714daf09c77d413",
+    "proof/triangular-family-tower.md": "4aaedd0bde9addcea6f4209e91deb79efe598d9b"
+  },
+  "three_edge_controls": [
+    {
+      "a": 1,
+      "b": 7,
+      "group_orders": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          49,
+          7
+        ]
+      ],
+      "group_vectors_sha256": [
+        {
+          "digest": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+          "n": 2
+        },
+        {
+          "digest": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+          "n": 7
+        },
+        {
+          "digest": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+          "n": 14
+        },
+        {
+          "digest": "91d33cc72b5db0e67e398a2a1718531729aff585d6afe5f0163c1e02e2cbdedd",
+          "n": 49
+        }
+      ],
+      "map_image_orders": [
+        [
+          2,
+          14,
+          1,
+          1
+        ],
+        [
+          7,
+          14,
+          1,
+          1
+        ],
+        [
+          7,
+          49,
+          1,
+          1
+        ]
+      ],
+      "signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "group_orders": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          49,
+          7
+        ]
+      ],
+      "group_vectors_sha256": [
+        {
+          "digest": "49f9276b7d051b6c3c7eecb593e618a53363a6921320bdeef33cad970fcdd6db",
+          "n": 2
+        },
+        {
+          "digest": "e5f141ffa2cff535b30c5e5ad59a7799a24f96a1faf41cb19ffd27a5175b1d5d",
+          "n": 7
+        },
+        {
+          "digest": "101e313c9fc3097dee4bbfbd1ed58afaddd550d4e12ea58809ee4b5ce8de5a71",
+          "n": 14
+        },
+        {
+          "digest": "af6397870e0b2ac19753e0a4e6fa662d645b40890d82d42cf3e80e4dd1d69cfd",
+          "n": 49
+        }
+      ],
+      "map_image_orders": [
+        [
+          2,
+          14,
+          1,
+          1
+        ],
+        [
+          7,
+          14,
+          7,
+          7
+        ],
+        [
+          7,
+          49,
+          1,
+          7
+        ]
+      ],
+      "signature": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    }
+  ],
+  "triangular_baseline": {
+    "equal_class_parameter_pairs": 155,
+    "index13": {
+      "1": {
+        "13": 1,
+        "26": 1,
+        "169": 13
+      },
+      "2": {
+        "13": 1,
+        "26": 1,
+        "169": 13
+      }
+    },
+    "index5": {
+      "1": {
+        "5": 1,
+        "10": 1,
+        "25": 5
+      },
+      "2": {
+        "5": 5,
+        "10": 5,
+        "25": 5
+      }
+    },
+    "literal_formula_cases": 1988,
+    "tower_map_instances": 6200
+  }
+}

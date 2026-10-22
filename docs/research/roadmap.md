@@ -175,6 +175,21 @@ and an explicit distinction between fixed-ring orthogonal maps and integral
 signed permutations. Reduction need not be onto; scaled inflation is
 injective and both maps commute with the quotient presentation.
 
+A further [exact all-modulus three-edge presentation](../../proof/three-edge-full-tower-presentation.md) gives (s,u)-coordinate congruences, coherent maps, and a Smith-based order formula for each family member. An explicit modulus-nine control is noncyclic: (Z/3)^2. Its [versioned receipt](../../conformance/receipts/three-edge-structure-v1.json) records 256 bounded comparisons and is CI-replayed. This is not a classification of parameter choices with isomorphic complete towers; ABC-RD-01 remains active.
+
+Phase 6 follow-up (October 22): a separate
+[source-pinned v2 evidence packet](../../conformance/receipts/phase6-realization-dependence-v2.json)
+records the triangular computations and a nonparallel 2-by-3
+rank-two family, with independent edge-congruence checks and
+counterexample values at moduli 7, 14 and 49.
+The [three-edge proof note](../../proof/nonparallel-three-edge.md)
+derives the exact modulus-b obstruction
+`gcd(b, 2*(1+a+a²))`; it does **not** classify whole towers.
+A [partial Lean 4 proof bank](../../lean/README.md) now records
+algebraic normalizations and a set of explicit formalization gates.
+Lean compilation is unverified until current-head CI passes;
+no new proof registry status is promoted.
+
 ABC-RD-01 remains the active next task. A [working triangular-family proof](../../proof/triangular-family-tower.md)
 now gives a candidate exact subgroup formula and additive tower classification
 at fixed b, with [bounded independent checks](../../experiments/triangular_family.py).

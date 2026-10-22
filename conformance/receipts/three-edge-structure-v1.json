@@ -1,0 +1,307 @@
+{
+  "authority": "non_authoritative_experiment",
+  "claim_promotions": [],
+  "noncyclic_prime_power_control": {
+    "a": 1,
+    "b": 3,
+    "group": "(Z/3)^2",
+    "n": 9
+  },
+  "questions": [
+    "ABC-RD-01",
+    "ABC-MODULE-01"
+  ],
+  "samples": [
+    {
+      "a": 1,
+      "b": 3,
+      "exponent": 3,
+      "n": 3,
+      "order": 3,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "exponent": 3,
+      "n": 9,
+      "order": 9,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          6,
+          6
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          6
+        ],
+        [
+          3,
+          6,
+          0
+        ],
+        [
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          3,
+          0
+        ],
+        [
+          6,
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "exponent": 1,
+      "n": 7,
+      "order": 1,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "exponent": 7,
+      "n": 7,
+      "order": 7,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          6,
+          2
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          5,
+          3,
+          1
+        ],
+        [
+          6,
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "exponent": 1,
+      "n": 14,
+      "order": 1,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "exponent": 7,
+      "n": 14,
+      "order": 7,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          4
+        ],
+        [
+          8,
+          2,
+          10
+        ],
+        [
+          10,
+          6,
+          2
+        ],
+        [
+          12,
+          10,
+          8
+        ]
+      ]
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "exponent": 7,
+      "n": 49,
+      "order": 7,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          42,
+          0
+        ],
+        [
+          14,
+          35,
+          0
+        ],
+        [
+          21,
+          28,
+          0
+        ],
+        [
+          28,
+          21,
+          0
+        ],
+        [
+          35,
+          14,
+          0
+        ],
+        [
+          42,
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "exponent": 7,
+      "n": 49,
+      "order": 7,
+      "vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          14,
+          21
+        ],
+        [
+          14,
+          28,
+          42
+        ],
+        [
+          21,
+          42,
+          14
+        ],
+        [
+          28,
+          7,
+          35
+        ],
+        [
+          35,
+          21,
+          7
+        ],
+        [
+          42,
+          35,
+          28
+        ]
+      ]
+    }
+  ],
+  "schema": 1,
+  "scope": "256 bounded 3-edge triples: b=3..13, a primitive 0..b-1, n in [2,3,5,7,9,14,21,27]",
+  "source_git_blob_sha1": {
+    "conformance/replay_three_edge_structure.py": "e7211be6876e6f34c0026d36ab7b124d674b3a7f",
+    "conformance/test_three_edge_structure.py": "008da7a37eeaeaf1d19b3a416485bec0d7eb854d",
+    "experiments/three_edge_structure.py": "051c6e5c8f7f081437ab5dd33606da18c5273a2c",
+    "proof/three-edge-full-tower-presentation.md": "9b15f76fd6266ab0b950f57a056b873d266a2aa9"
+  },
+  "three_route_exact_comparisons": 256
+}

@@ -223,7 +223,7 @@
     "experiments/triangular_family.py": "2f57441824c965afe87df1b5b23cf6d6eb48d4dc",
     "lean/ABC.lean": "155983e7c5e9866110a8ca47ea0083bd16975bc6",
     "lean/ABC/ThreeEdge.lean": "87af1839e406a6ad6f389273ab011098c4d5985b",
-    "lean/ABC/Triangular.lean": "6b1a83bae537cef095945ab556737c87ba4752ce",
+    "lean/ABC/Triangular.lean": "9285a90520cb8ac3b52c39499c87b2f040f2be41",
     "lean/lakefile.toml": "acf6053fceea60971d1b9bfd4ab316f82d8cd581",
     "lean/lean-toolchain": "a6aff065db2882c535684f8c5bcd4f16e9a23915",
     "proof/nonparallel-three-edge.md": "4dde3fadafa30f1dd64494383714daf09c77d413",

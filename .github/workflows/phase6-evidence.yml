@@ -1,0 +1,27 @@
+name: phase6-evidence
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  phase6-source-pinned-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce Phase 6 triangular and nonparallel receipt
+        run: python conformance/replay_phase6_research.py --check
+      - name: Reproduce three-edge all-modulus structure receipt
+        run: python conformance/replay_three_edge_structure.py --check
+      - name: Validate exact research program status
+        run: python conformance/check_research_program.py
+      - name: Verify independent nonparallel regressions
+        run: python -m unittest conformance.test_phase6_research conformance.test_three_edge_structure

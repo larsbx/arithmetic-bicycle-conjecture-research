@@ -336,6 +336,18 @@ unequal-lower-subset rejection, and the no-unit-basis C49 positive.
 Regenerate with `--write` only after investigating intentional source
 changes. All older source-pinned receipts remain separately replayed.
 
+## Three-edge full-module presentation receipt v1
+
+The [all-modulus presentation note](../proof/three-edge-full-tower-presentation.md) derives a full congruence subgroup and Gram Smith order, including a noncyclic (Z/3)^2 prime-power control at modulus nine. This does not overwrite the v2 packet.
+
+```sh
+python experiments/three_edge_structure.py
+python conformance/replay_three_edge_structure.py --check
+python -m unittest conformance.test_three_edge_structure
+```
+
+The [versioned evidence receipt](receipts/three-edge-structure-v1.json) records 256 exact literal/presentation/Smith comparisons, explicit group-element controls, and source blob hashes. Dedicated phase6-evidence CI checks both v2 and this additional receipt. Successful CI execution must be verified separately.
+
 ## Phase 6 source-pinned triangular and nonparallel evidence v2
 
 New research evidence (not a theorem promotion) has its own exact

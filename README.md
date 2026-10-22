@@ -112,7 +112,11 @@ transports the entire tower and both modulus maps. The invariant is
 its isomorphism class; comparison maps can depend on the witness.
 
 The next target is a structural account of nonsurjective realizations
-that names the extra lattice data their towers require. The original
+that names the extra lattice data their towers require.
+A [working triangular-family classification](proof/triangular-family-tower.md)
+and [independent bounded checks](experiments/triangular_family.py)
+address one explicit subfamily without closing ABC-RD-01 or promoting
+a new claim. The original
 torsion-free statement and its refutation remain preserved.
 
 ## Research program: realization dependence and code hulls

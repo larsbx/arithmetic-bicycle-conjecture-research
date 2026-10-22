@@ -175,8 +175,12 @@ and an explicit distinction between fixed-ring orthogonal maps and integral
 signed permutations. Reduction need not be onto; scaled inflation is
 injective and both maps commute with the quotient presentation.
 
-ABC-RD-01 is now the active next task: analyze the triangular family
-before expanding to source-classified nonsurjective representations.
+ABC-RD-01 remains the active next task. A [working triangular-family proof](../../proof/triangular-family-tower.md)
+now gives a candidate exact subgroup formula and additive tower classification
+at fixed b, with [bounded independent checks](../../experiments/triangular_family.py).
+It has not received an independent proof audit or a source-pinned receipt;
+no claim is promoted and the full task remains open. Next classify
+source-classified nonsurjective representations beyond the triangular family.
 Prioritize ABC-RD-01 and ABC-MODULE-01. The topology, graph-pairing, and cellular
 tracks are follow-ups and do not block that work. All future theorem
 promotions require their own proof records and exact evidence; the seed

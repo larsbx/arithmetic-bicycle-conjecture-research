@@ -100,6 +100,12 @@ Main question: which explicit extra lattice data determine the compatible
 tower, and when is it constant across all realizations of one arithmetic
 matroid? Compare representations only after exact all-subset equality.
 
+The [working triangular-family proof](../../proof/triangular-family-tower.md)
+and [bounded literal check](../../experiments/triangular_family.py)
+provide the subgroup formula and a fixed-b additive tower criterion,
+without an independent proof audit or claim promotion. General
+nonsurjective source-classified representations remain to be analyzed.
+
 Start with the finite family
 $A_{a,b}=\left(\begin{smallmatrix}1&a\\0&b\end{smallmatrix}\right)$
 for $b\ge2$ and $\gcd(a,b)=1$ [LENZ]. The checked-in seed covers only

@@ -31,6 +31,8 @@ polynomial and the b=7 finite-field arithmetic controls.
 * **THREE-01:** formalize complete labeled subset signatures of
   `[[1,a,a+1],[0,b,b]]` for primitive `a,a+1`, including ambient
   index `b` and all pair minors.
+* **THREE-PRESENTATION:** formalize the full (s,u)-coordinate bicycle presentation and both tower maps from [the mathematical derivation](../proof/three-edge-full-tower-presentation.md).
+* **THREE-SMITH:** prove the all-modulus Gram-Smith order formula and the noncyclic Z/3 × Z/3 bicycle at (a,b,n)=(1,3,9).
 * **THREE-02:** prove the modulus-b bicycle group has order
   `gcd(b,2*(1+a+a²))`, and formalize the a=1/2,b=7 comparison
   of *groups*, not just Gram scalar equalities.

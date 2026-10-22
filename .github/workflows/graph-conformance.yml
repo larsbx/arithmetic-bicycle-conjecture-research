@@ -38,5 +38,7 @@ jobs:
       - name: Code-hull quotient and tower receipt
         # The quotient packet supplements the seven historical receipts.
         run: python conformance/replay_code_hull.py --check
+      - name: Surjective three-edge cyclic source-pinned conformance
+        run: python conformance/replay_surjective_three_edge.py --check
       - name: Patch whitespace
         run: git show --format= --check HEAD

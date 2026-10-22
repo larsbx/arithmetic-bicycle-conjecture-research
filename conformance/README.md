@@ -336,6 +336,28 @@ unequal-lower-subset rejection, and the no-unit-basis C49 positive.
 Regenerate with `--write` only after investigating intentional source
 changes. All older source-pinned receipts remain separately replayed.
 
+## Phase 6 source-pinned triangular and nonparallel evidence v2
+
+New research evidence (not a theorem promotion) has its own exact
+[receipt](receipts/phase6-realization-dependence-v2.json), leaving all
+inherited receipts untouched:
+
+```sh
+python conformance/replay_phase6_research.py --check
+python -m unittest conformance.test_phase6_research
+python experiments/three_edge_family.py
+```
+
+The v2 source blob pins cover the original triangular experiment,
+a three-edge potential oracle with an independent edge-congruence
+cross-check, the mathematical notes, Lean proof-bank sources, and
+conformance tests. The same exact report is required byte-for-byte;
+receipt regeneration requires investigation and explicit `--write`.
+The bounded nonparallel example has three nonparallel labeled
+columns and full-set multiplicity 7, so it lies outside the
+surjective theorem's scope. The Lean workbench is *partial* and
+separately CI-gated. General ABC-RD-01 and ABC-MODULE-01 remain open.
+
 ## Realization-dependence and code-hull starting packet
 
 ```sh

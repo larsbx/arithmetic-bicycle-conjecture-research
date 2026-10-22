@@ -1,0 +1,27 @@
+name: phase6-lean
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'lean/**'
+      - '.github/workflows/phase6-lean.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lean/**'
+      - '.github/workflows/phase6-lean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proof-bank-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: lean
+          build: 'true'
+          axiom-audit: 'true'

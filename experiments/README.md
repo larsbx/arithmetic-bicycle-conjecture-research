@@ -4,6 +4,13 @@ Exploratory bounded searches and projective/Grassmannian diagnostics. Experiment
 
 - [Surjective rank-two census](surjective_rank_two.py): the two explicit
   entry boxes recorded by the Phase 6 computed claim and its existing receipt.
+- [Nonparallel three-edge realization-dependence experiment](three_edge_family.py):
+  labeled 2-by-3 rank-two family with all singleton multiplicities 1,
+  equal complete subset signatures, and a new modulus-seven discrepancy.
+  Literal potentials and an independent edge congruence oracle are
+  cross-checked; b=3..13 is a bounded exploratory scan.
+  [Proof note](../proof/nonparallel-three-edge.md),
+  [source-pinned receipt](../conformance/receipts/phase6-realization-dependence-v2.json).
 - [Triangular-family bounded validation](triangular_family.py): independent
   potential enumeration against an exact working formula, with 1,988
   modulus cases, 155 same-class primitive parameter pairs, and 6,200

@@ -113,6 +113,12 @@ its isomorphism class; comparison maps can depend on the witness.
 
 The next target is a structural account of nonsurjective realizations
 that names the extra lattice data their towers require.
+A new [source-pinned Phase 6 research receipt](conformance/receipts/phase6-realization-dependence-v2.json)
+and [nonparallel three-edge control](proof/nonparallel-three-edge.md)
+extend exact checks beyond the triangular normal form. The
+[Lean proof bank](lean/README.md) begins mechanization, with explicit
+remaining theorem obligations and a separate CI gate; no general
+nonsurjective classification has been established.
 A [working triangular-family classification](proof/triangular-family-tower.md)
 and [independent bounded checks](experiments/triangular_family.py)
 address one explicit subfamily without closing ABC-RD-01 or promoting

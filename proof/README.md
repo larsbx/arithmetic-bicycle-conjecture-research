@@ -18,3 +18,10 @@ registry or the new counterexample record.
 The older receipts also preserve their recording-time status annotations.
 Replay verifies their pinned evidence bundles; live claim states come
 from the current registry.
+
+## Surjective rank-two three-edge specialization
+
+See [explicit cyclic classification](surjective-three-edge-cyclic.md) for
+Bic_n = C_gcd(n,Delta), including the two tower maps and scope boundaries.
+The written proof is distinct from bounded executable evidence and the
+unverified partial Lean bank. No retracted claim is reinstated.

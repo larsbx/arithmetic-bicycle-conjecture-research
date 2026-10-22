@@ -30,8 +30,11 @@ theorem triCut_iff (a b x z : R) :
 
 theorem triCycle_normal (a b z : R) :
     TriCycle a b (-a * z) z ↔ b * z = 0 := by
-  simp [TriCycle]
-  ring
+  constructor
+  · intro h
+    exact h.2
+  · intro hb
+    exact ⟨by dsimp [TriCycle]; ring, hb⟩
 
 /-- Elementary cut congruence before the gcd criterion over ZMod. -/
 theorem triCut_normal_form (a b z t : R) :
